@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Attack02" loop ="false" speed="1"></ani>
+
+    <sfx fps ="13" name ="sfx_fireball_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="13" name ="vfx_muzzle_fireball_3" node ="Bip001 L Spine" attach ="false" duration ="0" x="0" y="0" z="0" scale="3"></vfx>
+    <!--<missile fps = "15" shadow="true" name ="m_fireball_small_1" alwaysHit="true" element="FIRE" type ="STRAIGHT" speed ="12" node ="Bip001 L Hand" x="0" y="0" z="1.2" dx="0" dy="0" dz="1" hitvfx="vfx_hit_fireball_2" arrival="2"></missile>-->
+    <!--<hitReset fps = "13"></hitReset>-->
+
+    <vfx fps ="13" name ="vfx_skill_fire_slash_ground_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="1.5"></vfx>
+    <sfx fps ="13" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="17" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="21" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="25" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <judgeBox fps ="18" isSkill="true" frontDist="8" range ="3" damage="100" duration="1" x="0" y="0" z="1"></judgeBox>
+    <hitReset fps = "18"></hitReset>
+
+    <end fps ="35"></end>
+  </active>
+  <apply>
+    <vfx fps ="0" name ="vfx_hit_fireball_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1.5"></vfx>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1.2"></debuff>
+    <debuff fps ="0" type ="STUN" duration ="3"></debuff>
+  </apply>
+</action>

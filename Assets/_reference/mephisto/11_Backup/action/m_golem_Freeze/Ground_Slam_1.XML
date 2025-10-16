@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Skill01" loop ="false" speed="1"></ani>
+
+    <sfx fps ="15" name ="sfx_explosion_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="15" name ="sfx_break_stone" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_explosion_ground_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1.5"></vfx>
+
+    <judgeCircle fps ="15" range ="2.5" alwaysHit="true" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+
+    <end fps ="28" ani ="stand"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_boxing_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <debuff fps ="0" type ="STUN" duration ="2"></debuff>
+  </apply>
+</action>

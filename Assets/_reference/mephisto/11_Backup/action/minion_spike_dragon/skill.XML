@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <!--<teleport fps ="0" isTargetPosition="true" randRange="0" isChangeTarget="true" z="-4"></teleport>-->
+    
+    <ani fps ="0" name ="attack_1" loop ="false" speed="1"></ani>
+    <sfx fps ="0" name ="ROAR 11" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <!--<modelPos fps ="0" x="3" y="5" z="0" duration="0.1"></modelPos>-->
+    <!--<modelPos fps ="0" x="0" y="0" z="-8.5" duration="0.1"></modelPos>-->
+    <!--<modelPos fps ="0" x="0" y="0" z="-50" duration="1"></modelPos>-->
+    
+
+    <vfx fps ="0" name ="vfx_framethrower_3" node ="dummy_shot" attach ="true" duration ="2.6" x="0" y="-0.001" z="-0.001" ax="0" scale="0.01"></vfx>
+    <!--<move fps ="0" speed ="13.5" duration ="100" x="0" y="0" z="1"></move>-->
+
+    <camShake fps="0" duration="2.5" amount="0.2"></camShake>
+
+    <missile fps = "5"  element="FIRE" name ="m_empty" type ="STRAIGHT" isCollision="false" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1" splashRange="8" node ="dummy_shot" speed ="100" scale="1" x="0" y="1" z="0.5" dx="0" dy="-1" dz="0.5" hitvfx="vfx_fire_ground_2" hitvfxDuration="1"></missile>
+    <missile fps = "19" element="FIRE" name ="m_empty" type ="STRAIGHT" isCollision="false" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1" splashRange="8" node ="dummy_shot" speed ="100" scale="1" x="0" y="1" z="0.5" dx="0" dy="-1" dz="0.5" hitvfx="vfx_fire_ground_2" hitvfxDuration="1"></missile>
+    <missile fps = "33" element="FIRE" name ="m_empty" type ="STRAIGHT" isCollision="false" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1" splashRange="8" node ="dummy_shot" speed ="100" scale="1" x="0" y="1" z="0.5" dx="0" dy="-1" dz="0.5" hitvfx="vfx_fire_ground_2" hitvfxDuration="1"></missile>
+    <missile fps = "47" element="FIRE" name ="m_empty" type ="STRAIGHT" isCollision="false" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1" splashRange="8" node ="dummy_shot" speed ="100" scale="1" x="0" y="1" z="0.5" dx="0" dy="-1" dz="0.5" hitvfx="vfx_fire_ground_2" hitvfxDuration="1"></missile>
+    <missile fps = "61" element="FIRE" name ="m_empty" type ="STRAIGHT" isCollision="false" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1" splashRange="8" node ="dummy_shot" speed ="100" scale="1" x="0" y="1" z="0.5" dx="0" dy="-1" dz="0.5" hitvfx="vfx_fire_ground_2" hitvfxDuration="1"></missile>
+    <missile fps = "75" element="FIRE" name ="m_empty" type ="STRAIGHT" isCollision="false" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1" splashRange="8" node ="dummy_shot" speed ="100" scale="1" x="0" y="1" z="0.5" dx="0" dy="-1" dz="0.5" hitvfx="vfx_fire_ground_2" hitvfxDuration="1"></missile>
+    <missile fps = "89" element="FIRE" name ="m_empty" type ="STRAIGHT" isCollision="false" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1" splashRange="8" node ="dummy_shot" speed ="100" scale="1" x="0" y="1" z="0.5" dx="0" dy="-1" dz="0.5" hitvfx="vfx_fire_ground_2" hitvfxDuration="1"></missile>
+
+    <modelPos fps ="90" x="3" y="0" z="-50" duration="3"></modelPos>
+    <!--<modelPos fps ="100" x="0" y="0" z="-50" duration="1"></modelPos>-->
+
+    <end fps ="150"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_fireball_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_fireball_2" node ="" attach ="true" duration ="0" x="0" y="1" z="0" scale="0.8"></vfx>
+    <debuff fps ="0" type ="IGNITE" duration ="1" value1="0"></debuff>
+  </apply>
+</action>

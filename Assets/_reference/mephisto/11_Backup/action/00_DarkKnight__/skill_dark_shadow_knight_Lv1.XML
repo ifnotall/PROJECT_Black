@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="DARK"></rim>
+    <ani fps ="0" name ="Skill_Cast" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="0" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_casting_dark_1" node ="" attach ="false" duration ="1" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <hitReset fps = "15"></hitReset>
+    <summon fps = "15" minonIdx="10002" x="-0.5" y="0" z="-8"></summon>
+    <summon fps = "15" minonIdx="10002" x="-2.5" y="0" z="-12"></summon>
+    <summon fps = "15" minonIdx="10002" x="1.5" y="0" z="-12"></summon>
+
+    <ani fps ="20" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="20" state ="STAND"></end>
+  </active>
+
+  <apply>
+  </apply>
+</action>

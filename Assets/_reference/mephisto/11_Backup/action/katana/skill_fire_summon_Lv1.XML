@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="FIRE"></rim>
+    <ani fps ="0" name ="Skill_Shuriken" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="0" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_casting_red_1" node ="" attach ="true" duration ="0.5" x="0" y="2" z="0" ax ="90" ay ="0" az ="0" scale="1"></vfx>
+
+    <summon fps = "0" minonIdx="10001" x="-0.5" y="0" z="-10"></summon>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+  </apply>
+</action>

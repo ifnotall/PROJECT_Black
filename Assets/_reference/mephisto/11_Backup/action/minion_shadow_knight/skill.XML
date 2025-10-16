@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="attack_1" loop ="false" speed="1"></ani>
+
+    <target_move fps ="0" speed ="10" duration ="17"></target_move>
+
+    <sfx fps ="15" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_slash_circular_dark_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="80" scale="1.6"></vfx>
+    <vfx fps ="15" name ="vfx_slash_circular_dark_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="80" scale="1"></vfx>
+
+    <sfx fps ="17" name ="nsfx_grandskyfall_land_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="17" element="DARK" isSkill="true" range ="2" damage="100" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <vfx fps ="15" name ="vfx_explosion_radial_blue_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

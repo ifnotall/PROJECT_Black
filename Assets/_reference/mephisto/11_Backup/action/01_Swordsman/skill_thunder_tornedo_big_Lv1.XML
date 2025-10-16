@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="THUNDER"></rim>
+    <ani fps ="0" name ="Skill_UpSwing" loop ="false" speed ="1" reset ="false"></ani>
+
+    <sfx fps ="10" name ="sfx_atk_bothhand_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="10" name ="vfx_rush_smoke_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <vfx fps ="15" name ="vfx_slash_circular_green_3" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="-110" scale="1"></vfx>
+    <sfx fps ="20" name ="nsfx_wind_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <camShake fps="15" duration="0.04" amount="0.04"></camShake>
+
+    <camShake fps="15" duration="1" amount="0.3"></camShake>
+    <missile fps = "15" element="THUNDER" shadow="true" name ="m_tornado_big_1" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="2" range="1.5" speed ="10" scale="1" x="0" y="0.2" z="0.5" dx="0" dy="0" dz="1" hitvfx="vfx_tornado_big_1" hitvfxDuration="0.1"></missile>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="nsfx_Behit_Wind_3" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>
+  </apply>
+</action>

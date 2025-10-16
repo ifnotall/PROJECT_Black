@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="WATER"></rim>
+    <ani fps ="0" name ="Skill_L" loop ="false" speed ="1" reset ="false"></ani>
+
+    <target_move fps ="3" speed ="5" duration ="15"></target_move>
+
+    <vfx fps ="3" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <sfx fps ="9" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="9" name ="vfx_slash_circular_blue_1" node ="" attach ="false" duration ="0" x="0" y="3" z="0" ax ="-90" ay ="0" az ="180" scale="1.5"></vfx>
+
+    <sfx fps ="31" name ="nsfx_grandskyfall_land_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="31" name ="vfx_slash_circular_blue_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="1.5"></vfx>
+    <vfx fps ="31" name ="vfx_slash_circular_blue_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    <vfx fps ="31" name ="vfx_explostion_blue_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <hitReset fps = "5"></hitReset>
+
+    <judgeCircle fps ="9"  element="WATER" isSkill="true" range ="2.5" damage="300" duration="0.1" x="0" y="0" z="0.5"></judgeCircle>
+    <judgeCircle fps ="31" element="WATER" isSkill="true" range ="3.0" damage="300" duration="0.1" x="0" y="0" z="1.0" applyID="1"></judgeCircle>
+
+    <ani fps ="60" name ="stand" loop ="true" speed ="1"></ani>
+
+    <end fps ="60" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+
+    <debuff fps ="0" type ="AIRPUSH"  duration ="0.5" value1="5.5"></debuff>
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+
+  <apply_1>
+    <sfx fps ="0" name ="sfx_ice_spell_hit_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="FREEZE"  duration ="2" value1="0"></debuff>
+  </apply_1>
+</action>

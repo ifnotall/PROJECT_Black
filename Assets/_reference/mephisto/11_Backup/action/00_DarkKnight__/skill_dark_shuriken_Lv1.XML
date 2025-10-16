@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="DARK"></rim>
+    <ani fps ="0" name ="Skill_Shuriken" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <camShake fps="15" duration="0.2" amount="0.15"></camShake>
+
+    <sfx fps ="5" name ="nfx_talon_rake_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="5" name ="vfx_muzzle_purple_1" node ="" attach ="false" duration ="2" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <missile fps = "5" name ="m_dark_shuriken_1" element="DARK" type ="STRAIGHT" return_dist="7" return_speed="45" isPiercing="true" damage="100" isSkill="true" lifeTime="0.57" range="1" speed ="45" scale="1" x="0" y="1.3" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+    <missile fps = "5" name ="m_dark_shuriken_1" element="DARK" type ="STRAIGHT" return_dist="7" return_speed="45" isPiercing="true" damage="100" isSkill="true" lifeTime="0.57" range="1" speed ="45" scale="1" x="0" y="1.3" z="0.5" dx="-0.4" dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+    <missile fps = "5" name ="m_dark_shuriken_1" element="DARK" type ="STRAIGHT" return_dist="7" return_speed="45" isPiercing="true" damage="100" isSkill="true" lifeTime="0.57" range="1" speed ="45" scale="1" x="0" y="1.3" z="0.5" dx="0.4"  dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+
+    <sfx fps ="5" name ="nfx_talon_shadowassaultmisone_oml" cnt ="1" delay ="0" life ="0.5"></sfx>
+    <sfx fps ="10" name ="nfx_talon_shadowassaultmisone_oml" cnt ="1" delay ="0" life ="0.3"></sfx>
+
+    <ani fps ="25" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="nfx_talon_shadowassault_oh_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<sfx fps ="0" name ="sfx_behit_blade_l02" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <vfx fps ="0" name ="vfx_hit_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1.5"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

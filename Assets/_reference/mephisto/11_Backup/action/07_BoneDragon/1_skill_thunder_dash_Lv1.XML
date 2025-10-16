@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <hitReset fps = "0"></hitReset>
+    <target fps ="0" distType="ALL"></target>
+
+    <teleport fps ="0" isTargetPosition="true" randRange="0" isChangeTarget="true" z="-2"></teleport>
+    <lookAtTarget fps ="0" ></lookAtTarget>
+    <sfx fps ="0" name ="nsfx_Thunder_Storm_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <ani fps ="0" name ="attack1" loop ="false" speed ="1" blendFps="0.01" startFps="15"></ani>
+    <move_cross fps ="0" distance="5" duration="1"></move_cross>
+    <vfx fps ="0" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_lightning_missile_1" node ="" attach ="false" duration ="0.1" x="0" y="1.5" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <judge fps ="0" element="THUNDER" isSkill="true" damage="500"></judge>
+    <camShake fps="0" duration="0.2" amount="0.3"></camShake>
+
+    <teleport fps ="5" isTargetPosition="true" randRange="0" isChangeTarget="true" z="2"></teleport>
+    <lookAtTarget fps ="5" ></lookAtTarget>
+    <sfx fps ="5" name ="nsfx_Thunder_Storm_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <ani fps ="5" name ="attack2" loop ="false" speed ="1" blendFps="0.01" startFps="15"></ani>
+    <move_cross fps ="5" distance="5" duration="1"></move_cross>
+    <vfx fps ="5" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="5" name ="vfx_lightning_missile_1" node ="" attach ="false" duration ="0.1" x="0" y="1.5" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <judge fps ="5" element="THUNDER" isSkill="true" damage="500"></judge>
+    <camShake fps="5" duration="0.2" amount="0.3"></camShake>
+
+    <teleport fps ="10" isTargetPosition="true" randRange="0" isChangeTarget="true" z="-2"></teleport>
+    <lookAtTarget fps ="10" ></lookAtTarget>
+    <sfx fps ="10" name ="nsfx_Thunder_Storm_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <ani fps ="10" name ="attack3" loop ="false" speed ="1" blendFps="0.01" startFps="15"></ani>
+    <move_cross fps ="10" distance="5" duration="1"></move_cross>
+    <vfx fps ="10" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="10" name ="vfx_lightning_missile_1" node ="" attach ="false" duration ="0.1" x="0" y="1.5" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <judge fps ="10" element="THUNDER" isSkill="true" damage="500"></judge>
+    <camShake fps="10" duration="0.2" amount="0.3"></camShake>
+
+    <teleport fps ="15" isTargetPosition="true" randRange="0" isChangeTarget="true" z="2"></teleport>
+    <lookAtTarget fps ="15" ></lookAtTarget>
+    <sfx fps ="15" name ="nsfx_Thunder_Storm_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <ani fps ="15" name ="attack4" loop ="false" speed ="1" blendFps="0.01" startFps="15"></ani>
+    <move_cross fps ="15" distance="5" duration="1"></move_cross>
+    <vfx fps ="15" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_lightning_missile_1" node ="" attach ="false" duration ="0.1" x="0" y="1.5" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <judge fps ="15" element="THUNDER" isSkill="true" damage="500"></judge>
+    <camShake fps="15" duration="0.2" amount="0.3"></camShake>
+
+    <end fps ="20" state ="STAND"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_thunder_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_lightning_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="3"></vfx>
+    <!--<debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>-->
+  </apply>
+</action>

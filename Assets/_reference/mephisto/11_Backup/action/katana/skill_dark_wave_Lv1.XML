@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="DARK"></rim>
+    <ani fps ="0" name ="Skill_UpSwing" loop ="false" speed ="1" reset="true"></ani>
+
+    <camShake fps="20" duration="0.04" amount="0.04"></camShake>
+
+    <sfx fps ="15" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_slash_circular_dark_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="180" scale="1.5"></vfx>
+    <vfx fps ="15" name ="vfx_slash_circular_dark_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="180" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_ground_cut_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <missile fps = "15" element="DARK" isSkill="true" startDelay ="0"  name ="m_empty" damage="200" alwaysHit="true" type ="FIXED" vfx ="vfx_explosion_radial_purple_1" speed ="0" node ="" range ="1.7" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <!--<missile fps = "15" isSkill="true" startDelay ="5"  name ="m_empty" damage="200" alwaysHit="true" type ="FIXED" vfx ="vfx_explosion_radial_purple_1" speed ="0" node ="" range ="1.7" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="3" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "15" isSkill="true" startDelay ="10" name ="m_empty" damage="200" alwaysHit="true" type ="FIXED" vfx ="vfx_explosion_radial_purple_1" speed ="0" node ="" range ="1.7" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="6" dx="0" dy="0" dz="1"></missile>-->
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="30" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_burning" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.05" value1="30"></debuff>
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

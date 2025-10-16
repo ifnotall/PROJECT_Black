@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="HOLY"></rim>
+    <ani fps ="0" name ="Jump_Start" loop ="false" speed ="1" reset ="false"></ani>
+
+    <camShake fps="2" duration="0.2" amount="0.2"></camShake>
+    <modelPos fps ="2" x="0" y="6" z="0" duration="0.3"></modelPos>
+    <vfx fps ="2" name ="vfx_jump_up_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1.7"></vfx>
+    <vfx fps ="2" name ="vfx_landing_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1.7"></vfx>
+    <sfx fps ="2" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <judgeCircle fps ="2" element="HOLY" applyID="1" isNoDamage ="true" attach="true" isSkill="true" range ="5" damage="300" duration="0.25" x="0" y="0" z="0.0"></judgeCircle>
+    <vfx fps ="2" name ="vfx_explosion_ground_holy_2" node ="" attach ="false" duration ="1" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <ani fps ="10" name ="Jump_Loop" loop ="false" speed ="1" reset ="false"></ani>
+    <vfx fps ="8" name ="vfx_angel_wing_1" node ="Bip001 Pelvis" attach ="true" duration ="0.01" x="-0.44" y="0.09" z="-0.06" ax ="0" ay ="90" az ="0" scale="1"></vfx>
+
+    <ani fps ="20" name ="Jump_Buff" loop ="false" speed ="1" reset ="false" blendFps="30"></ani>
+    <sfx fps ="20" name ="nsfx_skill_charge_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <modelPos fps ="30" x="0" y="0.1" z="0" duration="0.1"></modelPos>
+    <ani fps ="30" name ="Skill03_FallMotion" loop ="false" speed ="1" reset ="false"></ani>
+
+    <vfx fps ="30" name ="vfx_stab_holy_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" ax ="45" ay ="0" az ="0" scale="2"></vfx>
+
+    <vfx fps ="32" name ="vfx_explosion_ground_holy_2" node ="" attach ="false" duration ="1" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <sfx fps ="30" name ="nsfx_grandskyfall_land_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <move_attack fps ="30" dist="5" duration="3" x="0" y="0" z="1"></move_attack>
+    
+    <camShake fps="33" duration="1" amount="0.2"></camShake>
+    <vfx fps ="33" name ="vfx_explosion_ground_holy_2" node ="" attach ="false" duration ="1" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <judgeCircle fps ="33" element="HOLY" isSkill="true" range ="5" damage="1000" duration="0.1" x="0" y="0" z="0"></judgeCircle>
+
+    <vfx fps ="40" name ="vfx_pillar_golden_1" node ="" attach ="false" duration ="5" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1.8"></vfx>
+
+    <judgeCircle fps ="50" element="HOLY" isSkill="true" range ="5" damage="1000" duration="0.1" x="0" y="0" z="0"></judgeCircle>
+    <sfx fps ="50" name ="nsfx_grandskyfall_land_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <ani fps ="45" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="60" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRPUSH"  duration ="1.0" value1="2.5"></debuff>
+  </apply>
+
+  <apply_1>
+    <!--점프-->
+    <sfx fps ="0" name ="nsfx_Behit_Unarmed_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.05" value1="50"></debuff>
+  </apply_1>
+</action>

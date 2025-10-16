@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="attack" loop ="false" speed="1"></ani>
+
+    <sfx fps ="25" name ="sfx_fireball_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="25" name ="vfx_muzzle_dark_1" node ="" attach ="false" duration ="0" x="0" y="1" z="1" scale="1"></vfx>
+    <missile fps = "25" shadow="true" name ="m_darkball_small_1" alwaysHit="true" element="DARK" type ="GUIDED" speed ="8" node ="" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfx="vfx_hit_drak_1"></missile>
+    <hitReset fps = "25"></hitReset>
+
+    <end fps ="40"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_burning" cnt ="1" delay ="0" life ="0"></sfx>
+  </apply>
+</action>

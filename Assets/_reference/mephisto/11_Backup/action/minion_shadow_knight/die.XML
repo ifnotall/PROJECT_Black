@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="Dash" loop ="true" speed="1" ></ani>
+    <rot_forced fps ="0" x="0" y="0" z="1"></rot_forced>
+    
+    <vfx fps ="0" name ="vfx_rush_blow_1" node ="" attach ="false" duration ="0" x="0" y="1" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    
+    <move_forced  fps ="0" speed="100" duration="60" x="0" y="0" z="1"></move_forced>
+  </active>
+</action>

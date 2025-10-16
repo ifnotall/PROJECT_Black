@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="THUNDER"></rim>
+    <ani fps ="0" name ="Skill_Combo_Slash" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="2"  name ="sfx_atk_chain_l" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="17"  name ="sfx_atk_chain_l" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <camShake fps="2" duration="1" amount="0.2"></camShake>
+
+    <vfx fps ="2"   name ="vfx_slash_circular_green_3" node ="" attach ="false" duration ="0" x="0" y="1.5" z="0" ax ="0" ay ="0" az ="-100" scale="1"></vfx>
+    <vfx fps ="6"   name ="vfx_slash_circular_green_3" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="70" scale="1"></vfx>
+    <vfx fps ="11"  name ="vfx_slash_circular_green_3" node ="" attach ="false" duration ="0" x="0" y="2" z="0" ax ="15" ay ="0" az ="-70" scale="1"></vfx>
+    <vfx fps ="17"  name ="vfx_slash_circular_green_3" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="70" scale="1"></vfx>
+    <vfx fps ="21"  name ="vfx_slash_circular_green_3" node ="" attach ="false" duration ="0" x="0" y="2" z="0" ax ="-15" ay ="0" az ="-80" scale="1"></vfx>
+    <vfx fps ="27"  name ="vfx_slash_circular_green_3" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="90" scale="1"></vfx>
+
+    <vfx fps ="2"   name ="vfx_rush_smoke_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="-0.5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="6"   name ="vfx_rush_smoke_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="-0.5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="11"  name ="vfx_rush_smoke_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="-0.5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="17"  name ="vfx_rush_smoke_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="-0.5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="21"  name ="vfx_rush_smoke_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="-0.5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="27"  name ="vfx_rush_smoke_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="-0.5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <!--m_sword_ki_green_1_L-->
+    <missile fps = "2"  name ="m_sword_ki_green_1_L" element="THUNDER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.6" isSkill="true" range="2" speed ="30" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfxScale="2" hitvfx="vfx_hit_wind_1"></missile>
+    <missile fps = "6"  name ="m_sword_ki_green_1_R" element="THUNDER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.6" isSkill="true" range="2" speed ="30" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfxScale="2" hitvfx="vfx_hit_wind_1"></missile>
+    <missile fps = "11" name ="m_sword_ki_green_1_L" element="THUNDER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.6" isSkill="true" range="2" speed ="30" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfxScale="2" hitvfx="vfx_hit_wind_1"></missile>
+    <missile fps = "17" name ="m_sword_ki_green_1_R" element="THUNDER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.6" isSkill="true" range="2" speed ="30" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfxScale="2" hitvfx="vfx_hit_wind_1"></missile>
+    <missile fps = "21" name ="m_sword_ki_green_1_L" element="THUNDER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.6" isSkill="true" range="2" speed ="30" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfxScale="2" hitvfx="vfx_hit_wind_1"></missile>
+    <missile fps = "27" name ="m_sword_ki_green_1_R" element="THUNDER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.6" isSkill="true" range="2" speed ="30" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfxScale="2" hitvfx="vfx_hit_wind_1"></missile>
+
+    <sfx fps ="2" name ="nsfx_shyvana_scorchedearth_oba_01" cnt ="1" delay ="0" life ="1"></sfx>
+  
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_blade_04" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_wind_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" ay ="0" scale="2"></vfx>
+    
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.025" value1="15"></debuff>
+  </apply>
+</action>

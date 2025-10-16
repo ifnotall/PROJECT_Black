@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+
+  <active>
+    <rim fps ="0" element="WATER"></rim>
+    <ani fps ="0" name ="Skill_SwingAcross" loop ="false" speed ="1" reset ="false"></ani>
+
+    <target_move fps ="5" speed ="5" duration ="10"></target_move>
+
+    <sfx fps ="15" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_slash_circular_blue_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="90" scale="1.5"></vfx>
+    <vfx fps ="15" name ="vfx_slash_circular_blue_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="90" scale="2.0"></vfx>
+    <vfx fps ="15" name ="vfx_explosion_radial_blue_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <camShake fps="15" duration="0.2" amount="0.3"></camShake>
+
+    <judgeCircle fps ="15" element="WATER" targetCount ="2" isSkill="true" range ="3.0" damage="100" duration="0.1" x="0" y="0" z="2"></judgeCircle>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1"></ani>
+    <end fps ="30" name ="stand" ></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="FREEZE"  duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

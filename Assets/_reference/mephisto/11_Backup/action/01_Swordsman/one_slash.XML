@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <movelock fps ="0" lock ="true"></movelock>
+    <ani fps ="0" name ="dash" loop ="true" speed ="1"></ani>
+    <target_move fps ="3" speed ="50" duration ="5"></target_move>
+
+    <chain_link fps ="0" type ="DISTANCE" value="2"></chain_link>
+    <!--<end fps ="15" ani ="stand"></end>-->
+    <chain_link fps ="15" type ="FRAME" value="2"></chain_link>
+
+  </active>
+
+  <chain idx ="1">
+    <ani fps ="0" name ="one_slash" loop ="true" speed ="1"></ani>
+    <move_attack fps ="0" dist="4.5" duration="1.5" x="0" y="0" z="1"></move_attack>
+
+    <sfx fps ="0" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_slash_straight_white" node ="" attach ="false" duration ="0" x="0" y="1" z="3" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <judge fps ="0" damage="100"></judge>
+    <hitReset fps = "0"></hitReset>
+
+    <end fps ="20" state ="STAND"></end>
+  </chain>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_blade_l02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="3"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.02" value1="30"></debuff>
+  </apply>
+</action>

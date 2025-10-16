@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="attack" loop ="false" speed="1.3"></ani>
+    <vfx fps ="5" name ="vfx_muzzle_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="1" scale="1"></vfx>
+
+    <vfx fps ="10" name ="0vfx_gather_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="8" scale="5"></vfx>
+
+    <sfx fps ="15" name ="nsfx_voidwalker_forcepulse_oml_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="15" element="DARK" isSkill="true" range ="5" damage="1" duration="0.1" x="0" y="0" z="8"></judgeCircle>
+    <hitReset fps = "15"></hitReset>
+    <camShake fps="15" duration="0.5" amount="0.5"></camShake>
+
+    <!--<sfx fps ="25" name ="sfx_fireball_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <!--<vfx fps ="25" name ="vfx_muzzle_dark_1" node ="" attach ="false" duration ="0" x="0" y="1" z="1" scale="1"></vfx>-->
+    <!--<missile fps = "25" shadow="true" name ="m_darkball_small_1" alwaysHit="true" element="DARK" type ="GUIDED" speed ="8" node ="" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfx="vfx_hit_drak_1"></missile>-->
+    <!--<hitReset fps = "25"></hitReset>-->
+
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="nsfx_voidwalker_forcepulse_oh_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_drak_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+    
+    <debuff fps ="0" type ="AIRPUSH"  duration ="0.5" value1="-5.0"></debuff>
+    <!--<debuff fps ="0" type ="DRAGGING"  duration ="0.25" value1="5"></debuff>-->
+  </apply>
+</action>

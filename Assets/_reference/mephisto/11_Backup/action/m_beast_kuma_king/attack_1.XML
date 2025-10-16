@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Attack02" loop ="false" speed="1"></ani>
+    
+    <sfx fps ="4" name ="sfx_atk_boxing_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <sfx fps ="16" name ="sfx_atk_boxing_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <judge fps ="18" damage="60" isSkill="false"></judge>
+    <hitReset fps = "18"></hitReset>
+
+    <ani fps ="24" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="30" ani ="stand"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_boxing_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_slash_brown" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+  </apply>
+</action>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="HOLY"></rim>
+    <ani fps ="0" name ="Skil_UpCast_L_Loop" loop ="false" speed ="1" blendFps="20"></ani>\
+
+    <sfx fps ="0" name ="nsfx_sivir_base_w_oba_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_casting_holy_1" node ="" attach ="true" duration ="0.1" x="0" y="0.1" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <hitReset fps = "0"></hitReset>
+
+    <judgeCircle fps ="15" element="HOLY" isSkill="true" range ="2" damage="1000" duration="0.1" x="0" y="0" z="3"></judgeCircle>
+    <vfx fps ="15" name ="vfx_fall_spear_1" node ="" attach ="false" duration ="1" x="0" y="0" z="3" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_ground_cut_2" node ="" attach ="false" duration ="5" x="0" y="0" z="3" ax ="0" ay ="0" az ="0" scale="0.8"></vfx>
+    <vfx fps ="15" name ="vfx_explosion_holy_small_1" node ="" attach ="false" duration ="5" x="0" y="0" z="3" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_stab_holy_1" node ="" attach ="false" duration ="0" x="0" y="0" z="3" ax ="45" ay ="0" az ="0" scale="1.5"></vfx>
+    <sfx fps ="15" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <judgeCircle fps ="20" element="HOLY" isSkill="true" range ="2" damage="1000" duration="0.1" x="0" y="0" z="5"></judgeCircle>
+    <vfx fps ="20" name ="vfx_fall_spear_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="20" name ="vfx_ground_cut_2" node ="" attach ="false" duration ="5" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="0.8"></vfx>
+    <vfx fps ="20" name ="vfx_explosion_holy_small_1" node ="" attach ="false" duration ="5" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="20" name ="vfx_stab_holy_1" node ="" attach ="false" duration ="0" x="0" y="0" z="5" ax ="45" ay ="0" az ="0" scale="1.5"></vfx>
+    <sfx fps ="20" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <judgeCircle fps ="25" element="HOLY" isSkill="true" range ="2" damage="1000" duration="0.1" x="0" y="0" z="7"></judgeCircle>
+    <vfx fps ="25" name ="vfx_fall_spear_1" node ="" attach ="false" duration ="1" x="0" y="0" z="7" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="25" name ="vfx_ground_cut_2" node ="" attach ="false" duration ="5" x="0" y="0" z="7" ax ="0" ay ="0" az ="0" scale="0.8"></vfx>
+    <vfx fps ="25" name ="vfx_explosion_holy_small_1" node ="" attach ="false" duration ="5" x="0" y="0" z="7" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="25" name ="vfx_stab_holy_1" node ="" attach ="false" duration ="0" x="0" y="0" z="7" ax ="45" ay ="0" az ="0" scale="1.5"></vfx>
+    <sfx fps ="25" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

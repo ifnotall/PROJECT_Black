@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Attack01" loop ="false" speed="1"></ani>
+    
+    <sfx fps ="5" name ="sfx_atk_bazooka" cnt ="1" delay ="0" life ="0"></sfx>
+    <missile fps = "5" name ="m_nuke_fire_1" element="FIRE" type ="STRAIGHT" speed ="5" node ="cannon_root" x="0" y="0" z="1.2" dx="0" dy="0" dz="1" hitvfx="vfx_hit_fireball_2" arrival="2"></missile>
+    <hitReset fps = "5"></hitReset>
+    
+    <end fps ="20" ani ="stand"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_explosion_small_01" cnt ="1" delay ="0" life ="0"></sfx>
+  </apply>
+</action>

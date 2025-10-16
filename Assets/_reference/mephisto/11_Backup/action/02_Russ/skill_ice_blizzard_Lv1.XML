@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="attack" loop ="false" speed ="1" reset ="false"></ani>
+
+    <!--<vfx fps ="25" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="0.9"></vfx>
+    <sfx fps ="10" name ="0_jayce_basicattack_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <judge fps ="25" damage="100"></judge>
+    <hitReset fps = "25"></hitReset>-->
+
+    <vfx fps ="25" name ="vfx_explostion_blue_1" node ="" attach ="false" duration ="0" x="0" y="0" z="7" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="25" name ="vfx_ground_explosion_ice_2" node ="" attach ="false" duration ="0" x="0" y="0" z="7" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="25" name ="vfx_ice_pillar_1" node ="" attach ="false" duration ="0" x="0" y="0" z="7" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <sfx fps ="25" name ="sfx_explosion_howl_2" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <camShake fps="25" duration="1" amount="0.3"></camShake>
+    <judgeCircle fps ="25" element="WATER" isSkill="true" range ="20" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+    <!--<judgeCircle fps ="30" element="WATER" isSkill="true" range ="20" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>-->
+    <!--<judgeCircle fps ="35" element="WATER" isSkill="true" range ="20" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>-->
+
+    <end fps ="40" name ="stand" ></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_ice_spell_hit_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="FREEZE"  duration ="2.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>
+  </apply>
+</action>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Skill01" loop ="false" speed="1"></ani>
+
+    <sfx fps ="16" name ="nsfx_Ice_Crystal_Buff_Activate" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="16" name ="vfx_muzzle_ice_1" node ="Bip001 R Hand" attach ="false" duration ="0" x="0" y="0" z="0" scale="1"></vfx>
+    <missile fps = "16" shadow="true" name ="m_ice_ball_1" alwaysHit="true" element="FIRE" type ="STRAIGHT" speed ="8" node ="Bip001 R Hand" x="0" y="0" z="1.2" dx="0" dy="0" dz="1" hitvfx="vfx_hit_icel_1"></missile>
+    <hitReset fps = "16"></hitReset>
+
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_ice_spell_hit_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<debuff fps ="0" type ="FREEZE"  duration ="5" value1="0"></debuff>-->
+  </apply>
+</action>

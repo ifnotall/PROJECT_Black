@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="spawn" loop ="true" speed="1"></ani>
+    <sfx fps ="15" name ="sfx_bow_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_muzzle_pink" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" scale="1"></vfx>
+    <end fps ="30" state ="STAND"></end>
+  </active>
+</action>

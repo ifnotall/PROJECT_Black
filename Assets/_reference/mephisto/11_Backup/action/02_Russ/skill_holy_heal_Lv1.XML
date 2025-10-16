@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="HOLY"></rim>
+    <ani fps ="0" name ="Armed-Cast-L-Summon1" loop ="false" speed ="1" blendFps="2"></ani>
+
+    <sfx fps ="15" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <judgeCircle fps ="15" isFreindly="true" isSkill="true" range ="3" damage="100" duration="0.1" x="0" y="0" z="0"></judgeCircle>
+
+    <!--<ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>-->
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <buff fps="0" type="HEAL" duration="3" value1="10"></buff>
+  </apply>
+</action>

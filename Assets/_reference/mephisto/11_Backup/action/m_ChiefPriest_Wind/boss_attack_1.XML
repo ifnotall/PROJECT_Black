@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Skill01" loop ="false" speed="1"></ani>
+
+    <sfx fps ="16" name ="nsfx_wind_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<vfx fps ="16" name ="vfx_muzzle_ice_1" node ="Bip001 R Hand" attach ="false" duration ="0" x="0" y="0" z="0" scale="1"></vfx>-->
+
+    <missile fps = "16" element="THUNDER" shadow="true" name ="m_tornado_2" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="1.5" range="1.5" speed ="5" scale="1" x="0" y="0.2" z="0.5" dx="0" dy="0" dz="1" hitvfx="vfx_tornado_destory_2"></missile>
+    <hitReset fps = "16"></hitReset>
+
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="nsfx_Behit_Wind_3" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_wind_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" ay ="0" scale="1"></vfx>
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>
+  </apply>
+</action>

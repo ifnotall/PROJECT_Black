@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="DARK"></rim>
+    <ani fps ="0" name ="Skill_Flash" loop ="false" speed ="1" blendFps="0.01"></ani>
+    <move_cross fps ="0" distance="4" duration="3"></move_cross>
+
+    <sfx fps ="0" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_dark_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="-0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_slash_circular_dark_2" node ="" attach ="true" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="90" scale="1"></vfx>
+
+    <judgeCircle fps ="0" element="DARK" attach="true" isSkill="true" range ="2.0" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+
+    <ani fps ="15" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="15" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="nfx_talon_shadowassault_oh_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1.5"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

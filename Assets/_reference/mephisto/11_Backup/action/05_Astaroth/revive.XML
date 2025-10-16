@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <!--<ani fps ="0" name ="stand" loop ="true" speed="1"></ani>-->
+    <!--<sfx fps ="0" name ="sfx_revive_1" cnt ="1" delay ="0" life ="0"></sfx>-->
+
+    <ani fps ="0" name ="stand" loop ="true" speed="1"></ani>
+    <vfx fps ="0" name ="vfx_return" node ="" attach ="false" duration ="0" x="0" y="0" z="0" scale="1"></vfx>
+    <sfx fps ="0" name ="sfx_spwan_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <end fps ="5" state ="STAND"></end>
+  </active>
+</action>

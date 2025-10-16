@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ignoreDamaged fps ="0" enable="true"></ignoreDamaged>
+    <ani fps ="0" name ="Skill01" loop ="false" speed="1"></ani>
+    <vfx fps ="0" name ="vfx_charge_Frost" node ="Bip001 Pelvis" attach ="true" duration ="0.5" x="0" y="0" z="0" scale="1"></vfx>
+
+    <sfx fps ="19" name ="sfx_fireball_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="19" name ="vfx_muzzle_iceball_1" node ="Bip001 R Hand" attach ="false" duration ="0" x="0" y="0" z="0" scale="1"></vfx>
+    <missile fps = "19" id ="100" shadow="true" isCollision="false" name ="m_iceball_mega_1" lifeTime="2" alwaysHit="true" element="WATER" type ="STRAIGHT" speed ="3" scale="2" node ="" x="0" y="1" z="1.2" dx="0" dy="0" dz="1" hitvfx="vfx_hit_iceball_1" arrival="2"></missile>
+    
+    <missile fps = "19" rinkId ="100" rinkTime="2" shadow="true" name ="m_iceball_1" alwaysHit="true" element="WATER" type ="STRAIGHT" damage ="125" damageGuardian="32" speed ="12" node ="" x="0" y="0" z="0" dx="0" dy="0" dz="1" hitvfx="vfx_hit_iceball_1" arrival="2"></missile>
+    <missile fps = "19" rinkId ="100" rinkTime="2" shadow="true" name ="m_iceball_1" alwaysHit="true" element="WATER" type ="STRAIGHT" damage ="125" damageGuardian="32" speed ="12" node ="" x="0" y="0" z="0" dx="0" dy="0" dz="-1" hitvfx="vfx_hit_iceball_1" arrival="2"></missile>
+    <missile fps = "19" rinkId ="100" rinkTime="2" shadow="true" name ="m_iceball_1" alwaysHit="true" element="WATER" type ="STRAIGHT" damage ="125" damageGuardian="32" speed ="12" node ="" x="0" y="0" z="0" dx="1"  dy="0" dz="0" hitvfx="vfx_hit_iceball_1" arrival="2"></missile>
+    <missile fps = "19" rinkId ="100" rinkTime="2" shadow="true" name ="m_iceball_1" alwaysHit="true" element="WATER" type ="STRAIGHT" damage ="125" damageGuardian="32" speed ="12" node ="" x="0" y="0" z="0" dx="-1" dy="0" dz="0" hitvfx="vfx_hit_iceball_1" arrival="2"></missile>
+
+    <ani fps ="30" name ="stand" loop ="true" speed="1"></ani>
+    <end fps ="40"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="vfx_hit_iceball_1" cnt ="1" delay ="0" life ="0"></sfx>
+  </apply>
+</action>

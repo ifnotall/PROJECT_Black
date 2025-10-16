@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="attack2" loop ="false" speed ="3" reset ="false"></ani>
+    <!--<vfx fps ="8" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="-90" scale="1"></vfx>-->
+    <vfx fps ="5" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1.2" z="0" ax ="0" ay ="0" az ="75" scale="1.5"></vfx>
+    <sfx fps ="5" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="5"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="2"></judgeCircle>
+
+    <camShake fps="5" duration="0.5" amount="0.3"></camShake>
+    <!--<camShake fps="15" duration="0.2" amount="0.3"></camShake>-->
+    <!--<camShake fps="25" duration="0.2" amount="0.3"></camShake>-->
+
+    <ani fps ="10" name ="attack3" loop ="false" speed ="3" reset ="false"></ani>
+    <!--<vfx fps ="18" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-180" scale="1"></vfx>-->
+    <vfx fps ="15" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1.2" z="0" ax ="0" ay ="0" az ="-100" scale="1.5"></vfx>
+    <sfx fps ="15" name ="darius_basicattack_ohf_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="15"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="2.5"></judgeCircle>
+
+    <ani fps ="20" name ="attack2" loop ="false" speed ="3.5" reset ="false"></ani>
+    <!--<vfx fps ="28" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="1" ax ="0" ay ="0" az ="-90" scale="1"></vfx>-->
+    <vfx fps ="25" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1.2" z="0" ax ="0" ay ="0" az ="75" scale="1.5"></vfx>
+    <sfx fps ="25" name ="darius_basicattack_ohf_03" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="25"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="3"></judgeCircle>
+
+    <!--<ani fps ="30" name ="attack3" loop ="false" speed ="3" reset ="false"></ani>
+    <vfx fps ="38" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="2" ax ="0" ay ="0" az ="-90" scale="1.5"></vfx>
+    <sfx fps ="38" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="38"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="2"></judgeCircle>
+    <hitReset fps = "38"></hitReset>-->
+
+    <end fps ="30" name ="stand" ></end>
+  </active>
+  <apply>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+  </apply>
+</action>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Attack01" loop ="false" speed="1"></ani>
+
+    <!--<sfx fps ="15" name ="sfx_fireball_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_muzzle_fireball_3" node ="" attach ="false" duration ="0" x="0" y="1" z="1" scale="1"></vfx>
+    <missile fps = "15" shadow="true" name ="m_fireball_small_1" alwaysHit="true" element="FIRE" type ="STRAIGHT" speed ="12" node ="" x="0" y="1" z="1" dx="0" dy="0" dz="1" hitvfx="vfx_hit_fireball_2" arrival="2"></missile>-->
+    
+    <vfx fps ="15" name ="vfx_skill_ice_slash_ground_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    <missile fps = "15" name ="m_empty" element="WATER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.5" isSkill="true" range="2" speed ="20" x="0" y="0.2" z="0" dx="0" dy="0" dz="1" hitvfx="" hitvfxDuration="0.1"></missile>
+    <hitReset fps = "15"></hitReset>
+
+    <sfx fps ="15" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="19" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="25" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="29" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <!--<ani fps ="30" name ="stand" loop ="true" speed ="1"></ani>-->
+
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_ice_spell_hit_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+    <debuff fps ="0" type ="FREEZE"  duration ="2" value1="0"></debuff>
+  </apply>
+</action>

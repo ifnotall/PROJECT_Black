@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="CRITICAL" loop ="false" speed ="1" blendFps="0.1"></ani>
+    <vfx fps ="16" name ="stab_orange_1" node ="" attach ="false" duration ="0" x="0" y="0.7" z="0.5" ax="0" ay="-50" az="0" scale="0.5"></vfx>
+    <sfx fps ="16" name ="sfx_atk_sword_s" cnt ="1" delay ="0" life ="0"></sfx>
+    <judge fps ="18"></judge>
+    <end fps ="35"></end>
+  </active>
+  <apply>
+    <vfx fps ="0" name ="hit_slash_critical" node ="" attach ="true" duration ="0" x="0" y="0.7" z="0" scale="1"></vfx>
+    <sfx fps ="0" name ="sfx_behit_blade_01" cnt ="1" delay ="0" life ="0"></sfx>
+  </apply>
+</action>

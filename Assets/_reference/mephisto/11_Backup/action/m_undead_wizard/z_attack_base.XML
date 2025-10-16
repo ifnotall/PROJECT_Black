@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <hitReset fps = "8"></hitReset>
+    
+    <ani fps ="0" name ="Attack02" loop ="false" speed="1"></ani>
+
+    <sfx fps ="8" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="8" name ="sfx_meteorlaunch" cnt ="1" delay ="0" life ="1"></sfx>
+    <vfx fps ="8" name ="vfx_muzzle_iceball_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax="-90" scale="2"></vfx>
+
+    <missile fps = "8" startDelay="15" destTime="2" castVFx="vfx_ground_mark_blue_1" castVFxDuration="2" isPosTarget="true" splashRange="2" name ="m_iceball_1" alwaysHit="true" element="WATER" type ="GUIDED" damage="100" speed ="5" node ="" x="0" y="20" z="0" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ground_explosion_ice_1" arrival="2"></missile>
+
+    <ani fps ="24" name ="stand" loop ="false" speed="1"></ani>
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="vfx_hit_iceball_1" cnt ="1" delay ="0" life ="0"></sfx>
+  </apply>
+</action>

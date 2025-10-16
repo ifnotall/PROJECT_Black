@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="WATER"></rim>
+    <ani fps ="0" name ="skill_whirwind_R" loop ="true" speed ="2" reset="true"></ani>
+
+    <move_attack fps ="0" dist="5" duration="20" x="0" y="0" z="1"></move_attack>
+    <move_attack fps ="20" dist="5" duration="20" x="0" y="0" z="1" isNearTarget="true"></move_attack>
+    <move_attack fps ="40" dist="5" duration="20" x="0" y="0" z="1" isNearTarget="true"></move_attack>
+
+    <sfx fps ="0" name ="sfx_stormloop_1" cnt ="1" delay ="0" life ="2"></sfx>
+
+    <vfx fps ="5" name ="vfx_ice_storm_1" node ="" attach ="true" duration ="1.8" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <judgeCircle fps ="10" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="20" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="30" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="40" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="50" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+
+    <judgeCircle fps ="15" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="25" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="35" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="45" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="55" isSkill="true" range ="3.2" damage="150" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+
+    <ani fps ="60" name ="stand" loop ="true" speed ="1"></ani>
+    <end fps ="60" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="FREEZE"  duration ="1" value1="0"></debuff>
+  </apply>
+</action>

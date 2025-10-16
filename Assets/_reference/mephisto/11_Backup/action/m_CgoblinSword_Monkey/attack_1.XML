@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="attack" loop ="false" speed="1"></ani>
+
+    <!--<judgeCircle fps ="22" range ="3" damage="100" duration="0.1" x="0" y="0" z="2"></judgeCircle>
+    <hitReset fps = "22"></hitReset>
+
+    <end fps ="40" ani ="stand"></end>-->
+
+    <vfx fps ="22" name ="vfx_skill_ice_slash_ground_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    <missile fps = "22" name ="m_empty" element="WATER" type ="STRAIGHT" isPiercing="true" damage="100" lifeTime="0.5" isSkill="true" range="2" speed ="20" x="0" y="0.2" z="0" dx="0" dy="0" dz="1" hitvfx="" hitvfxDuration="0.1"></missile>
+    <hitReset fps = "22"></hitReset>
+
+    <sfx fps ="22" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="26" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="30" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="34" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <end fps ="40" ani ="stand"></end>
+    
+  </active>
+  <apply>
+    <!--<sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_slash_brown" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>-->
+    <sfx fps ="0" name ="sfx_ice_spell_hit_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+  </apply>
+</action>

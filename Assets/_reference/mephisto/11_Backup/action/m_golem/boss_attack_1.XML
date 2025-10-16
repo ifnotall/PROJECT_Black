@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Skill01" loop ="false" speed="1"></ani>
+
+    <sfx fps ="10" name ="sfx_atk_hammer_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<vfx fps ="15" name ="vfx_explosion_ground_1" node ="" attach ="false" duration ="1" x="0" y="0" z="2.4" ax ="0" ay ="0" az ="0" scale="1"></vfx>-->
+    <vfx fps ="10" name ="vfx_explosion_ground_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+    
+    <judgeCircle fps ="15" range ="2" damage="100" damageGuardian="45" duration="0.5" x="0" y="0" z="2.4"></judgeCircle>
+    <hitReset fps = "15"></hitReset>
+
+    <end fps ="30" ani ="stand"></end>
+  </active>
+  <apply>
+    <vfx fps ="0" name ="vfx_hit_slash_yellow" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+    <debuff fps ="0" type ="STUN" duration ="2"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.05" value1="30"></debuff>
+  </apply>
+</action>

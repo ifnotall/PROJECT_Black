@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="THUNDER"></rim>
+    <ani fps ="0" name ="Skil_UpCast_L_Loop" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="0" name ="nsfx_Thunder_Storm_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_casting_thunder_1" node ="" attach ="true" duration ="1" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <hitReset fps = "0"></hitReset>
+    
+    <!--<sfx fps ="15" name ="sfx_stormloop_1" cnt ="1" delay ="0" life ="2"></sfx>-->
+
+    <missile fps = "5" startDelay="0"  castVFxDuration="1" destTime="1" tx ="0" tz ="-2" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="15" castVFxDuration="1" destTime="1" tx ="0" tz ="0" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="30" castVFxDuration="1" destTime="1" tx ="0" tz ="2" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="45" castVFxDuration="1" destTime="1" tx ="0" tz ="4" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="60" castVFxDuration="1" destTime="1" tx ="0" tz ="6" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+
+    <missile fps = "5" startDelay="5"  castVFxDuration="1" destTime="1" tx ="-3" tz ="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="20" castVFxDuration="1" destTime="1" tx ="-3" tz ="3" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="35" castVFxDuration="1" destTime="1" tx ="-3" tz ="5" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="50" castVFxDuration="1" destTime="1" tx ="-3" tz ="7" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="65" castVFxDuration="1" destTime="1" tx ="-3" tz ="9" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+
+    <missile fps = "5" startDelay="10"  castVFxDuration="1" destTime="1" tx ="3" tz ="2" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="25" castVFxDuration="1" destTime="1" tx ="3" tz ="4" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="40" castVFxDuration="1" destTime="1" tx ="3" tz ="6" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="55" castVFxDuration="1" destTime="1" tx ="3" tz ="8" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+    <missile fps = "5" startDelay="70" castVFxDuration="1" destTime="1" tx ="3" tz ="10" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_empty" element="THUNDER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_Thunder_Storm_1" hitvfx="vfx_thunderstroke_1"></missile>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_thunder_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_lightning_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="3"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

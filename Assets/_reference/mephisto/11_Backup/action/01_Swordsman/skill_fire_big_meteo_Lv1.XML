@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="FIRE"></rim>
+    <ani fps ="0" name ="Skill_Shuriken" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="0" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_casting_red_1" node ="" attach ="true" duration ="0.5" x="0" y="2" z="0" ax ="90" ay ="0" az ="0" scale="1"></vfx>
+
+    <sfx fps ="0" name ="nsfx_shyvana_scorchedearth_oba_01" cnt ="1" delay ="0" life ="1.5"></sfx>
+
+    <missile fps = "0" isSkill="true" tx ="0"  tz ="0" startDelay="0"  camSakeDuration="1" camSakeAmount="0.3" castVFxDuration="1" destTime="0.7" alwaysHit="true" damage="100" castVFx="" isPosTarget="true" isCollision="false" splashRange="4" name ="m_meteo_big_1" element="FIRE" type ="GUIDED" speed ="50" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ground_explosiion_meteo_1"></missile>
+
+    <ani fps ="25" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRPUSH"  duration ="0.5" value1="10.5"></debuff>
+    <debuff fps ="0" type ="IGNITE" duration ="3" value1="0"></debuff>
+  </apply>
+</action>

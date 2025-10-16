@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="THUNDER"></rim>
+    <!--<ani fps ="0" name ="skill_six_slash" loop ="true" speed ="1" reset="true"></ani>
+
+    <target_move fps ="0"  speed ="3" duration ="60"></target_move>
+
+    <sfx fps ="1" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="11" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="22" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="34" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="47" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="61" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    
+    <vfx fps ="1"  name ="vfx_slash_thunder_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-45" ay ="30" az ="180" scale="1.5"></vfx>
+    <vfx fps ="11" name ="vfx_slash_thunder_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-45" ay ="30" az ="180" scale="1.5"></vfx>
+    <vfx fps ="22" name ="vfx_slash_thunder_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-45" ay ="30" az ="180" scale="1.5"></vfx>
+    <vfx fps ="34" name ="vfx_slash_thunder_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-45" ay ="30" az ="180" scale="1.5"></vfx>
+    <vfx fps ="47" name ="vfx_slash_thunder_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-45" ay ="30" az ="180" scale="1.5"></vfx>
+    <vfx fps ="61" name ="vfx_slash_thunder_1" node ="" attach ="false" duration ="0" x="0" y="2" z="0.5" ax ="-40" ay ="30" az ="0"   scale="2"></vfx>
+
+
+    <judgeCircle fps ="3"  element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="13" element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="24" element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="36" element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="49" element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="63" element="THUNDER" isSkill="true" range ="3.2" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+
+    <ani fps ="88" name ="stand" loop ="true" speed ="1"></ani>
+    <end fps ="90" state ="STAND"></end>-->
+
+    <ani fps ="0" name ="skill_six_slash" loop ="true" speed ="1.5" reset="true"></ani>
+
+    <target_move fps ="0"  speed ="6" duration ="40"></target_move>
+
+    <sfx fps ="0"  name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="7"  name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="15" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="23" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="32" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<sfx fps ="42" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <sfx fps ="42" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <vfx fps ="0"  name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="7"  name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="23" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="32" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <!--<vfx fps ="42" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>-->
+
+    <vfx fps ="0"  name ="vfx_slash_circular_green_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-110" ay ="0" az ="180" scale="1.2"></vfx>
+    <vfx fps ="7"  name ="vfx_slash_circular_green_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-110" ay ="0" az ="180" scale="1.2"></vfx>
+    <vfx fps ="15" name ="vfx_slash_circular_green_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-110" ay ="0" az ="180" scale="1.2"></vfx>
+    <vfx fps ="23" name ="vfx_slash_circular_green_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-110" ay ="0" az ="180" scale="1.2"></vfx>
+    <vfx fps ="32" name ="vfx_slash_circular_green_1" node ="" attach ="false" duration ="0" x="0" y="2" z="1" ax ="-110" ay ="0" az ="180" scale="1.2"></vfx>
+    <vfx fps ="42" name ="vfx_slash_circular_green_2" node ="" attach ="false" duration ="0" x="0" y="2" z="0.5" ax ="0" ay ="0" az ="0"   scale="3"></vfx>
+
+    <vfx fps ="44" name ="vfx_landing_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="44" name ="vfx_ground_explosion_green_3" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+
+    <judgeCircle fps ="1"  element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="9"  element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="17" element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="25" element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="34" element="THUNDER" isSkill="true" range ="2.5" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="44" element="THUNDER" isSkill="true" range ="3.2" damage="100" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+
+    <ani fps ="60" name ="stand" loop ="true" speed ="1"></ani>
+    <end fps ="60" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <!--<sfx fps ="0" name ="nsfx_Behit_Thunder_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_lightning_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" ay ="0" scale="1.5"></vfx>-->
+    <sfx fps ="0" name ="sfx_behit_blade_l02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_wind_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" ay ="0" scale="1"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.025" value1="15"></debuff>
+  </apply>
+</action>

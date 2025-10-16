@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="HOLY"></rim>
+    <ani fps ="0" name ="Skill_Charge_R" loop ="true" speed ="1"></ani>
+    <vfx fps ="0" name ="vfx_ki_explosion_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1.2"></vfx>
+    <sfx fps ="0" name ="nsfx_skill_charge_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <weaponScale fps="0" scale="2.5" duration="10"></weaponScale>
+
+    <ani fps ="30" name ="Skill_Charge_R_TakeDown" loop ="false" speed ="1"></ani>
+    <sfx fps ="40" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+    
+    <vfx fps ="45" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="3.2"></vfx>
+    <vfx fps ="45" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <sfx fps ="45" name ="nsfx_grandskyfall_land_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <camShake fps="45" duration="0.5" amount="0.4"></camShake>
+
+    <vfx fps ="45" name ="vfx_ground_cut_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+    <vfx fps ="45" name ="vfx_ground_cut_1" node ="" attach ="false" duration ="0" x="0" y="0" z="4" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+    <vfx fps ="45" name ="vfx_ground_cut_1" node ="" attach ="false" duration ="0" x="0" y="0" z="6" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+
+    <judgeBox fps ="45" element="HOLY" isSkill="true" frontDist="10" range ="4" damage="1000" duration="0.1" x="0" y="0" z="0"></judgeBox>
+    <!--<missile fps = "45" startDelay ="0"  name ="m_empty" type ="FIXED" vfx ="" vfxScale="2" alwaysHit="true" element="HOLY" damage="1000" speed ="0" node ="" range ="2" hitvfx="" arrival="1" lifeTime="1" wait ="0.0" tickDmg="false" x="0" y="0" z="2" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "45" startDelay ="0"  name ="m_empty" type ="FIXED" vfx ="" vfxScale="2" alwaysHit="true" element="HOLY" damage="1000" speed ="0" node ="" range ="2" hitvfx="" arrival="1" lifeTime="1" wait ="0.0" tickDmg="false" x="0" y="0" z="6" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "45" startDelay ="0"  name ="m_empty" type ="FIXED" vfx ="" vfxScale="2" alwaysHit="true" element="HOLY" damage="1000" speed ="0" node ="" range ="2" hitvfx="" arrival="1" lifeTime="1" wait ="0.0" tickDmg="false" x="0" y="0" z="10" dx="0" dy="0" dz="1"></missile>-->
+
+    <weaponScale fps="60" scale="1" duration="10"></weaponScale>
+    <ani fps ="60" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="60" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRPUSH"  duration ="1.0" value1="3.5"></debuff>
+  </apply>
+</action>

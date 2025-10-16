@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="THUNDER"></rim>
+    <ani fps ="0" name ="Skill_Cast" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="0" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_skill_cast_1" node ="" attach ="true" duration ="0.5" x="0" y="1.5" z="2" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <hitReset fps = "0"></hitReset>
+
+    <sfx fps ="15" name ="sfx_stormloop_1" cnt ="1" delay ="0" life ="2"></sfx>
+
+    <missile fps = "15" startDelay="0"  castVFxDuration="1" destTime="1" tz ="0" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="sfx_ice_blast_1" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="10" castVFxDuration="1" destTime="1" tz ="2" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="20" castVFxDuration="1" destTime="1" tz ="4" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="sfx_ice_blast_1" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="30" castVFxDuration="1" destTime="1" tz ="6" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="40" castVFxDuration="1" destTime="1" tz ="8" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="sfx_ice_blast_1" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+
+    <missile fps = "15" startDelay="5"  castVFxDuration="1" destTime="1" tx ="-2" tz ="0" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="15" castVFxDuration="1" destTime="1" tx ="-2" tz ="2" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="25" castVFxDuration="1" destTime="1" tx ="-2" tz ="4" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="35" castVFxDuration="1" destTime="1" tx ="-2" tz ="6" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="45" castVFxDuration="1" destTime="1" tx ="-2" tz ="8" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="sfx_ice_blast_1" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+
+    <missile fps = "15" startDelay="2"  castVFxDuration="1" destTime="1" tx ="2" tz ="0" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="12" castVFxDuration="1" destTime="1" tx ="2" tz ="2" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="32" castVFxDuration="1" destTime="1" tx ="2" tz ="4" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="42" castVFxDuration="1" destTime="1" tx ="2" tz ="6" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+    <missile fps = "15" startDelay="52" castVFxDuration="1" destTime="1" tx ="2" tz ="8" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="" hitvfx="vfx_ice_ground_explosion_small_1"></missile>
+
+    <!--<missile fps = "15" startDelay="4"  destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="8"  destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="12" destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="16" destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="20" destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="24" destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="28" destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="32" destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>
+    <missile fps = "15" startDelay="36" destTime="1" alwaysHit="true" damage="50" castVFx="" isPosTarget="true" isCollision="false" splashRange="2" name ="m_ice_spear_1" element="WATER" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ice_ground_explosion_1"></missile>-->
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_ice_spell_hit_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="FREEZE"  duration ="2" value1="0"></debuff>
+    <!--<debuff fps ="0" type ="KNOCKBACK" duration ="0.02" value1="30"></debuff>-->
+  </apply>
+</action>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ignoreDamaged fps ="0" enable="true"></ignoreDamaged>
+    <ani fps ="0" name ="Attack02" loop ="false" speed="1"></ani>
+
+    <sfx fps ="8" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<sfx fps ="8" name ="sfx_meteorlaunch" cnt ="1" delay ="0" life ="1"></sfx>-->
+    <vfx fps ="8" name ="vfx_ground_explosion_ice_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" scale="2"></vfx>
+    
+    <invincible fps ="11"></invincible>
+    <teleport fps ="12" isTargetPosition="true" randRange="8"></teleport>
+    
+    <ani fps ="12" name ="Idle03" loop ="false" speed="1"></ani>
+
+    <missile fps = "12" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "12" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "12" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "12" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "22" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "22" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "22" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "22" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "32" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "32" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "32" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "32" startDelay ="80" scale="3" isPosTarget="true" randRange="10" name ="m_grim_reaper_1" alwaysHit="true" type ="FIXED" vfx ="vfx_slash_heavy_blue_1" vfxScale="2" speed ="0" node ="" range ="5" damage="250" damageGuardian="100" critical="NOT" element="DARK" hitvfx="vfx_ground_explosion_ice_1" arrival="1" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+
+    <ani fps ="92" name ="Skill03" loop ="false" speed="1"></ani>
+    <vfx fps ="93" name ="vfx_slash_heavy_blue_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ay="180" scale="2"></vfx>
+
+    <ani fps ="123" name ="stand" loop ="false" speed="1"></ani>
+    <end fps ="125"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_slash_brown" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+  </apply>
+</action>

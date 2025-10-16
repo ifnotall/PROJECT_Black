@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Attack02" loop ="false" speed="1"></ani>
+
+    <sfx fps ="8" name ="sfx_fireball_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="8" name ="vfx_muzzle_iceball_1" node ="Bip001 R Hand" attach ="false" duration ="0" x="0" y="0" z="0" scale="1"></vfx>
+    <missile fps = "8" shadow="true" name ="m_iceball_1" alwaysHit="true" element="WATER" type ="STRAIGHT" speed ="5" node ="" x="0" y="1" z="1.2" dx="0" dy="0" dz="1" hitvfx="vfx_hit_iceball_1" arrival="2"></missile>
+    <hitReset fps = "8"></hitReset>
+
+    <ani fps ="24" name ="stand" loop ="true" speed="1"></ani>
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="vfx_hit_iceball_1" cnt ="1" delay ="0" life ="0"></sfx>
+  </apply>
+</action>

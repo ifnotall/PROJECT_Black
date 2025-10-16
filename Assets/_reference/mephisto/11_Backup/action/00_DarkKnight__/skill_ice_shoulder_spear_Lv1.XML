@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="WATER"></rim>
+    <ani fps ="0" name ="Skill_Shoulder_Spear" loop ="false" speed ="1" reset ="false"></ani>
+
+    <target_move fps ="3" speed ="7" duration ="10"></target_move>
+
+    <vfx fps ="3" name ="vfx_rush_blow_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <judgeCircle fps ="3" element="WATER" applyID="1" attach="true" isSkill="true" range ="2.0" damage="300" duration="0.25" x="0" y="0" z="0.0"></judgeCircle>
+
+    <vfx fps ="5" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <sfx fps ="19" name ="nsfx_Frostshot_oba_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <vfx fps ="25" name ="vfx_stab_blue_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="180" az ="0" scale="1.5"></vfx>
+    <!--<vfx fps ="19" name ="vfx_stab_blue_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="140" az ="0" scale="1.5"></vfx>
+    <vfx fps ="22" name ="vfx_stab_blue_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="160" az ="0" scale="1.5"></vfx>
+    <vfx fps ="25" name ="vfx_stab_blue_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="180" az ="0" scale="1.5"></vfx>
+    <vfx fps ="28" name ="vfx_stab_blue_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="200" az ="0" scale="1.5"></vfx>
+    <vfx fps ="31" name ="vfx_stab_blue_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="210" az ="0" scale="1.5"></vfx>-->
+
+    <missile fps = "19" name ="m_ice_spear_1" element="WATER" type ="STRAIGHT" isPiercing="false" damage="300" isSkill="true" lifeTime="0.7" range="1" speed ="15" scale="1" x="0" y="1" z="0.5" dx="-0.6" dy="0" dz="1" hitvfx="vfx_hit_iceball_1" hitsfx="sfx_ice_spell_hit_1" ></missile>
+    <missile fps = "22" name ="m_ice_spear_1" element="WATER" type ="STRAIGHT" isPiercing="false" damage="300" isSkill="true" lifeTime="0.7" range="1" speed ="15" scale="1" x="0" y="1" z="0.5" dx="-0.3" dy="0" dz="1" hitvfx="vfx_hit_iceball_1" hitsfx="sfx_ice_spell_hit_1" ></missile>
+    <missile fps = "25" name ="m_ice_spear_1" element="WATER" type ="STRAIGHT" isPiercing="false" damage="300" isSkill="true" lifeTime="0.7" range="1" speed ="15" scale="1" x="0" y="1" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_iceball_1" hitsfx="sfx_ice_spell_hit_1" ></missile>
+    <missile fps = "28" name ="m_ice_spear_1" element="WATER" type ="STRAIGHT" isPiercing="false" damage="300" isSkill="true" lifeTime="0.7" range="1" speed ="15" scale="1" x="0" y="1" z="0.5" dx="0.3"  dy="0" dz="1" hitvfx="vfx_hit_iceball_1" hitsfx="sfx_ice_spell_hit_1" ></missile>
+    <missile fps = "31" name ="m_ice_spear_1" element="WATER" type ="STRAIGHT" isPiercing="false" damage="300" isSkill="true" lifeTime="0.7" range="1" speed ="15" scale="1" x="0" y="1" z="0.5" dx="0.6"  dy="0" dz="1" hitvfx="vfx_hit_iceball_1" hitsfx="sfx_ice_spell_hit_1" ></missile>
+
+    <ani fps ="50" name ="stand" loop ="true" speed ="1"></ani>
+    <end fps ="50" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_ice_spell_hit_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="FREEZE"  duration ="1" value1="0"></debuff>
+  </apply>
+
+  <apply_1>
+    <!--어깨치기-->
+    <sfx fps ="0" name ="nsfx_Behit_Unarmed_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.05" value1="50"></debuff>
+  </apply_1>
+</action>

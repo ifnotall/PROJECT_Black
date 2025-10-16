@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="attack_1" loop ="false" speed ="1" reset ="false"></ani>
+
+    <!--<sfx fps ="0" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <!--<vfx fps ="9" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="-110" scale="1.6"></vfx>-->
+    <!--<vfx fps ="9" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="-110" scale="1"></vfx>-->
+
+    <!--<judge fps ="9" damage="100"></judge>-->
+    <!--<judge fps ="9" damage="100" element="FIRE"></judge>-->
+
+    <!--<sfx fps ="15" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>-->
+
+    <!--<vfx fps ="25" name ="vfx_stab_blue_2" node ="" attach ="false" duration ="0" x="0" y="0" z="0.5" ax ="0" ay ="180" az ="0" scale="1"></vfx>-->
+    <!--<vfx fps ="15" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="2" z="0" ax ="0" ay ="0" az ="-180" scale="1"></vfx>-->
+    <!--<vfx fps ="15" name ="vfx_dark_stab_1" node ="" attach ="false" duration ="0.25" x="0" y="0.5" z="-1" ax ="0" ay ="0" az ="0" scale="0.5"></vfx>-->
+    <!--<vfx fps ="15" name ="vfx_stab_holy_2" node ="" attach ="false" duration ="0" x="0" y="1.3" z="0" ax ="0" ay ="0" az ="0" scale="0.7"></vfx>-->
+    <!--<vfx fps ="15" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="360" scale="0.8"></vfx>-->
+    <!--<vfx fps ="15" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-40" scale="0.8"></vfx>-->
+    <vfx fps ="15" name ="vfx_slash_circular_gold" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-20" scale="1.1"></vfx>
+    <!--<vfx fps ="15" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="3" z="0.5" ax ="0" ay ="0" az ="60" scale="0.8"></vfx>-->
+    <sfx fps ="15" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <judge fps ="15" damage="100"></judge>
+    <hitReset fps = "15"></hitReset>
+
+    <end fps ="30" name ="stand" ></end>
+  </active>
+  <apply>
+    <!--<sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <!--<sfx fps ="0" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+    <!--<vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>-->
+
+    <!--<debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>-->
+    <!--<debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>-->
+  </apply>
+</action>

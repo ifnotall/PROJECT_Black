@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="DARK"></rim>
+    <target fps ="0" distType="ALL"></target>
+    <ani fps ="0" name ="attack1" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+	  <ani_pause fps="17" pause="true"></ani_pause>
+
+    <teleport fps ="15" isTargetPosition="true" randRange="0" isChangeTarget="true" z="-2"></teleport>
+    <lookAtTarget fps ="15" ></lookAtTarget>
+    <move_cross fps ="15" distance="6" duration="3"></move_cross>
+
+    <sfx fps ="15" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_dark_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="-0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <!--<vfx fps ="15" name ="vfx_slash_circular_dark_2" node ="" attach ="true" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="90" scale="1"></vfx>-->
+
+    <judgeCircle fps ="15" element="DARK" attach="true" isSkill="true" range ="2.0" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+    <camShake fps="15" duration="0.2" amount="0.5"></camShake>
+
+    <teleport fps ="30" isTargetPosition="true" randRange="0" isChangeTarget="true" z="2"></teleport>
+    <lookAtTarget fps ="30" ></lookAtTarget>
+    <move_cross fps ="30" distance="6" duration="3"></move_cross>
+    <sfx fps ="30" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="30" name ="vfx_dark_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="30" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="30" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="30" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="-0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <!--<vfx fps ="30" name ="vfx_slash_circular_dark_2" node ="" attach ="true" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="90" scale="1"></vfx>-->
+    
+    <judgeCircle fps ="30" element="DARK" attach="true" isSkill="true" range ="2.0" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+    <camShake fps="30" duration="0.2" amount="0.5"></camShake>
+
+    <teleport fps ="45" isTargetPosition="true" randRange="0" isChangeTarget="true" z="-2"></teleport>
+    <lookAtTarget fps ="45" ></lookAtTarget>
+    <move_cross fps ="45" distance="6" duration="3"></move_cross>
+    <sfx fps ="45" name ="nsfx_dragonsdescent_oc_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="45" name ="vfx_dark_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="45" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="45" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="45" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="-0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <!--<vfx fps ="45" name ="vfx_slash_circular_dark_2" node ="" attach ="true" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="90" scale="1"></vfx>-->
+
+    <judgeCircle fps ="45" element="DARK" attach="true" isSkill="true" range ="2.0" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+    <camShake fps="45" duration="0.2" amount="0.5"></camShake>
+
+	  <ani_pause fps="60" pause="false"></ani_pause>
+    <!--<end fps ="60" state ="STAND"></end>-->
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="nfx_talon_shadowassault_oh_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1.5"></vfx>
+
+    <!--<debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>-->
+  </apply>
+</action>

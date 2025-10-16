@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Skill03" loop ="false" speed="1"></ani>
+
+    <sfx fps ="10" name ="sfx_atk_bothhand_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="15" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="2.6"></vfx>
+    <vfx fps ="15" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    <vfx fps ="15" name ="vfx_ground_cut_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+
+    <judgeCircle fps ="15" range ="5" damage="100" duration="0.1" x="0" y="0" z="3"></judgeCircle>
+    <hitReset fps = "15"></hitReset>
+    
+    <end fps ="30" ani ="stand"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_slash_brown" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.05" value1="100"></debuff>
+  </apply>
+</action>

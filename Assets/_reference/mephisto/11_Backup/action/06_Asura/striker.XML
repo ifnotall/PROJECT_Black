@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="action_1_start" loop ="false" speed ="1"></ani>
+    
+    <move_distance fps ="10" distance="6" duration="1" x="0" y="0" z="1"></move_distance>
+    <ani fps ="10" name ="action_1_idle" loop ="true" speed ="1"></ani>
+    <!--<ani_pause fps="0" pause="false"></ani_pause>-->
+
+    <!--<sfx fps ="10" name ="nsfx_malphite_unstoppableforce_run" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <!--<vfx fps ="10" name ="0vfx_gather_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="8" scale="5"></vfx>-->
+    <vfx fps ="8" name ="vfx_rush_blow_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+    <vfx fps ="8" name ="vfx_rush_blow_1" node ="" attach ="false" duration ="0" x="0" y="1" z="2" scale="1"></vfx>
+    <vfx fps ="8" name ="vfx_rush_blow_1" node ="" attach ="false" duration ="0" x="0" y="1" z="4" scale="1"></vfx>
+    <vfx fps ="8" name ="vfx_dark_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    
+    <!--<vfx fps ="15" name ="vfx_dark_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dark_stab_1" node ="" attach ="true" duration ="0.25" x="0" y="-0.5" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>-->
+
+    <sfx fps ="15" name ="nsfx_glacialmalphite_unstoppablefo" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="10" element="DARK" isSkill="true" range ="5" damage="1" duration="0.1" x="0" y="0" z="0"></judgeCircle>
+    <hitReset fps = "15"></hitReset>
+    <camShake fps="15" duration="0.2" amount="0.5"></camShake>
+
+    <ani fps ="10" name ="action_1_end" loop ="false" speed ="1"></ani>
+
+    <!--<ani_pause fps="20" pause="true"></ani_pause>-->
+    <!--<ani_pause fps="40" pause="false"></ani_pause>-->
+    <end fps ="40"></end>
+  </active>
+  <apply>
+    <!--<sfx fps ="0" name ="nsfx_voidwalker_forcepulse_oh_1" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <!--<vfx fps ="0" name ="vfx_hit_drak_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" scale="1"></vfx>-->
+    <vfx fps ="0" name ="vfx_landing_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+    <!--<debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>-->
+    <debuff fps ="0" type ="AIRPUSH"  duration ="0.5" value1="-5.0"></debuff>
+    <!--<debuff fps ="0" type ="KNOCKBACK" duration ="0.5" value1="15"></debuff>-->
+    <!--<debuff fps ="0" type ="AIRPUSH"  duration ="0.5" value1="-5.0"></debuff>-->
+    <!--<debuff fps ="0" type ="DRAGGING"  duration ="0.25" value1="5"></debuff>-->
+  </apply>
+</action>

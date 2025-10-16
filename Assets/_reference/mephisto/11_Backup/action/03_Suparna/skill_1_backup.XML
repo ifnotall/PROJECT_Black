@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="FIRE"></rim>
+    <ani fps ="0" name ="stand" loop ="true" speed ="1.5" reset="true"></ani>
+
+    <missile fps = "5"  name ="m_fire_meteo_1" element="FIRE" isSkill="true" type ="GUIDED" isTransitionGuide="true" wait="0.15" damage="100" speed ="40" x="0" y="1" z="0" dx="-5" dy="1" dz="0" hitvfx="vfx_ExplosionNovaFire 1" scale ="2" arrival="1"></missile>
+    <missile fps = "7"  name ="m_fire_meteo_1" element="FIRE" isSkill="true" type ="GUIDED" isTransitionGuide="true" wait="0.15" damage="100" speed ="40" x="0" y="1" z="0" dx="-4" dy="1" dz="0" hitvfx="vfx_ExplosionNovaFire 1" scale ="2" arrival="1"></missile>
+    <missile fps = "9"  name ="m_fire_meteo_1" element="FIRE" isSkill="true" type ="GUIDED" isTransitionGuide="true" wait="0.15" damage="100" speed ="40" x="0" y="1" z="0" dx="-3" dy="1" dz="0" hitvfx="vfx_ExplosionNovaFire 1" scale ="2" arrival="1"></missile>
+    <missile fps = "11" name ="m_fire_meteo_1" element="FIRE" isSkill="true" type ="GUIDED" isTransitionGuide="true" wait="0.15" damage="100" speed ="40" x="0" y="1" z="0" dx="-2" dy="1" dz="0" hitvfx="vfx_ExplosionNovaFire 1" scale ="2" arrival="1"></missile>
+    <missile fps = "13" name ="m_fire_meteo_1" element="FIRE" isSkill="true" type ="GUIDED" isTransitionGuide="true" wait="0.15" damage="100" speed ="40" x="0" y="1" z="0" dx="-1" dy="1" dz="0" hitvfx="vfx_ExplosionNovaFire 1" scale ="2" arrival="1"></missile>
+
+    <ani fps ="60" name ="stand" loop ="true" speed ="1"></ani>
+    <end fps ="120" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

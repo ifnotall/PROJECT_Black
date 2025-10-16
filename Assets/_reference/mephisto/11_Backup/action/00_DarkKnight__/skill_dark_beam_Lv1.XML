@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="DARK"></rim>
+    <ani fps ="0" name ="Skill_Beam" loop ="false" speed ="1" blendFps="0.01"></ani>
+    <weaponVisible fps="0" visible="false"></weaponVisible>
+
+    <sfx fps ="0" name ="nsfx_xerath_base_q_chargeoc_01" cnt ="1" delay ="0" life ="0.5"></sfx>
+    <vfx fps ="0" name ="vfx_dark_beam_begin" node ="" attach ="false" duration ="2" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_dark_beam_loop" node ="" attach ="false" duration ="0.5" x="0" y="0.7" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="15" name ="vfx_muzzle_purple_1" node ="" attach ="false" duration ="2" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <sfx fps ="15" name ="nsfx_shyvana_scorchedearth_oba_01" cnt ="1" delay ="0" life ="1"></sfx>
+
+    <missile fps = "15" name ="m_empty" element="DARK" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="0.5" range="2" speed ="25" scale="1" x="0" y="1.3" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+    <missile fps = "18" name ="m_empty" element="DARK" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="0.5" range="2" speed ="25" scale="1" x="0" y="1.3" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+    <missile fps = "21" name ="m_empty" element="DARK" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="0.5" range="2" speed ="25" scale="1" x="0" y="1.3" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+    <missile fps = "24" name ="m_empty" element="DARK" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="0.5" range="2" speed ="25" scale="1" x="0" y="1.3" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+    <missile fps = "27" name ="m_empty" element="DARK" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="0.5" range="2" speed ="25" scale="1" x="0" y="1.3" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+    <missile fps = "30" name ="m_empty" element="DARK" type ="STRAIGHT" isPiercing="true" damage="100" isSkill="true" lifeTime="0.5" range="2" speed ="25" scale="1" x="0" y="1.3" z="0.5" dx="0"    dy="0" dz="1" hitvfx="vfx_hit_purple_1" hitsfx="" ></missile>
+
+    <camShake fps="15" duration="1" amount="0.2"></camShake>
+
+    <vfx fps ="25" name ="vfx_muzzle_purple_1" node ="" attach ="false" duration ="2" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <weaponVisible fps="30" visible="true"></weaponVisible>
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_burning" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.02" value1="10"></debuff>
+  </apply>
+</action>

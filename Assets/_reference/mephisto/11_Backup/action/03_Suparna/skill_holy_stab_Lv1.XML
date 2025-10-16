@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="HOLY"></rim>
+    <ani fps ="0" name ="Skill_Stab_1" loop ="false" speed ="1" reset ="false"></ani>
+    <vfx fps ="0" name ="vfx_dust_rush_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <sfx fps ="5" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="5" name ="vfx_stab_holy_1" node ="" attach ="false" duration ="0" x="0" y="1" z="3" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <camShake fps="5" duration="0.1" amount="0.1"></camShake>
+
+    <hitReset fps = "5"></hitReset>
+
+    <judgeCircle fps ="5" element="HOLY" isSkill="true" range ="2.0" damage="100" duration="0.1" x="0" y="0" z="2.2"></judgeCircle>
+
+    <ani fps ="23" name ="stand" loop ="true" speed ="1"></ani>
+
+    <end fps ="30" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="KNOCKBACK" duration ="0.05" value1="30"></debuff>
+  </apply>
+</action>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="attack" loop ="false" speed ="3" reset ="false"></ani>
+    <vfx fps ="8" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="-90" scale="1.5"></vfx>
+    <sfx fps ="8" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="8"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="2"></judgeCircle>
+    <hitReset fps = "8"></hitReset>
+
+    <ani fps ="10" name ="attack" loop ="false" speed ="3" reset ="false"></ani>
+    <vfx fps ="18" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-90" scale="1.5"></vfx>
+    <sfx fps ="18" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="18"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="2.5"></judgeCircle>
+    <hitReset fps = "18"></hitReset>
+
+    <ani fps ="20" name ="attack" loop ="false" speed ="3" reset ="false"></ani>
+    <vfx fps ="28" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="1" ax ="0" ay ="0" az ="-90" scale="1.5"></vfx>
+    <sfx fps ="28" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="28"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="3"></judgeCircle>
+    <hitReset fps = "28"></hitReset>
+
+    <ani fps ="30" name ="attack" loop ="false" speed ="3" reset ="false"></ani>
+    <vfx fps ="38" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="2" ax ="0" ay ="0" az ="-90" scale="1.5"></vfx>
+    <sfx fps ="38" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <judgeCircle fps ="38"  element="THUNDER" isSkill="true" range ="2.5" damage="1" duration="0.1" x="0" y="0" z="2"></judgeCircle>
+    <hitReset fps = "38"></hitReset>
+
+    <end fps ="40" name ="stand" ></end>
+  </active>
+  <apply>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+  </apply>
+</action>

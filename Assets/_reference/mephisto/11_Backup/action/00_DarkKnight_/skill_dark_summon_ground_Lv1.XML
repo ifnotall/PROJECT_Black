@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <hitReset fps = "0"></hitReset>
+    <rim fps ="0" element="DARK"></rim>
+    <ani fps ="0" name ="Skill_PutGround" loop ="false" speed ="1" blendFps="2"></ani>
+    <sfx fps ="0" name ="nsfx_skill_charge_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_casting_dark_1" node ="" attach ="false" duration ="1" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <vfx fps ="5" name ="vfx_slash_circular_dark_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="8" name ="vfx_slash_circular_dark_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="180" az ="180" scale="1"></vfx>
+    <sfx fps ="8" name ="nsfx_Frostshot_oba_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+
+    <vfx fps ="0" name ="vfx_warning_dark_1" node ="" attach ="false" duration ="2" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <vfx fps ="15" name ="vfx_summon_monster_1" node ="" attach ="false" duration ="0" x="0" y="0" z="5" scale="1"></vfx>
+
+    <sfx fps ="20" name ="ROAR 20" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="20" name ="vfx_explosion_ground_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+    <vfx fps ="20" name ="vfx_rising_beam_1" node ="" attach ="false" duration ="1" x="0" y="-7" z="5" ax ="0" ay ="0" az ="0" scale="5"></vfx>
+
+    <camShake fps="18" duration="0.7" amount="0.5"></camShake>
+    <judgeCircle fps ="20" element="DARK" isSkill="true" range ="8" damage="1" duration="0.5" x="0" y="0" z="5"></judgeCircle>
+
+    <sfx fps ="25" name ="nsfx_grandskyfall_land_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="25" name ="vfx_ground_smoke_1" node ="" attach ="false" duration ="5" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <vfx fps ="45" name ="vfx_explosion_ground_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+    <sfx fps ="45" name ="nsfx_grandskyfall_land_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="45" name ="vfx_rising_beam_1" node ="" attach ="false" duration ="1" x="0" y="20" z="5" ax ="180" ay ="0" az ="0" scale="8"></vfx>
+
+    <camShake fps="50" duration="0.5" amount="0.4"></camShake>
+    <judgeCircle fps ="50" element="DARK" isSkill="true" range ="8" damage="10000" duration="0.5" x="0" y="0" z="5"></judgeCircle>
+
+    <ani fps ="45" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="60" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRPUSH"  duration ="1.0" value1="1.5"></debuff>
+  </apply>
+</action>

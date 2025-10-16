@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="THUNDER"></rim>
+    <ani fps ="0" name ="skill_3_slash" loop ="false" speed ="2" reset="true"></ani>
+
+    <sfx fps ="0" name ="sfx_atk_chain_l" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <vfx fps ="0" name ="vfx_skill_riot_green_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <!--<vfx fps ="0" name ="vfx_slash_circular_gold" node ="" attach ="false" duration ="0" x="0" y="0.5" z="1" ax ="10" ay ="0" az ="180" scale="2"></vfx>
+    <vfx fps ="4" name ="vfx_slash_circular_gold" node ="" attach ="false" duration ="0" x="0" y="1" z="1" ax ="0" ay ="0" az ="-15" scale="2.5"></vfx>
+    <vfx fps ="7" name ="vfx_slash_circular_gold" node ="" attach ="false" duration ="0" x="0" y="1" z="1" ax ="0" ay ="0" az ="195" scale="3"></vfx>-->
+
+    <!--<vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="20"></vfx>-->
+    <!--<vfx fps ="4" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="2" y="1" z="0" scale="20"></vfx>-->
+    <!--<vfx fps ="7" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="2" scale="20"></vfx>-->
+    <!--<vfx fps ="24" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="-2" y="1" z="0" scale="20"></vfx>
+    <vfx fps ="31" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="-2" scale="20"></vfx>-->
+
+    <sfx fps ="0" name ="sfx_atk_chain_l" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<sfx fps ="18" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="30" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>-->
+
+    <missile fps = "10" isSkill="true" element="THUNDER" startDelay ="10" name ="m_empty" damage="100" alwaysHit="true" type ="FIXED" vfx ="" speed ="0" node ="" range ="10" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "10" isSkill="true" element="THUNDER" startDelay ="14" name ="m_empty" damage="100" alwaysHit="true" type ="FIXED" vfx ="" speed ="0" node ="" range ="10" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "10" isSkill="true" element="THUNDER" startDelay ="18" name ="m_empty" damage="100" alwaysHit="true" type ="FIXED" vfx ="" speed ="0" node ="" range ="10" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "10" isSkill="true" element="THUNDER" startDelay ="20" name ="m_empty" damage="100" alwaysHit="true" type ="FIXED" vfx ="" speed ="0" node ="" range ="10" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "10" isSkill="true" element="THUNDER" startDelay ="22" name ="m_empty" damage="100" alwaysHit="true" type ="FIXED" vfx ="" speed ="0" node ="" range ="10" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+    <missile fps = "10" isSkill="true" element="THUNDER" startDelay ="24" name ="m_empty" damage="100" alwaysHit="true" type ="FIXED" vfx ="" speed ="0" node ="" range ="10" hitvfx="" lifeTime="0.5" wait ="0" tickDmg="true" createTarget ="true" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>
+
+    <ani fps ="17" name ="Katana_Stance_3" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_blade_04" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="3"></vfx>
+    <vfx fps ="0" name ="vfx_hit_wind_1" node ="" attach ="true" duration ="0" x="0" y="1" z="0" ay ="0" scale="1"></vfx>
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

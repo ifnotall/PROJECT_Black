@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Attack02" loop ="false" speed="1"></ani>
+    <sfx fps ="5" name ="sfx_atk_sword_l" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<sfx fps ="66" name ="sfx_bow_shoot_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="66" name ="vfx_muzzle_pink" node ="Dummy001" attach ="false" duration ="0" x="0" y="0" z="0" scale="1"></vfx>-->
+    <vfx fps ="7" name ="vfx_slash_5" node ="Bip001 Spine" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="-80" scale="1"></vfx>
+    <missile fps = "7" shadow="true" name ="m_boomerang_1" scale="2" type ="STRAIGHT" lifeTime ="3.1" speed ="10" isPiercing="true" return_dist ="15" return_speed="10" node ="GripR" x="0" y="0" z="0" dx="0" dy="0" dz="1" hitvfx="vfx_hit_pink" arrival="1"></missile>
+    
+    <ani fps ="12" name ="stand" loop ="true" speed="1"></ani>
+    
+    <end fps ="30" ani ="stand"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_blade_l02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_slash_brown" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+  </apply>
+</action>

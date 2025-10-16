@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Attack02" loop ="false" speed="1"></ani>
+
+    <sfx fps ="8" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="8" name ="sfx_meteorlaunch" cnt ="1" delay ="0" life ="1"></sfx>
+    <vfx fps ="8" name ="vfx_muzzle_iceball_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax="-90" scale="2"></vfx>
+
+    <missile fps = "8" startDelay="5" destTime="2" scale="8" castVFx="vfx_ground_mark_blue_1" castVFxDuration="2" castVFxScale="4" isPosTarget="true" splashRange="7" name ="m_iceball_mega_2" alwaysHit="true" element="WATER" type ="GUIDED" damage="200" damageGuardian="100" speed ="10" node ="" x="0" y="100" z="0" dx="0" dy="0" dz="1" hitsfx="sfx_explosion_howl_2" hitvfx="vfx_ground_explosion_ice_1" arrival="2"></missile>
+    <!--<missile fps = "8" startDelay ="30" name ="m_empty" damage="80" isPosTarget="true" alwaysHit="true" type ="FIXED" vfx ="vfx_ground_rock_1" vfxScale="1" speed ="0" node ="" range ="3" critical="NOT" element="FIRE" hitvfx="" arrival="1" lifeTime="3" wait ="0" tickDmg="true" createTarget ="false" x="0" y="0" z="0" dx="0" dy="0" dz="1"></missile>-->
+
+    <ani fps ="24" name ="stand" loop ="false" speed="1"></ani>
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <vfx fps ="0" name ="vfx_hit_iceball_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+    <debuff fps ="0" type ="FREEZE" duration ="1"></debuff>
+  </apply>
+</action>

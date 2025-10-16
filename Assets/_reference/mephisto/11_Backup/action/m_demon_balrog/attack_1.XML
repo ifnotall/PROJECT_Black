@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <hitReset fps = "12"></hitReset>
+
+    <ani fps ="0" name ="Attack01" loop ="false" speed="1"></ani>
+
+    <!--<sfx fps ="6" name ="voice_troll_attack_fast_01" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <sfx fps ="12" name ="sfx_behit_whip_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <!--<vfx fps ="10" name ="vfx_slash_1" node ="Bip001 Spine" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="90" scale="1.1"></vfx>-->
+    <judgeCircle fps ="12" range ="3" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+
+    <ani fps ="24" name ="stand" loop ="false" speed="1"></ani>
+    <end fps ="30" ani ="stand"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_whip_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_slash_brown" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+  </apply>
+</action>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <!--<rim fps ="0" element="DARK"></rim>-->
+    <ani fps ="0" name ="skill_2" loop ="false" speed ="1.5" reset="true"></ani>
+
+    <!--<modelRot fps="0" duration="60" speed="-1080"></modelRot>-->
+    <!--<ani_pause fps="5" pause="true"></ani_pause>-->
+
+    <move_attack fps ="0" dist="5" duration="20" x="0" y="0" z="1"></move_attack>
+    <move_attack fps ="20" dist="5" duration="20" x="0" y="0" z="1" isNearTarget="true"></move_attack>
+    <move_attack fps ="40" dist="5" duration="20" x="0" y="0" z="1" isNearTarget="true"></move_attack>
+
+    <camShake fps="0" duration="1.5" amount="0.1"></camShake>
+    <!--<camShake fps="20" duration="0.2" amount="0.3"></camShake>-->
+    <!--<camShake fps="40" duration="0.2" amount="0.3"></camShake>-->
+
+    <sfx fps ="10" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="20" name ="darius_basicattack_ohf_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="30" name ="darius_basicattack_ohf_03" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="40" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="50" name ="darius_basicattack_ohf_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <sfx fps ="10" name ="nsfx_Fire_Tornado_v2" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="30" name ="nsfx_Fire_Tornado_v2" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="50" name ="nsfx_Fire_Tornado_v2" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <vfx fps ="0" name ="0vfx_whirlwind_blue_1" node ="" attach ="true" duration ="1.5" x="0" y="1" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <judgeCircle fps ="10" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="20" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="30" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="40" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="50" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+
+    <judgeCircle fps ="15" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="25" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="35" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="45" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+    <judgeCircle fps ="55" isSkill="true" element="WATER" range ="3.2" damage="200" duration="0.5" x="0" y="0" z="1"></judgeCircle>
+
+    <!--<ani_pause fps="60" pause="false"></ani_pause>-->
+    <!--<ani fps ="60" name ="stand" loop ="true" speed ="1"></ani>-->
+    <end fps ="60" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <!--<sfx fps ="0" name ="darius_basicattack_ohf_01" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+
+    <!--<debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>-->
+    <!--<debuff fps ="0" type ="KNOCKBACK" duration ="0.025" value1="15"></debuff>-->
+  </apply>
+</action>

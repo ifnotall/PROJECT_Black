@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="FIRE"></rim>
+    <!--<ani fps ="0" name ="Skill_ShotJump_Attack" loop ="false" speed ="1"></ani>
+
+    <sfx fps ="15" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <camShake fps="15" duration="0.2" amount="0.3"></camShake>
+
+    <vfx fps ="15" name ="vfx_skill_fire_explosion_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    <judgeCircle fps ="15" isSkill="true" range ="2.0" damage="300" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <sfx fps ="15" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <ani fps ="35" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="40" ani ="stand"></end>-->
+    <ani fps ="0" name ="Skill_ShotJump_Attack" loop ="false" speed ="1.5"></ani>
+
+    <sfx fps ="11" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <camShake fps="11" duration="0.2" amount="0.3"></camShake>
+
+    <vfx fps ="8" name ="vfx_skill_fire_slash_ground_one_1" node ="" attach ="false" duration ="0" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1.5"></vfx>
+    <vfx fps ="11" name ="vfx_skill_fire_explosion_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    <judgeCircle fps ="11" element="FIRE" isSkill="true" range ="2.0" damage="300" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <sfx fps ="11" name ="sfx_explosion_howl_2" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <ani fps ="25" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="30" ani ="stand"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>
+    <debuff fps ="0" type ="IGNITE" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

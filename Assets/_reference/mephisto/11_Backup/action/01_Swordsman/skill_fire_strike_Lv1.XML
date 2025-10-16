@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="Skill_H" loop ="false" speed ="1.5"></ani>
+
+    <sfx fps ="14" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <camShake fps="14" duration="0.5" amount="0.2"></camShake>
+
+    <vfx fps ="14" name ="vfx_skill_fire_slash_ground_1" node ="" attach ="false" duration ="0" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    <!--<judgeCircle fps ="14" isSkill="true" range ="2.0" damage="300" duration="0.5" x="0" y="0" z="2"></judgeCircle>
+    <judgeCircle fps ="18" isSkill="true" range ="2.2" damage="300" duration="0.5" x="0" y="0" z="5"></judgeCircle>
+    <judgeCircle fps ="24" isSkill="true" range ="2.6" damage="300" duration="0.5" x="0" y="0" z="8"></judgeCircle>
+    <judgeCircle fps ="28" isSkill="true" range ="2.8" damage="300" duration="0.5" x="0" y="0" z="11"></judgeCircle>-->
+    <missile fps = "14" name ="m_empty" element="FIRE" type ="STRAIGHT" isPiercing="true" damage="300" lifeTime="0.5" isSkill="true" range="2" speed ="20" x="0" y="0.2" z="0" dx="0" dy="0" dz="1" hitvfx="" hitvfxDuration="0.1"></missile>
+
+    <sfx fps ="14" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="18" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="24" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="28" name ="sfx_ground_crash_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+    <end fps ="30" ani ="stand"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>
+    <debuff fps ="0" type ="IGNITE" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

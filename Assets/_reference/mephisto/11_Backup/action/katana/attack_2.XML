@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <ani fps ="0" name ="attack02" loop ="false" speed ="1" reset ="false"></ani>
+
+    <sfx fps ="7" name ="sfx_atk_blade_06" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="7" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="2" z="0" ax ="-10" ay ="0" az ="135" scale="1.6"></vfx>
+    <vfx fps ="7" name ="vfx_slash_circular_white_2" node ="" attach ="false" duration ="0" x="0" y="2" z="0" ax ="-10" ay ="0" az ="135" scale="1"></vfx>
+
+    <judge fps ="7" damage="100"></judge>
+    <!--<judge fps ="7" damage="100" element="FIRE"></judge>-->
+    <hitReset fps = "7"></hitReset>
+
+    <end fps ="30" name ="stand" ></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

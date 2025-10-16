@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="run" loop ="true" speed="1"></ani>
+    <!--<sfx fps ="0" name ="ROAR 20" cnt ="1" delay ="0" life ="0"></sfx>-->
+    <move fps ="0" speed ="10" duration ="6" x="0" y="0" z="1"></move>
+    <end fps ="30" state ="STAND"></end>
+  </active>
+</action>

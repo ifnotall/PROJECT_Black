@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="Skill03" loop ="false" speed="1"></ani>
+
+    <vfx fps ="0" name ="vfx_dark_flower_1" node ="" attach ="false" duration ="0" x="0"  y="0.2" z="2" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_dark_flower_1" node ="" attach ="false" duration ="0" x="0"  y="0.2" z="6" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_dark_flower_1" node ="" attach ="false" duration ="0" x="-2" y="0.2" z="4" scale="1"></vfx>
+    <vfx fps ="0" name ="vfx_dark_flower_1" node ="" attach ="false" duration ="0" x="2"  y="0.2" z="4" scale="1"></vfx>
+    <sfx fps ="5" name ="nsfx_zyra_thornlasher_death_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="25" name ="nsfx_zyra_thornlasher_oba_01" cnt ="1" delay ="0" life ="0"></sfx>
+    
+    <judgeCircle fps ="28" range ="5" damage="100" duration="0.1" x="0" y="0" z="4"></judgeCircle>
+    <hitReset fps = "28"></hitReset>
+
+    <end fps ="30"></end>
+  </active>
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_burning" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_drak_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+    <debuff fps ="0" type ="STUN" duration ="3"></debuff>
+  </apply>
+</action>

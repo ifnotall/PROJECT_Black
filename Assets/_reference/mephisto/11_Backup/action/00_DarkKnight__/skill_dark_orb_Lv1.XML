@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="DARK"></rim>
+    <ani fps ="0" name ="Skil_Cast_L_Loop" loop ="false" speed ="1" blendFps="0.01"></ani>
+    <vfx fps ="0" name ="vfx_casting_dark_1" node ="" attach ="true" duration ="0.1" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <vfx fps ="0" name ="vfx_muzzle_dark_2" node ="" attach ="false" duration ="5" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <sfx fps ="0" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <sfx fps ="0" name ="nsfx_shyvana_scorchedearth_oba_01" cnt ="1" delay ="0" life ="3"></sfx>
+    <!--<sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="6"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="12"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="18"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="24"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="30"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="36"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="42"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="46"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="50"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="56"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="62"></sfx>
+    <sfx fps ="15" name ="nsfx_syndra_basicattack_oc_01" cnt ="1" delay ="0" life ="0" startDelay="66"></sfx>-->
+
+    <missile fps = "15" id ="100" shadow="true" isCollision="true" range="2" name ="m_dark_circle_1" isPiercing="true" lifeTime="3" alwaysHit="true" element="DARK" type ="STRAIGHT" speed ="2" damage="100" scale="2" node ="" x="0" y="1.5" z="1.2" dx="0" dy="0" dz="1" hitvfx="vfx_explosion_dark_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.2" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="0"    dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.3" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="0.5"  dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.4" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.5" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="0.5"  hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.6" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="0"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.7" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.8" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="0"    dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="0.9" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-0.5" dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.0" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.1" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="0"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.2" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="0.5"  hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.3" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.4" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="0"    dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.5" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="0.5"  dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.6" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.7" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="0.5"  hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.8" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="0"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="1.9" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="1"    dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="2.0" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="0"    dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="2.1" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-0.5" dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="2.2" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="-1"   hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="2.3" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="0"    hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="2.4" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="0.5"  hitvfx="vfx_hit_purple_1"></missile>
+    <missile fps = "15" rinkId ="100" hitsfx="" range="1" rinkTime="2.5" isSkill="true" isPiercing="true" shadow="true" name ="m_dark_skull_1" lifeTime="1" alwaysHit="true" element="DARK" type ="STRAIGHT" damage ="100" speed ="12" node ="" x="0" y="0" z="0" dx="-1"   dy="0" dz="1"    hitvfx="vfx_hit_purple_1"></missile>
+
+    <hitReset fps = "5"></hitReset>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="nsfx_syndra_r_oh_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="3"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

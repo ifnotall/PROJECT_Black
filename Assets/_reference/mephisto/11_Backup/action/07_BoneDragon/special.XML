@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+
+    <!--<sfx fps ="0" name ="voice_Irelia.ultimateeffort1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="20" name ="voice_Irelia.ultimateeffort2" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="40" name ="voice_Irelia.ultimateeffort3" cnt ="1" delay ="0" life ="0"></sfx>-->
+    
+    <!--120-->
+    <target fps ="0" distType="ALL"></target>
+    <vfx fps ="5" name ="vfx_landing_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-110" scale="0.8"></vfx>
+    <modelPos fps ="0" x="0" y="2" z="0" duration="0.1"></modelPos>
+    <ani fps ="0" name ="action_2_1" loop ="false" speed ="1" blendFps="0.01"></ani>
+    <!--<jumpActionFx fps="120" isActive="true"></jumpActionFx>-->
+    <teleport fps ="0" isTargetPosition="true" randRange="0" isChangeTarget="true" z="-2"></teleport>
+    <lookAtTarget fps ="0" ></lookAtTarget>
+    <judgeCircle fps ="15" element="DARK" attach="false" isSkill="true" range ="5.0" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+    <camShake fps="15" duration="0.2" amount="0.5"></camShake>
+    <vfx fps ="15" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-110" scale="0.8"></vfx>
+    <sfx fps ="15" name ="darius_basicattack_ohf_03" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <ani fps ="30" name ="action_2_2" loop ="false" speed ="1" blendFps="0.01"></ani>
+    <teleport fps ="30" isTargetPosition="true" randRange="0" isChangeTarget="true" z="2"></teleport>
+    <lookAtTarget fps ="30" ></lookAtTarget>
+    <judgeCircle fps ="45" element="DARK" attach="false" isSkill="true" range ="5.0" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+    <camShake fps="45" duration="0.2" amount="0.5"></camShake>
+    <vfx fps ="45" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-110" scale="0.8"></vfx>
+    <sfx fps ="45" name ="darius_basicattack_ohf_03" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <ani fps ="50" name ="action_2_3" loop ="false" speed ="1" blendFps="0.01"></ani>
+    <teleport fps ="50" isTargetPosition="true" randRange="0" isChangeTarget="true" z="-2"></teleport>
+    <lookAtTarget fps ="50" ></lookAtTarget>
+    <judgeCircle fps ="65" element="DARK" attach="false" isSkill="true" range ="5.0" damage="100" duration="0.1" x="0" y="0" z="1"></judgeCircle>
+    <camShake fps="65" duration="0.2" amount="0.5"></camShake>
+    <vfx fps ="65" name ="0vfx_slash_purple_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0.5" ax ="0" ay ="0" az ="-110" scale="0.8"></vfx>
+    <sfx fps ="65" name ="darius_basicattack_ohf_03" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <vfx fps ="65" name ="vfx_slash_circular_yellow_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" ax ="0" ay ="0" az ="-90" scale="0.9"></vfx>
+    <!--<vfx fps ="185" name ="vfx_ground_cut_1" node ="" attach ="false" duration ="1" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>-->
+    <!--<vfx fps ="65" name ="vfx_fall_sword_1" node ="" attach ="false" duration ="2" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="1"></vfx>-->
+    <sfx fps ="71" name ="nsfx_champ_kill_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="71" name ="vfx_ground_cut_2" node ="" attach ="false" duration ="5" x="0.2" y="0" z="2" ax ="0" ay ="0" az ="0" scale="1.8"></vfx>
+    <vfx fps ="71" name ="vfx_fall_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+    <vfx fps ="71" name ="vfx_explosion_ground_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="2" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+
+    <camShake fps="71" duration="0.5" amount="0.5"></camShake>
+    <judgeCircle fps ="71" element="HOLY" isSkill="true" range ="8" damage="1000" duration="0.1" x="0" y="0" z="0"></judgeCircle>
+    <vfx fps ="71" name ="vfx_explosion_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+
+    <modelPos fps ="70" x="0" y="0" z="0" duration="0.1"></modelPos>
+    <!--<jumpActionFx fps="190" isActive="false"></jumpActionFx>-->
+
+	  <ani_pause fps="80" pause="false"></ani_pause>
+  </active>
+
+  <apply>
+    <vfx fps ="0" name ="vfx_hit_line_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="2"></vfx>
+
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1"></debuff>
+    <!--<debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>-->
+  </apply>
+</action>

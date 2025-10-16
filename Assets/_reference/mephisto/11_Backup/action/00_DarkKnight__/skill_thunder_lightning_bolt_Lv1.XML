@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="THUNDER"></rim>
+    <ani fps ="0" name ="Skil_Cast_L_Loop" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="0" name ="nsfx_Thunder_Storm_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <sfx fps ="0" name ="nsfx_ThunderStrom_loop" cnt ="1" delay ="0" life ="2"></sfx>
+
+    <vfx fps ="5" name ="vfx_lightning_bolt_1" node ="" attach ="false" duration ="1.5" x="0" y="1.5" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    
+    <missile fps = "5" name ="m_empty" type ="STRAIGHT" lifeTime="0.5" isPiercing="true" isSkill="true" range="1" speed ="20" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfx=""></missile>
+    <missile fps = "15" name ="m_empty" type ="STRAIGHT" lifeTime="0.5" isPiercing="true" isSkill="true" range="1" speed ="20" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfx=""></missile>
+    <missile fps = "25" name ="m_empty" type ="STRAIGHT" lifeTime="0.5" isPiercing="true" isSkill="true" range="1" speed ="20" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfx=""></missile>
+    <missile fps = "35" name ="m_empty" type ="STRAIGHT" lifeTime="0.5" isPiercing="true" isSkill="true" range="1" speed ="20" x="0" y="1" z="0" dx="0" dy="0" dz="1" hitvfx=""></missile>
+
+    <hitReset fps = "5"></hitReset>
+
+    <ani fps ="60" name ="stand" loop ="true" speed ="1"></ani>
+
+    <end fps ="60" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="nsfx_Behit_Thunder_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_lightning_1" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="3"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

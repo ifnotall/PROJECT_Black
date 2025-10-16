@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="FIRE"></rim>
+    <ani fps ="0" name ="Skill_Cast" loop ="false" speed ="1" blendFps="0.01"></ani>
+
+    <sfx fps ="0" name ="sfx_cast_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_casting_red_1" node ="" attach ="true" duration ="0.5" x="0" y="2" z="0" ax ="90" ay ="0" az ="0" scale="1"></vfx>
+
+    <hitReset fps = "0"></hitReset>
+
+    <sfx fps ="0" name ="nsfx_shyvana_scorchedearth_oba_01" cnt ="1" delay ="0" life ="3"></sfx>
+
+    <missile fps = "15" camSakeDuration="0.06" camSakeAmount="0.06" startDelay="0"   castVFxDuration="1" destTime="1" tz ="0" alwaysHit="true" damage="500" castVFx="" isPosTarget="true" isCollision="false" splashRange="5" name ="m_fire_meteo_1" element="FIRE" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="sfx_explosion_howl_2"     hitvfx="vfx_explosion_meteo_1"></missile>
+    <missile fps = "15" camSakeDuration="0.05" camSakeAmount="0.05" startDelay="40"  castVFxDuration="1" destTime="1" tz ="0" alwaysHit="true" damage="500" castVFx="" isPosTarget="true" isCollision="false" splashRange="5" name ="m_empty"        element="FIRE" type ="GUIDED" speed ="30" node ="" x="0" y="20" z="-10" dx="0" dy="-1" dz="1" hitsfx="nsfx_grandskyfall_land_1" hitvfx="vfx_explosion_meteo_2"></missile>
+
+    <ani fps ="30" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="30" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_fireball_1" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="0" name ="vfx_hit_fireball_2" node ="" attach ="false" duration ="0" x="0" y="1" z="0" scale="1"></vfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRBORNE"  duration ="1.5"></debuff>
+    <debuff fps ="0" type ="IGNITE" duration ="0.5" value1="0"></debuff>
+  </apply>
+</action>

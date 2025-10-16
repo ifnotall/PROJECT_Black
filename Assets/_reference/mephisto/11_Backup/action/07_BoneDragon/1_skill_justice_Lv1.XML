@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="1">
+  <active>
+    <rim fps ="0" element="HOLY"></rim>
+    <ani fps ="0" name ="Skill_PutGround" loop ="false" speed ="1" blendFps="2"></ani>
+    <sfx fps ="0" name ="nsfx_skill_charge_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <vfx fps ="5" name ="vfx_slash_circular_yellow_1" node ="" attach ="false" duration ="0" x="0" y="0" z="0" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+    <vfx fps ="8" name ="vfx_slash_circular_yellow_1" node ="" attach ="false" duration ="0" x="0" y="4" z="0" ax ="0" ay ="180" az ="180" scale="1"></vfx>
+    <sfx fps ="8" name ="nsfx_Frostshot_oba_1" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <hitReset fps = "0"></hitReset>
+
+    <vfx fps ="21" name ="vfx_ground_cut_1" node ="" attach ="false" duration ="1" x="0" y="0" z="1" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <vfx fps ="21" name ="vfx_fall_sword_1" node ="" attach ="false" duration ="2" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="1"></vfx>
+
+    <sfx fps ="27" name ="nsfx_champ_kill_01" cnt ="1" delay ="0" life ="0"></sfx>
+    <vfx fps ="27" name ="vfx_ground_cut_2" node ="" attach ="false" duration ="5" x="0.2" y="0" z="5" ax ="0" ay ="0" az ="0" scale="1.8"></vfx>
+    <vfx fps ="27" name ="vfx_fall_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+    <vfx fps ="27" name ="vfx_explosion_ground_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="3"></vfx>
+
+    <camShake fps="27" duration="0.5" amount="0.5"></camShake>
+    
+    <judgeCircle fps ="27" element="HOLY" isSkill="true" range ="8" damage="1000" duration="0.1" x="0" y="0" z="5"></judgeCircle>
+    
+    <vfx fps ="27" name ="vfx_explosion_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="2"></vfx>
+    
+    <!--<vfx fps ="25" name ="vfx_explosion_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="2"></vfx>-->
+    <!--<vfx fps ="35" name ="vfx_explosion_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="2"></vfx>-->
+    <!--<vfx fps ="45" name ="vfx_explosion_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="2"></vfx>-->
+    <!--<vfx fps ="55" name ="vfx_explosion_holy_1" node ="" attach ="false" duration ="1" x="0" y="0" z="5" ax ="0" ay ="0" az ="0" scale="2"></vfx>-->
+
+    <ani fps ="40" name ="stand" loop ="true" speed ="1" blendFps="10"></ani>
+
+    <end fps ="40" state ="STAND"></end>
+  </active>
+
+  <apply>
+    <sfx fps ="0" name ="sfx_behit_bothhand_02" cnt ="1" delay ="0" life ="0"></sfx>
+
+    <debuff fps ="0" type ="DAMAGED" duration ="0.5" value1="0"></debuff>
+    <debuff fps ="0" type ="AIRPUSH"  duration ="1.0" value1="2.5"></debuff>
+  </apply>
+</action>

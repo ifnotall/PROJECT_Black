@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action index ="10001">
+  <active>
+    <ani fps ="0" name ="attack01" loop ="false" speed="1"></ani>
+    <sfx fps ="20" name ="kfx_punch_0001" cnt ="1" delay ="0" life ="0"></sfx>
+    <judge fps ="20"></judge>
+    <end fps ="50"></end>
+  </active>
+  <apply>
+    <!--<vfx fps ="0" name ="hit_slash" node ="" attach ="true" duration ="0" x="0" y="0.5" z="0" scale="1"></vfx>-->
+    <sfx fps ="0" name ="kfx_hit_punch_0001" cnt ="1" delay ="0" life ="0"></sfx>
+  </apply>
+</action>
