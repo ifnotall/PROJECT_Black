@@ -1,44 +1,109 @@
-# --- Unity 기본 ---
+# =========================================================
+# 🎮 Unity Project Git Ignore (for IF Studio / TopDown Engine)
+# =========================================================
+
+# --- Unity 자동 생성 폴더 ---
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
-UserSettings/           # 개인별 레이아웃/최근 항목(공유 X)
+UserSettings/
+MemoryCaptures/
 
-# --- IDE/빌드 산출물 ---
+# --- 개인별 설정 파일 (공유 불필요) ---
 .vs/
 .vscode/
 .idea/
-*.sln
-*.csproj
-*.pidb
 *.user
 *.userprefs
-*.unityproj
+*.pidb
+*.suo
 *.booproj
 
-# --- OS 잡파일 ---
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# --- 플랫폼별 빌드 캐시/임시 ---
-# Android/Gradle
-.gradle/
-**/gradle/**/build/
-**/launcher/build/
-**/unityLibrary/build/
-# Xcode/iOS
-*.xccheckout
-*.xcworkspace
-DerivedData/
-*.pbxproj.old
-
-# --- 기타 툴 산출물 ---
+# --- 빌드 결과물 ---
 *.apk
 *.aab
 *.ipa
 *.app
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.log
+
+# --- 시스템 / OS 잡파일 ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Unity Cache / Profiling / 테스트 파일 ---
+*.stackdump
+*.psd.meta
+*.tmp
+*.bak
+*.old
+*.orig
+*.temp
+*.blend1
+*.blend2
+*.blend@
+
+# --- Visual Studio / Rider / JetBrains 관련 ---
+*.sln.docstates
+*.csproj
+*.unityproj
+*.sln
+*.userosscache
+*.db
+*.db-shm
+*.db-wal
+
+# --- Local Gradle / Android 빌드 캐시 ---
+.gradle/
+**/gradle/**/build/
+**/launcher/build/
+**/unityLibrary/build/
+
+# --- Xcode / iOS 빌드 캐시 ---
+*.xcworkspace
+*.xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+
+# --- 패키지 매니저 / 캐시 ---
+Packages/com.unity.render-pipelines.universal/ShaderLibrary/Packages-cache/
+Packages/manifest-temp.json
+
+# --- Backup / 버전 충돌 중복 파일 ---
+*_Backup*/
+* Copy*/
+*_copy*/
+* - Copy.*
+*.bak
+*.tmp
+*.temp
+
+# --- Unity Collaborate / Plastic SCM / Cloud 빌드 ---
+.collab/
+.plastic/
+.cloud/
+unity_lockfile
+
+# --- Crash / Reports / Diagnostic ---
+*.crash
+*.error
+*.trace
+
+# =========================================================
+# ✅ Git에 포함해야 하는 폴더
+# (자동으로 제외 안 되도록 주석용으로 적어둠)
+# =========================================================
+# Assets/
+# Packages/
+# ProjectSettings/
+# .gitignore
+# README.md
+# =========================================================
