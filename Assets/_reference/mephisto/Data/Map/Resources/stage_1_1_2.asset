@@ -1,0 +1,3497 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd8fba1341e541409bd3247fe6db15c, type: 3}
+  m_Name: stage_1_1_2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_Items
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[_Utility.Tool.CZone, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 1|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -11609.6162
+    - Name: 
+      Entry: 4
+      Data: 780.272034
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 312
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 3|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -324.351563
+    - Name: 
+      Entry: 4
+      Data: -362.7586
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 1
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -97.30664
+    - Name: 
+      Entry: 4
+      Data: 235.154053
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 1
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_2
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.86
+    - Name: 
+      Entry: 4
+      Data: 0.44
+    - Name: 
+      Entry: 4
+      Data: 0.57
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -8520.76
+    - Name: 
+      Entry: 4
+      Data: 69.14795
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 314
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_2
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 7|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.041016
+    - Name: 
+      Entry: 4
+      Data: -376.754028
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 5
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.87
+    - Name: 
+      Entry: 4
+      Data: 0.63
+    - Name: 
+      Entry: 4
+      Data: 0.87
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 41.3710938
+    - Name: 
+      Entry: 4
+      Data: 503.761719
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 5
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_2
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.82
+    - Name: 
+      Entry: 4
+      Data: 0.41
+    - Name: 
+      Entry: 4
+      Data: 0.12
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 440.484375
+    - Name: 
+      Entry: 4
+      Data: 73.0097656
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 5
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_3
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.64
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 400
+    - Name: 
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 4
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -5478.54346
+    - Name: 
+      Entry: 4
+      Data: 1277.63318
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 312
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_3
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 12|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 10.6386719
+    - Name: 
+      Entry: 4
+      Data: 0.001953125
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 10
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 14.4189453
+    - Name: 
+      Entry: 4
+      Data: 44.37155
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 10
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_2
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.98
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.44
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 700
+    - Name: 
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 4
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7987.2583
+    - Name: 
+      Entry: 4
+      Data: 3447.898
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 312
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_4
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 16|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 301.368164
+    - Name: 
+      Entry: 4
+      Data: -661.5261
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 14
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.31
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 621.42334
+    - Name: 
+      Entry: 4
+      Data: -230.731934
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 14
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_2
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.84
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 24.090332
+    - Name: 
+      Entry: 4
+      Data: 153.804688
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 14
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_3
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.96
+    - Name: 
+      Entry: 4
+      Data: 0.87
+    - Name: 
+      Entry: 4
+      Data: 0.7
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 414
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 4
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 5
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -8129.81055
+    - Name: 
+      Entry: 4
+      Data: 6755.381
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 314
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_5
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 21|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -11.84668
+    - Name: 
+      Entry: 4
+      Data: 23.6873779
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 19
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.63
+    - Name: 
+      Entry: 4
+      Data: 0.32
+    - Name: 
+      Entry: 4
+      Data: 0.18
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 400
+    - Name: 
+      Entry: 4
+      Data: 414
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 6
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -9317.151
+    - Name: 
+      Entry: 4
+      Data: 10258.9922
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 312
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_6
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.25
+    - Name: 
+      Entry: 4
+      Data: 0.12
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 24|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150.236328
+    - Name: 
+      Entry: 4
+      Data: -8.558594
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 22
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.82
+    - Name: 
+      Entry: 4
+      Data: 0.41
+    - Name: 
+      Entry: 4
+      Data: 0.12
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -732.8594
+    - Name: 
+      Entry: 4
+      Data: -46.3457031
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 22
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_2
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.49
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.83
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -286.773438
+    - Name: 
+      Entry: 4
+      Data: 194.078125
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 22
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_3
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 700
+    - Name: 
+      Entry: 4
+      Data: 414
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 4
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 7
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -6264.065
+    - Name: 
+      Entry: 4
+      Data: 11226.2627
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 312
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_7
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.64
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 29|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 134.293945
+    - Name: 
+      Entry: 4
+      Data: -484.8203
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 27
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.29
+    - Name: 
+      Entry: 4
+      Data: 0.57
+    - Name: 
+      Entry: 4
+      Data: 0.87
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 2
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -494.7422
+    - Name: 
+      Entry: 4
+      Data: 198.116211
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 27
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_3
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.68
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.18
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 145.1958
+    - Name: 
+      Entry: 4
+      Data: 81.3535156
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 27
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_4
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.73
+    - Name: 
+      Entry: 4
+      Data: 0.33
+    - Name: 
+      Entry: 4
+      Data: 0.83
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 778
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 5
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 1500
+    - Name: m_GUID
+      Entry: 3
+      Data: 8
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -4026.869
+    - Name: 
+      Entry: 4
+      Data: 8241.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 314
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_8
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 3000
+    - Name: m_ChildList
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 34|_Utility.Tool.CSpot, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 500
+    - Name: m_GUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -11.6791992
+    - Name: 
+      Entry: 4
+      Data: -10.3876953
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 9
+      Data: 32
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Spot_1
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.98
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.44
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_SpawnType
+      Entry: 3
+      Data: 0
+    - Name: m_SpawnGridCount
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpawnGridSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsShowDetail
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 0
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 400
+    - Name: 
+      Entry: 4
+      Data: 778
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 3
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 200
+    - Name: m_GUID
+      Entry: 3
+      Data: 9
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -14109.4043
+    - Name: 
+      Entry: 4
+      Data: -719.8076
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 312
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_9
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.31
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 200
+    - Name: m_ChildList
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 3
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 700
+    - Name: 
+      Entry: 4
+      Data: 778
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|_Utility.Tool.CZone, Assembly-CSharp
+    - Name: m_Radius
+      Entry: 4
+      Data: 200
+    - Name: m_GUID
+      Entry: 3
+      Data: 10
+    - Name: m_EventID
+      Entry: 3
+      Data: -1
+    - Name: m_InstalledPosition
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -14119.2354
+    - Name: 
+      Entry: 4
+      Data: -708.959656
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 312
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Parent
+      Entry: 6
+      Data: 
+    - Name: bIsSelected
+      Entry: 5
+      Data: false
+    - Name: m_GameObjectName
+      Entry: 1
+      Data: Zone_10
+    - Name: m_Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.96
+    - Name: 
+      Entry: 4
+      Data: 0.87
+    - Name: 
+      Entry: 4
+      Data: 0.7
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_FontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_bIsInstalled
+      Entry: 5
+      Data: true
+    - Name: m_MoveOnSelect
+      Entry: 3
+      Data: 1
+    - Name: m_Area
+      Entry: 10
+      Data: 0
+    - Name: m_Sight
+      Entry: 4
+      Data: 200
+    - Name: m_ChildList
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[_Utility.Tool.CSectorBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Type
+      Entry: 3
+      Data: 1
+    - Name: m_Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: 1142
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_SpotCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: m_EventCreateGUID
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

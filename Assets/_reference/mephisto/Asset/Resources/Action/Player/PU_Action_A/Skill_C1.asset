@@ -1,0 +1,579 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9076474572846800700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_startColor: {r: 1, g: 1, b: 1, a: 1}
+  m_endColor: {r: 1, g: 1, b: 1, a: 1}
+  m_originColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-8997355332495811622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_startColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_endColor: {r: 1, g: 1, b: 1, a: 1}
+  m_originColor: {r: 0.7264151, g: 0.46928278, b: 0.37359828, a: 1}
+--- !u!114 &-8476373308764897535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 4379705141544397226, guid: baf80a9b87f759f4aab5d6e0c0c2e2c9, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 55, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 150
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 0
+  m_way8OffsetRotation:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_way8OffsetFront:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_way8OffsetSide:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &-6786022225081962717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_startColor: {r: 0.9528302, g: 0.43856555, b: 0.24719654, a: 1}
+  m_endColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_originColor: {r: 0.475, g: 0.475, b: 0.475, a: 1}
+--- !u!114 &-5203627355255568172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 1623512149224917794, guid: 0e715376245b9c747b090b29be9e7da4, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 70, z: 0}
+  m_offsetRotation: {x: 55, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 100
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 200
+  m_nonUniformScale: {x: 0.95, y: 0.95, z: 0.95}
+  m_isUse8WayRotation: 0
+  m_way8OffsetRotation:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_way8OffsetFront:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_way8OffsetSide:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &-1847922852132615500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_startColor: {r: 0.9528302, g: 0.43856555, b: 0.24719654, a: 1}
+  m_endColor: {r: 0.9529412, g: 0.4392157, b: 0.24705882, a: 1}
+  m_originColor: {r: 0.475, g: 0.475, b: 0.475, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd61582142d3a4a860a20dbabcfecd, type: 3}
+  m_Name: Skill_C1
+  m_EditorClassIdentifier: 
+  m_actionName: Skill_C1
+  m_actionMaxFrame: 95
+  m_actionDataFrame: 90
+  m_isLoop: 0
+  m_previewPercentageRange: {x: 0, y: 0.94736844}
+  m_startFrame: 0
+  m_endFrame: 90
+  m_events:
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 0.94736844}
+    m_startFrame: 0
+    m_endFrame: 90
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4786222839813138287}
+  - m_eventTime: 0.31578946
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 30
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -5203627355255568172}
+  - m_eventTime: 0.05263158
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 5
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -8476373308764897535}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.06315789, y: 0.10526316}
+    m_startFrame: 6
+    m_endFrame: 10
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4262109923381942188}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.1368421, y: 0.17894737}
+    m_startFrame: 13
+    m_endFrame: 17
+    m_previewable: 0
+    m_actionEventObj: {fileID: -6786022225081962717}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.10526316, y: 0.1368421}
+    m_startFrame: 10
+    m_endFrame: 13
+    m_previewable: 0
+    m_actionEventObj: {fileID: -1847922852132615500}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.38947368, y: 0.43157893}
+    m_startFrame: 37
+    m_endFrame: 41
+    m_previewable: 0
+    m_actionEventObj: {fileID: -8997355332495811622}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.43157893, y: 0.5368421}
+    m_startFrame: 41
+    m_endFrame: 51
+    m_previewable: 0
+    m_actionEventObj: {fileID: 8987555345483461559}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.5368421, y: 0.57894737}
+    m_startFrame: 51
+    m_endFrame: 55
+    m_previewable: 0
+    m_actionEventObj: {fileID: 2670902986921066223}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.2631579, y: 0.29473683}
+    m_startFrame: 25
+    m_endFrame: 28
+    m_previewable: 0
+    m_actionEventObj: {fileID: -9076474572846800700}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.33684212, y: 0.44210526}
+    m_startFrame: 32
+    m_endFrame: 42
+    m_previewable: 0
+    m_actionEventObj: {fileID: 2187214144360335239}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 0
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 3437376946262225098}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.36842105, y: 0.37894738}
+    m_startFrame: 35
+    m_endFrame: 36
+    m_previewable: 0
+    m_actionEventObj: {fileID: 2280287897958083140}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.29473683, y: 0.5263158}
+    m_startFrame: 28
+    m_endFrame: 50
+    m_previewable: 0
+    m_actionEventObj: {fileID: 6046825208819489397}
+--- !u!114 &2187214144360335239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaef0aadf079a9b468336ad2a90d7228, type: 3}
+  m_Name: CameraShake
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 10
+  m_amount: 25
+--- !u!114 &2280287897958083140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b0e30c0f9d8a540884899f73ca856a, type: 3}
+  m_Name: HitCircle
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_applyID: 0
+  m_range: 500
+  m_isAttach: 0
+  m_directionAngle: 0
+  m_offsetFrontDistance: 100
+  m_offsetSideDistance: 0
+  m_targetCount: 0
+  m_isApplyFreindly: 0
+  m_isPlayerDirectionAttack: 1
+  m_applyActionObj: {fileID: 11400000, guid: 349446ff2ef45754cb4ba4429d31cb3e, type: 2}
+--- !u!114 &2670902986921066223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_startColor: {r: 1, g: 1, b: 1, a: 1}
+  m_endColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_originColor: {r: 0.6509804, g: 0.47973856, b: 0.41568628, a: 1}
+--- !u!114 &3437376946262225098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 84c50bcba5be4d544ab23a6adffd8f28, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &4262109923381942188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_startColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_endColor: {r: 0.9528302, g: 0.43856555, b: 0.24719654, a: 1}
+  m_originColor: {r: 0.475, g: 0.475, b: 0.475, a: 1}
+--- !u!114 &4786222839813138287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 90
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 8
+  m_lastSelectedBlendTreeIndex: 8
+  m_blendTreeNames: []
+  m_animationName: Skill_C1
+  m_animationLength: 1.5166665
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 0
+  m_endFrame: 0
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 1
+  m_movementDatas:
+  - 0
+  - 1.2777708
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 115
+  - 118.77776
+  - 135
+  - 135
+  - 135
+  - 135
+  - 135
+  - 135
+  - 135
+  - 135
+  - 135
+  - 135
+  - 135
+  - 188.16641
+  - 305.00006
+  - 320.16663
+  - 335.33334
+  - 350.5
+  - 362.15872
+  - 367.93652
+  - 373.71432
+  - 379.4921
+  - 385.26984
+  - 391.0476
+  - 396.82538
+  - 400.23978
+  - 400.77194
+  - 401.3041
+  - 401.83627
+  - 402.3684
+  - 402.90057
+  - 403.43274
+  - 403.9649
+  - 404.49707
+  - 405.02924
+  - 405.5614
+  - 406.09357
+  - 406.62573
+  - 407.1579
+  - 407.69006
+  - 408.22223
+  - 408.7544
+  - 409.28656
+  - 409.81873
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 410
+  - 408.11108
+  - 406.0889
+  - 404.06665
+  - 402.04443
+  - 400.02222
+  - 400
+--- !u!114 &6046825208819489397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec68049c6b622d4595595b66882142c, type: 3}
+  m_Name: Material
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_originMaterial: {fileID: 2100000, guid: 10acbd3110f369f44bee61e9f77463e0, type: 2}
+  m_changeMaterial: {fileID: 2100000, guid: d342c13d05257c84e80963777ae48412, type: 2}
+--- !u!114 &8987555345483461559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: PU_Costume_001
+  m_startColor: {r: 1, g: 1, b: 1, a: 1}
+  m_endColor: {r: 1, g: 1, b: 1, a: 1}
+  m_originColor: {r: 0.95290416, g: 0.43899897, b: 0.24710473, a: 1}

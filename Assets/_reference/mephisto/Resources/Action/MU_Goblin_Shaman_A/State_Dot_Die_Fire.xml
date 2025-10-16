@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <move fps="0" speed="0" duration="14" reachedDist="0" accellStartFps_1="0" accelInterpolationFps_1="5" aceelSpeed_1="-2000" accelLinear_1="False" />
+    <vfx fps="0" name="FX_MU_State_Dot_Die_Fire" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="100" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="55" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <activeObj fps="1" name="Eyes" isActive="False" duration="22" />
+    <sfx fps="0" name="State_Dot_Die_Fire" cnt="1" delay="0" life="0" />
+    <material fps="0" name="MU_Goblin_Shaman_A" originName="MU_Sprite_Standard" changeName="MU_State_Dot_Die_Fire" duration="24" />
+    <end fps="24" />
+  </active>
+</action>

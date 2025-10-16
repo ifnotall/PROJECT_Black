@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3858506645862310292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1447192612766315368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2615908519892469030, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_Name
+      value: MU_Goblin_Shamen_B_Projectile Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -620
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -303
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380736727785070368, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2615908519892469030, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6978375340248045289}
+    - targetCorrespondingSourceObject: {fileID: 2615908519892469030, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7690852057803760830}
+  m_SourcePrefab: {fileID: 100100000, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+--- !u!1 &1279507906982618290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2615908519892469030, guid: 15fc6aca41b84c441abec08874b4b57c, type: 3}
+  m_PrefabInstance: {fileID: 3858506645862310292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!210 &6978375340248045289
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279507906982618290}
+  m_Enabled: 1
+  m_SortingLayerID: -318415855
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+--- !u!114 &-7690852057803760830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279507906982618290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87453e0438914447acbfb22e2e02ac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sortGroup: {fileID: 6978375340248045289}
+  m_top: 1
+  m_topRight: 1
+  m_right: 1
+  m_bottomRight: 1
+  m_bottom: 1
+  m_bottomLeft: 0
+  m_left: 0
+  m_topLeft: 0

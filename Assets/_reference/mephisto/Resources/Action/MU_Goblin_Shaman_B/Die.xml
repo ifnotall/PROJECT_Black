@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <move fps="0" speed="0" duration="24" reachedDist="0" accellStartFps_1="0" accelInterpolationFps_1="3" aceelSpeed_1="-3500" accelLinear_1="False" accellStartFps_2="4" accelInterpolationFps_2="20" aceelSpeed_2="-300" accelLinear_2="False" accellStartFps_3="20" accelInterpolationFps_3="24" aceelSpeed_3="0" accelLinear_3="False" />
+    <vfx fps="0" name="FX_MU_Die" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="100" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="75" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <vfx fps="0" name="FX_MU_Die_Blood_Splatter_Bottom Variant" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="75" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="0" way8Ry0="0" way8Rz0="-90" way8Front0="50" way8Side0="0" way8Rx1="358.9914" way8Ry1="1.008764" way8Rz1="269.9911" way8Front1="50" way8Side1="0" way8Rx2="0" way8Ry2="0" way8Rz2="-90" way8Front2="50" way8Side2="0" way8Rx3="0" way8Ry3="0" way8Rz3="-90" way8Front3="50" way8Side3="0" way8Rx4="0" way8Ry4="0" way8Rz4="-90" way8Front4="50" way8Side4="0" way8Rx5="0" way8Ry5="0" way8Rz5="-90" way8Front5="50" way8Side5="0" way8Rx6="-55" way8Ry6="0" way8Rz6="-90" way8Front6="50" way8Side6="0" way8Rx7="335.1178" way8Ry7="207.6331" way8Rz7="353.7888" way8Front7="50" way8Side7="0" />
+    <activeObj fps="1" name="" isActive="False" duration="22" />
+    <sfx fps="0" name="Goblin_Shaman_B_Die" cnt="1" delay="0" life="0" />
+    <material fps="0" name="MU_Goblin_Shaman_B" originName="MU_Sprite_Standard" changeName="MU_Die" duration="24" />
+    <end fps="24" />
+  </active>
+</action>

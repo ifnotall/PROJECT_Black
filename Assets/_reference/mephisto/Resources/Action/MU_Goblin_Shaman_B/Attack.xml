@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Attack" loop="False" speed="1" length="1.016667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="35" name="MU_Goblin_Shamen_B_Muzzle Variant" node="" attach="False" isDirectional="True" duration="60" earlyEmissionOffFrame="0" x="0" y="123.6" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="600" offsetSide="-59.5" count="1" delay="0" scale="100" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="False" />
+    <color fps="0" name="MU_Goblin_Shaman_B" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="17" />
+    <color fps="17" name="MU_Goblin_Shaman_B" sr="0.35" sg="0.35" sb="0.35" sa="1" er="0.8666667" eg="0.6117647" eb="0.372549" ea="1" duration="8" />
+    <color fps="25" name="MU_Goblin_Shaman_B" sr="0.8666667" sg="0.6117647" sb="0.372549" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="15" />
+    <color fps="40" name="MU_Goblin_Shaman_B" sr="0.35" sg="0.35" sb="0.35" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="20" />
+    <projectile fps="35" type="NORMAL" range="100" splashRange="0" name="MU_Goblin_Shamen_B_Projectile Variant" shadowName="PoisonBall_1_Shadow" destroyVFx="FX_Hit_Fire_02" x="0" y="90" z="0" rx="0" ry="0" rz="0" isAimingAtTarget="False" moveDist="0" randMoveDistMin="0" randMoveDistMax="0" isDirectional="True" dirAngle="0" randDirMin="0" randDirMax="0" targetPos="False" randomDist="0" offsetFront="300" offsetSide="-50" speed="1500" returnWaitingFps="0" duration="60" destroyFps="0" scale="100" retrunPrefabScale="1" shadowScale="2" destroyVFXscale="130" waitFps="0" hitCount="1" />
+    <sfx fps="21" name="Goblin_Shaman_B_Attack" cnt="1" delay="0" life="0" />
+    <material fps="26" name="MU_Goblin_Shaman_B" originName="MU_Sprite_Standard" changeName="MU_Sprite_Effect_Shake" duration="20" />
+    <end fps="60" />
+  </active>
+</action>

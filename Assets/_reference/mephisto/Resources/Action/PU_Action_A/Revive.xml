@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="15" name="Revive" loop="False" speed="1" length="0.5166667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="11" name="PU_Costume_001_Revive" node="" attach="False" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="55" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="100" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <color fps="37" name="PU_Costume_001" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.9921569" eg="0.5658771" eb="0.3333334" ea="1" duration="4" />
+    <color fps="41" name="PU_Costume_001" sr="0.9921569" sg="0.5658771" sb="0.3333333" sa="1" er="0.9921569" eg="0.5658771" eb="0.3333334" ea="1" duration="13" />
+    <color fps="54" name="PU_Costume_001" sr="0.9921569" sg="0.5658771" sb="0.3333333" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="8" />
+    <sfx fps="0" name="Action_Revive" cnt="1" delay="0" life="0" />
+    <color fps="4" name="PU_Costume_001" sr="0.35" sg="0.35" sb="0.35" sa="1" er="1" eg="1" eb="1" ea="1" duration="6" />
+    <color fps="10" name="PU_Costume_001" sr="1" sg="1" sb="1" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="6" />
+    <material fps="0" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PU_Sprite_Effect_Shake" duration="14" />
+    <end fps="46" />
+  </active>
+</action>

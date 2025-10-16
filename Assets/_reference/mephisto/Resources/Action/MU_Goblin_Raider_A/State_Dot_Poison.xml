@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Idle" loop="False" speed="1" length="0.5166667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="0" name="FX_MU_State_Dot_Poison" node="" attach="True" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="60" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="40" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <material fps="0" name="MU_Goblin_Raider_A" originName="MU_Sprite_Standard" changeName="MU_State_Dot_Poison" duration="31" />
+    <sfx fps="0" name="State_Dot_Poison" cnt="1" delay="0" life="0" />
+    <end fps="31" />
+  </active>
+</action>

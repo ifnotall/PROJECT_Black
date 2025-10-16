@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Die" loop="False" speed="1" length="1.316667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <material fps="2" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PT_Sprite_Effect_Stun" duration="8" />
+    <material fps="23" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PU_Sprite_Effect_Shake" duration="54" />
+    <material fps="77" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="HU_Sprite_Standard" duration="2" />
+    <end fps="79" />
+  </active>
+</action>

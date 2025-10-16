@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Skill" loop="False" speed="1" length="2.8" startFps="0" endFps="0" />
+    <ani fps="36" name="Skill" loop="False" speed="1" length="2.8" startFps="37" endFps="60" />
+    <ani fps="96" name="Skill" loop="False" speed="1" length="2.8" startFps="61" endFps="167" />
+    <color fps="0" name="" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.55" eg="0.55" eb="0.55" ea="1" duration="30" />
+    <color fps="30" name="" sr="0.55" sg="0.55" sb="0.55" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="7" />
+    <color fps="85" name="" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.15" eg="0.15" eb="0.15" ea="1" duration="9" />
+    <color fps="94" name="" sr="0.15" sg="0.15" sb="0.15" sa="1" er="0.1490196" eg="0.1490196" eb="0.1490196" ea="1" duration="7" />
+    <color fps="101" name="" sr="0.15" sg="0.15" sb="0.15" sa="1" er="0.75" eg="0.75" eb="0.75" ea="1" duration="4" />
+    <color fps="105" name="" sr="0.9019608" sg="0.9019608" sb="0.9019608" sa="1" er="0.75" eg="0.75" eb="0.75" ea="1" duration="4" />
+    <color fps="109" name="" sr="0.7490196" sg="0.7490196" sb="0.7490196" sa="1" er="0.9" eg="0.9" eb="0.9" ea="1" duration="6" />
+    <color fps="115" name="" sr="0.7490196" sg="0.7490196" sb="0.7490196" sa="1" er="0.7490196" eg="0.7490196" eb="0.7490196" ea="1" duration="4" />
+    <color fps="119" name="" sr="0.7490196" sg="0.7490196" sb="0.7490196" sa="1" er="0.65" eg="0.65" eb="0.65" ea="1" duration="5" />
+    <color fps="124" name="" sr="0.65" sg="0.65" sb="0.65" sa="1" er="0.4" eg="0.4" eb="0.4" ea="1" duration="21" />
+    <color fps="145" name="" sr="0.4" sg="0.4" sb="0.4" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="22" />
+    <material fps="77" name="" originName="MU_Sprite_Standard" changeName="MU_Sprite_Effect_Quake" duration="7" />
+    <material fps="109" name="" originName="MU_Sprite_Standard" changeName="MU_Sprite_Effect_Quake" duration="35" />
+    <vfx fps="39" name="Fx_MU_Goblin_Raider_C_Skill_Casting Variant" node="" attach="False" isDirectional="False" duration="60" x="0" y="0" z="0" AngleX="45" AngleY="0" AngleZ="0" offsetFront="62.35" offsetSide="0" count="1" delay="0" isUseImgDir="False" scale="1" />
+    <vfx fps="147" name="Fx_MU_Goblin_Raider_C_Skill Variant" node="" attach="False" isDirectional="False" duration="60" x="0" y="0" z="0" AngleX="45" AngleY="0" AngleZ="0" offsetFront="251.29" offsetSide="0" count="1" delay="0" isUseImgDir="False" scale="1" />
+    <end fps="120" />
+  </active>
+</action>

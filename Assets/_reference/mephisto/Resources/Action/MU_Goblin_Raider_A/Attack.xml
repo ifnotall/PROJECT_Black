@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Attack" loop="False" speed="1" length="1.016667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="31" name="Fx_MU_Goblin_Raider_A_Attack Variant" node="" attach="False" isDirectional="True" duration="80" earlyEmissionOffFrame="0" x="0" y="120" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="150" offsetSide="0" count="1" delay="0" scale="1.3" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="27.14" way8Ry0="55.01" way8Rz0="40" way8Front0="100" way8Side0="0" way8Rx1="55.03" way8Ry1="29" way8Rz1="36.46" way8Front1="122.25" way8Side1="0" way8Rx2="44.42815" way8Ry2="4.782182E-06" way8Rz2="0" way8Front2="150" way8Side2="0" way8Rx3="0" way8Ry3="0" way8Rz3="37.01" way8Front3="120" way8Side3="0" way8Rx4="10.23" way8Ry4="-61.87" way8Rz4="0" way8Front4="130" way8Side4="0" way8Rx5="49.68824" way8Ry5="313.8653" way8Rz5="355.5893" way8Front5="130" way8Side5="0" way8Rx6="88.59" way8Ry6="0" way8Rz6="0" way8Front6="130" way8Side6="0" way8Rx7="107" way8Ry7="245.2" way8Rz7="250.2" way8Front7="130" way8Side7="0" />
+    <color fps="13" name="MU_Goblin_Raider_A" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.2" eg="0.2" eb="0.2" ea="1" duration="19" />
+    <color fps="32" name="MU_Goblin_Raider_A" sr="0.2" sg="0.2" sb="0.2" sa="1" er="0.9" eg="0.9" eb="0.9" ea="1" duration="7" />
+    <color fps="39" name="MU_Goblin_Raider_A" sr="0.9" sg="0.9" sb="0.9" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="9" />
+    <sfx fps="22" name="Goblin_Raider_A_Attack" cnt="1" delay="0" life="0" />
+    <judgeCircle fps="35" element="PHYSICAL" range="200" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="300" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="True" />
+    <end fps="60" />
+  </active>
+</action>

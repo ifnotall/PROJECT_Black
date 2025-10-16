@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Dash" loop="False" speed="0.5" length="0.5166667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="3" name="Fx_Common_Run" node="" attach="False" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="3" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <vfx fps="27" name="Fx_Common_Run" node="" attach="False" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="3" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <move fps="7" speed="6000" duration="20" reachedDist="100" accellStartFps_1="0" accelInterpolationFps_1="20" aceelSpeed_1="0" accelLinear_1="True" />
+    <end fps="32" />
+  </active>
+</action>

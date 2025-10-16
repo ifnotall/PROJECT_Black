@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PU_Sprite_Effect_Whirl
+  m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
+  m_Parent: {fileID: 2100000, guid: 10acbd3110f369f44bee61e9f77463e0, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - GLOW_ON
+  - WAVEUV_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: f85b5f409e299864087ef26111ed5f14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistortAmount: 0.01
+    - _FishEyeUvAmount: 0
+    - _Glow: 20
+    - _MotionBlurAngle: -0.01
+    - _MotionBlurDist: 0.1
+    - _RoundWaveSpeed: 0.1
+    - _RoundWaveStrength: 0.05
+    - _ShakeUvSpeed: 20
+    - _ShakeUvX: 0.05
+    - _ShakeUvY: 0.05
+    - _TwistUvAmount: 0.01
+    - _TwistUvRadius: 0.18
+    - _WaveAmount: 7
+    - _WaveSpeed: 10
+    m_Colors: []
+  m_BuildTextureStacks: []

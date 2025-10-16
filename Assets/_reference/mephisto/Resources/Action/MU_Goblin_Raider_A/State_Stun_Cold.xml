@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <material fps="0" name="MU_Goblin_Raider_A" originName="MU_Sprite_Standard" changeName="MU_State_Stun_Cold" duration="60" />
+    <vfx fps="0" name="FX_MU_State_Stun_Cold" node="" attach="True" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="55" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="30" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <activeObj fps="0" name="" isActive="False" duration="60" />
+    <sfx fps="0" name="State_Stun_Cold" cnt="1" delay="0" life="0" />
+    <end fps="60" />
+  </active>
+</action>

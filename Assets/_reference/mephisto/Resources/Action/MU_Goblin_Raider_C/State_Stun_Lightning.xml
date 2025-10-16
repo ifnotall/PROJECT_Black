@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <vfx fps="0" name="FX_MU_State_Stun_Lightning" node="" attach="True" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="150" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="80" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <sfx fps="0" name="State_Stun_Lightning" cnt="1" delay="0" life="0" />
+    <material fps="0" name="MU_Goblin_Raider_C" originName="MU_Sprite_Standard" changeName="MU_State_Stun_Lightning" duration="60" />
+    <end fps="60" />
+  </active>
+</action>

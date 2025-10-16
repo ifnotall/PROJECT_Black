@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24bacc39d5bf9e243977217bee2c0b85, type: 3}
+  m_Name: ActionLinkedMaterialAnimation
+  m_EditorClassIdentifier: 
+  m_datas:
+    list:
+    - key: Die
+      value: MU_Die
+    - key: State_Dot_Die_Cold
+      value: MU_State_Dot_Die_Cold
+    - key: State_Dot_Die_Fire
+      value: MU_State_Dot_Die_Fire
+    - key: State_Dot_Die_Lightning
+      value: MU_State_Dot_Die_Lightning
+    - key: State_Dot_Die_Poison
+      value: MU_State_Dot_Die_Poison
+    - key: State_Stun_Die_Cold
+      value: MU_State_Stun_Die_Cold
+    - key: State_Stun_Die_Fire
+      value: MU_State_Stun_Die_Fire
+    - key: State_Stun_Die_Lightning
+      value: MU_State_Stun_Die_Lightning
+    - key: State_Stun_Die_Poison
+      value: MU_State_Stun_Die_Poison
+    - key: State_Stun_Lightning
+      value: MU_State_Stun_Lightning

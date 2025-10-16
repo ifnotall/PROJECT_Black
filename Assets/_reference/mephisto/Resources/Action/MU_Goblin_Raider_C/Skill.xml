@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Skill" loop="False" speed="1" length="2.8" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <ani fps="36" name="Skill" loop="False" speed="1" length="2.8" startFps="37" endFps="60" isUseAnimMovement="False" />
+    <ani fps="96" name="Skill" loop="False" speed="1" length="2.8" startFps="61" endFps="167" isUseAnimMovement="False" />
+    <color fps="0" name="MU_Goblin_Raider_C" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.55" eg="0.55" eb="0.55" ea="1" duration="30" />
+    <color fps="30" name="MU_Goblin_Raider_C" sr="0.55" sg="0.55" sb="0.55" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="7" />
+    <color fps="15" name="MU_Goblin_Raider_C" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.15" eg="0.15" eb="0.15" ea="1" duration="79" />
+    <color fps="94" name="MU_Goblin_Raider_C" sr="0.15" sg="0.15" sb="0.15" sa="1" er="0.1490196" eg="0.1490196" eb="0.1490196" ea="1" duration="7" />
+    <color fps="101" name="MU_Goblin_Raider_C" sr="0.15" sg="0.15" sb="0.15" sa="1" er="0.75" eg="0.75" eb="0.75" ea="1" duration="4" />
+    <color fps="105" name="MU_Goblin_Raider_C" sr="0.9019608" sg="0.9019608" sb="0.9019608" sa="1" er="0.75" eg="0.75" eb="0.75" ea="1" duration="4" />
+    <color fps="109" name="MU_Goblin_Raider_C" sr="0.7490196" sg="0.7490196" sb="0.7490196" sa="1" er="0.9" eg="0.9" eb="0.9" ea="1" duration="6" />
+    <color fps="115" name="MU_Goblin_Raider_C" sr="0.7490196" sg="0.7490196" sb="0.7490196" sa="1" er="0.7490196" eg="0.7490196" eb="0.7490196" ea="1" duration="4" />
+    <color fps="119" name="MU_Goblin_Raider_C" sr="0.7490196" sg="0.7490196" sb="0.7490196" sa="1" er="0.65" eg="0.65" eb="0.65" ea="1" duration="5" />
+    <color fps="124" name="MU_Goblin_Raider_C" sr="0.65" sg="0.65" sb="0.65" sa="1" er="0.4" eg="0.4" eb="0.4" ea="1" duration="21" />
+    <color fps="145" name="MU_Goblin_Raider_C" sr="0.4" sg="0.4" sb="0.4" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="22" />
+    <material fps="77" name="MU_Goblin_Raider_C" originName="MU_Sprite_Standard" changeName="MU_Sprite_Effect_Quake" duration="7" />
+    <material fps="109" name="MU_Goblin_Raider_C" originName="MU_Sprite_Standard" changeName="MU_Sprite_Effect_Quake" duration="35" />
+    <vfx fps="32" name="Fx_MU_Goblin_Raider_C_Skill_Casting Variant" node="" attach="False" isDirectional="False" duration="90" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="55" AngleY="0" AngleZ="0" offsetFront="62.35" offsetSide="0" count="1" delay="0" scale="1" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <vfx fps="147" name="Fx_MU_Goblin_Raider_C_Skill Variant" node="" attach="False" isDirectional="False" duration="60" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="55" AngleY="0" AngleZ="0" offsetFront="251.29" offsetSide="0" count="1" delay="0" scale="1" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <vfx fps="140" name="Fx_MU_Goblin_Raider_C_Attack Variant-01" node="" attach="False" isDirectional="True" duration="60" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="180" AngleY="-1.39" AngleZ="0" offsetFront="1" offsetSide="0" count="1" delay="0" scale="1.1" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="-21.1" way8Ry0="-103.5" way8Rz0="91.8" way8Front0="323.87" way8Side0="-82.8" way8Rx1="-8.4" way8Ry1="114.44" way8Rz1="0" way8Front1="388.1" way8Side1="-309.9" way8Rx2="2.19" way8Ry2="169.71" way8Rz2="-9.98" way8Front2="-60.1" way8Side2="-302.47" way8Rx3="184.9" way8Ry3="316.8" way8Rz3="80.2" way8Front3="-211.1" way8Side3="-351.5" way8Rx4="192.64" way8Ry4="-100.4" way8Rz4="0" way8Front4="-250.6" way8Side4="-174.04" way8Rx5="11.16" way8Ry5="56.2" way8Rz5="197.78" way8Front5="-130.9" way8Side5="153.07" way8Rx6="38.93384" way8Ry6="54.60634" way8Rz6="177.9102" way8Front6="67.7" way8Side6="213.06" way8Rx7="36.09" way8Ry7="50.9" way8Rz7="120.9" way8Front7="114.9" way8Side7="189.6" />
+    <sfx fps="0" name="Goblin_Raider_C_Skill1" cnt="1" delay="0" life="0" />
+    <sfx fps="143" name="Goblin_Raider_C_Skill2" cnt="1" delay="0" life="0" />
+    <judgeCircle fps="148" element="PHYSICAL" range="450" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="200" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_Apply" />
+    <end fps="167" />
+  </active>
+</action>

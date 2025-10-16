@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Skill_C1" loop="False" speed="1" length="1.516667" startFps="0" endFps="0" isUseAnimMovement="True" />
+    <ani_movement fps="0" movementCount="91" moveDist_0="0" moveDist_1="1.277771" moveDist_2="115" moveDist_3="115" moveDist_4="115" moveDist_5="115" moveDist_6="115" moveDist_7="115" moveDist_8="115" moveDist_9="115" moveDist_10="115" moveDist_11="115" moveDist_12="115" moveDist_13="115" moveDist_14="115" moveDist_15="115" moveDist_16="115" moveDist_17="118.7778" moveDist_18="135" moveDist_19="135" moveDist_20="135" moveDist_21="135" moveDist_22="135" moveDist_23="135" moveDist_24="135" moveDist_25="135" moveDist_26="135" moveDist_27="135" moveDist_28="135" moveDist_29="188.1664" moveDist_30="305.0001" moveDist_31="320.1666" moveDist_32="335.3333" moveDist_33="350.5" moveDist_34="362.1587" moveDist_35="367.9365" moveDist_36="373.7143" moveDist_37="379.4921" moveDist_38="385.2698" moveDist_39="391.0476" moveDist_40="396.8254" moveDist_41="400.2398" moveDist_42="400.7719" moveDist_43="401.3041" moveDist_44="401.8363" moveDist_45="402.3684" moveDist_46="402.9006" moveDist_47="403.4327" moveDist_48="403.9649" moveDist_49="404.4971" moveDist_50="405.0292" moveDist_51="405.5614" moveDist_52="406.0936" moveDist_53="406.6257" moveDist_54="407.1579" moveDist_55="407.6901" moveDist_56="408.2222" moveDist_57="408.7544" moveDist_58="409.2866" moveDist_59="409.8187" moveDist_60="410" moveDist_61="410" moveDist_62="410" moveDist_63="410" moveDist_64="410" moveDist_65="410" moveDist_66="410" moveDist_67="410" moveDist_68="410" moveDist_69="410" moveDist_70="410" moveDist_71="410" moveDist_72="410" moveDist_73="410" moveDist_74="410" moveDist_75="410" moveDist_76="410" moveDist_77="410" moveDist_78="410" moveDist_79="410" moveDist_80="410" moveDist_81="410" moveDist_82="410" moveDist_83="410" moveDist_84="410" moveDist_85="408.1111" moveDist_86="406.0889" moveDist_87="404.0667" moveDist_88="402.0444" moveDist_89="400.0222" />
+    <vfx fps="30" name="PU_Costume_001_Skill_C1" node="" attach="False" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="70" z="0" AngleX="55" AngleY="0" AngleZ="0" offsetFront="100" offsetSide="0" count="1" delay="0" scale="200" scaleX="0.95" scaleY="0.95" scaleZ="0.95" isUseImgDir="False" isUse8WayRotaion="False" />
+    <vfx fps="5" name="PU_Costume_001_Skill_C1_Casting" node="" attach="False" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="55" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="150" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <color fps="6" name="PU_Costume_001" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.9528302" eg="0.4385656" eb="0.2471965" ea="1" duration="4" />
+    <color fps="13" name="PU_Costume_001" sr="0.9528302" sg="0.4385656" sb="0.2471965" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="4" />
+    <color fps="10" name="PU_Costume_001" sr="0.9528302" sg="0.4385656" sb="0.2471965" sa="1" er="0.9529412" eg="0.4392157" eb="0.2470588" ea="1" duration="3" />
+    <color fps="37" name="PU_Costume_001" sr="0.5" sg="0.5" sb="0.5" sa="1" er="1" eg="1" eb="1" ea="1" duration="4" />
+    <color fps="41" name="PU_Costume_001" sr="1" sg="1" sb="1" sa="1" er="1" eg="1" eb="1" ea="1" duration="10" />
+    <color fps="51" name="PU_Costume_001" sr="1" sg="1" sb="1" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="4" />
+    <color fps="25" name="PU_Costume_001" sr="1" sg="1" sb="1" sa="1" er="1" eg="1" eb="1" ea="1" duration="3" />
+    <camShake fps="32" amount="25" duration="0.1666667" />
+    <sfx fps="0" name="Action_Skill_C1" cnt="1" delay="0" life="0" />
+    <judgeCircle fps="35" element="PHYSICAL" range="500" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="100" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="True" applyName="Skill_C1_Apply" />
+    <material fps="28" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PT_Sprite_Effect_Quake" duration="22" />
+    <end fps="90" />
+  </active>
+</action>

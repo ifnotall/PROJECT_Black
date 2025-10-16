@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Support" loop="False" speed="1" length="1.516667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="40" name="FX_HU_Wa_Lancer_C_Support" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="-54.37" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="140" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="357.8965" way8Ry0="66.84801" way8Rz0="-1.953126E-06" way8Front0="108.19" way8Side0="40.2" way8Rx1="332.7802" way8Ry1="35.33072" way8Rz1="-2.709351" way8Front1="120" way8Side1="0" way8Rx2="357.1814" way8Ry2="-5.342548E-07" way8Rz2="0" way8Front2="60" way8Side2="-24.2" way8Rx3="340.289" way8Ry3="350.5202" way8Rz3="-18.66074" way8Front3="60" way8Side3="0" way8Rx4="4.918611E-06" way8Ry4="280.8986" way8Rz4="0" way8Front4="0" way8Side4="16.91" way8Rx5="27.08155" way8Ry5="210.7518" way8Rz5="265.6528" way8Front5="60" way8Side5="47.5" way8Rx6="28.09137" way8Ry6="180" way8Rz6="180" way8Front6="120" way8Side6="39.37" way8Rx7="35.52093" way8Ry7="136.5994" way8Rz7="88.21343" way8Front7="120" way8Side7="0" />
+    <vfx fps="0" name="FX_HU_Wa_Lancer_C_Supprot_Casting" node="" attach="False" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="150" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <color fps="22" name="HU_Wa_Lancer_C" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="9" />
+    <color fps="31" name="HU_Wa_Lancer_C" sr="0.35" sg="0.35" sb="0.35" sa="1" er="1" eg="1" eb="1" ea="1" duration="7" />
+    <color fps="41" name="HU_Wa_Lancer_C" sr="1" sg="1" sb="1" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="13" />
+    <color fps="54" name="HU_Wa_Lancer_C" sr="0.35" sg="0.35" sb="0.35" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="10" />
+    <projectile fps="41" type="NORMAL" range="300" splashRange="0" name="Empty_Projectile" x="0" y="90" z="0" rx="0" ry="0" rz="0" isAimingAtTarget="False" moveDist="0" randMoveDistMin="0" randMoveDistMax="0" isDirectional="True" dirAngle="0" randDirMin="0" randDirMax="0" targetPos="False" randomDist="0" offsetFront="0" offsetSide="0" speed="1500" accellStartFps_1="0" accelInterpolationFps_1="10" aceelSpeed_1="8000" accelLinear_1="False" returnWaitingFps="20" reaccellStartFps_1="0" reaccelInterpolationFps_1="10" reaceelSpeed_1="8000" reaccelLinear_1="False" duration="20" destroyFps="0" scale="2" retrunPrefabScale="2" shadowScale="2" destroyVFXscale="1" waitFps="0" hitCount="500" applyName="Support_Apply" />
+    <sfx fps="15" name="Lancer_C_Support" cnt="1" delay="0" life="0" />
+    <material fps="35" name="HU_Wa_Lancer_C" originName="HU_Sprite_Standard" changeName="HU_Sprite_Effect_Quake" duration="7" />
+    <material fps="42" name="HU_Wa_Lancer_C" originName="HU_Sprite_Effect_Quake" changeName="HU_Sprite_Effect_Shake" duration="28" />
+    <end fps="90" />
+  </active>
+</action>

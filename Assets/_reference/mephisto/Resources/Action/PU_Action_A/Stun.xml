@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Stun" loop="False" speed="1" length="0.3166667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <sfx fps="0" name="Action_Stun" cnt="1" delay="0" life="0" />
+    <camShake fps="0" amount="25" duration="0.1666667" />
+    <material fps="2" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PT_Sprite_Effect_Stun" duration="17" />
+    <end fps="19" />
+  </active>
+</action>

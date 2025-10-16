@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Skill_A1" loop="True" speed="1" length="1.516667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="45" name="PU_Costume_001_Skill_A1" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="170" scaleX="0.6" scaleY="0.6" scaleZ="0.6" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="323.4205" way8Ry0="3.565766" way8Rz0="359.7357" way8Front0="300" way8Side0="0" way8Rx1="329.2072" way8Ry1="301.0233" way8Rz1="-12.36616" way8Front1="300" way8Side1="0" way8Rx2="359.64" way8Ry2="272.3619" way8Rz2="-55" way8Front2="300" way8Side2="0" way8Rx3="31.92215" way8Ry3="272.1337" way8Rz3="-85.38744" way8Front3="300" way8Side3="-45.34" way8Rx4="45.57631" way8Ry4="189.7474" way8Rz4="-173.0056" way8Front4="300" way8Side4="-45.36" way8Rx5="37.82974" way8Ry5="106.3685" way8Rz5="455.3489" way8Front5="300" way8Side5="0" way8Rx6="360" way8Ry6="90" way8Rz6="416.1041" way8Front6="300" way8Side6="0" way8Rx7="337.6449" way8Ry7="83.43092" way8Rz7="355.2186" way8Front7="300" way8Side7="-62.41" />
+    <vfx fps="15" name="PU_Costume_001_Dash_Dust" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="100" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="294.9605" way8Ry0="344.5162" way8Rz0="12.77006" way8Front0="0" way8Side0="0" way8Rx1="317.8127" way8Ry1="262.713" way8Rz1="282.0689" way8Front1="0" way8Side1="0" way8Rx2="3.415095E-06" way8Ry2="272.1073" way8Rz2="-54.72867" way8Front2="0" way8Side2="0" way8Rx3="44.98361" way8Ry3="271.9391" way8Rz3="-87.41844" way8Front3="0" way8Side3="0" way8Rx4="76.92199" way8Ry4="354.6152" way8Rz4="174.0658" way8Front4="0" way8Side4="0" way8Rx5="14.39359" way8Ry5="136.4537" way8Rz5="474.5148" way8Front5="0" way8Side5="0" way8Rx6="5.122642E-06" way8Ry6="90" way8Rz6="55" way8Front6="0" way8Side6="0" way8Rx7="317.4625" way8Ry7="52.42076" way8Rz7="379.7021" way8Front7="0" way8Side7="0" />
+    <move fps="14" speed="1000" duration="30" reachedDist="100" accellStartFps_1="0" accelInterpolationFps_1="30" aceelSpeed_1="2000" accelLinear_1="False" />
+    <color fps="42" name="PU_Costume_001" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.9528302" eg="0.4385656" eb="0.2471965" ea="1" duration="3" />
+    <color fps="45" name="PU_Costume_001" sr="0.9528302" sg="0.4385656" sb="0.2471965" sa="1" er="0.9528302" eg="0.4385656" eb="0.2471965" ea="1" duration="9" />
+    <color fps="54" name="PU_Costume_001" sr="0.9528302" sg="0.4385656" sb="0.2471965" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="3" />
+    <color fps="57" name="PU_Costume_001" sr="0.35" sg="0.35" sb="0.35" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="6" />
+    <camShake fps="42" amount="30" duration="0.25" />
+    <color fps="6" name="PU_Costume_001" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.3" eg="0.3" eb="0.3" ea="1" duration="6" />
+    <color fps="12" name="PU_Costume_001" sr="0.3" sg="0.3" sb="0.3" sa="1" er="1" eg="1" eb="1" ea="1" duration="20" />
+    <color fps="32" name="PU_Costume_001" sr="1" sg="1" sb="1" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="10" />
+    <sfx fps="0" name="Action_Skill_A1" cnt="1" delay="0" life="0" />
+    <judgeCircle fps="46" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="300" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="True" applyName="Skill_A1_Apply" />
+    <material fps="48" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PT_Sprite_Effect_Quake" duration="12" />
+    <material fps="60" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PU_Sprite_Effect_Shake" duration="10" />
+    <end fps="90" />
+  </active>
+</action>

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602d7001af6e54249bc681e45e0f1da0, type: 3}
+  m_Name: ActionNameDefine
+  m_EditorClassIdentifier: 
+  IDLE: Idle
+  RUN: Run
+  DIE: Die
+  ATTACK: Attack
+  STATE_DOT_COLD: State_Dot_Cold
+  STATE_DOT_FIRE: State_Dot_Fire
+  STATE_DOT_LIGHTNING: State_Dot_Lightning
+  STATE_DOT_POISON: State_Dot_Poison
+  STATE_STUN_COLD: State_Stun_Cold
+  STATE_STUN_FIRE: State_Stun_Fire
+  STATE_STUN_LIGHTING: State_Stun_Lightning
+  STATE_STUN_POISON: State_Stun_Poison
+  STATE_DIE_COLD: State_Die_Cold
+  STATE_DIE_FIRE: State_Die_Fire
+  STATE_DIE_LIGHTNING: State_Die_Lightning
+  STATE_DIE_POISON: State_Die_Poison

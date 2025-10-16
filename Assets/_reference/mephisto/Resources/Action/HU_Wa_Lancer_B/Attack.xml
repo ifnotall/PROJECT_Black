@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Attack" loop="False" speed="1" length="0.8166667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="21" name="FX_HU_Wa_Lancer_B_Attack" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="150" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="88.37743" way8Ry0="179.9999" way8Rz0="179.9999" way8Front0="427" way8Side0="-33.81" way8Rx1="28.73748" way8Ry1="89.47025" way8Rz1="44.60979" way8Front1="374.1" way8Side1="-92" way8Rx2="-8.537737E-06" way8Ry2="90.1941" way8Rz2="-7.629395E-06" way8Front2="325.8" way8Side2="-147.5" way8Rx3="324.4186" way8Ry3="86.85189" way8Rz3="-41.85551" way8Front3="312.67" way8Side3="-151.3" way8Rx4="303.7123" way8Ry4="-7.507128E-06" way8Rz4="0" way8Front4="260" way8Side4="-34.56" way8Rx5="327.6058" way8Ry5="269.607" way8Rz5="405.2848" way8Front5="270.1" way8Side5="74.8" way8Rx6="-6.830189E-06" way8Ry6="271.8735" way8Rz6="360" way8Front6="300" way8Side6="83.3" way8Rx7="30.29" way8Ry7="269.1676" way8Rz7="314.3901" way8Front7="368.7" way8Side7="21.2" />
+    <sfx fps="1" name="Lancer_B_Attack" cnt="1" delay="0" life="0" />
+    <material fps="24" name="HU_Wa_Lancer_B" originName="HU_Sprite_Standard" changeName="HU_Sprite_Effect_Shake" duration="5" />
+    <end fps="49" />
+  </active>
+</action>

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PU_Sprite_Effect_Dash
+  m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
+  m_Parent: {fileID: 2100000, guid: 10acbd3110f369f44bee61e9f77463e0, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - DOODLE_ON
+  - GLOW_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _DistortAmount: 0.1
+    - _DistortTexXSpeed: 30.4
+    - _DistortTexYSpeed: 9.2
+    - _FishEyeUvAmount: 0.001
+    - _GlitchAmount: 20
+    - _GlitchSize: 5
+    - _Glow: 20
+    - _GlowGlobal: 10
+    - _HandDrawnAmount: 10
+    - _HandDrawnSpeed: 15
+    - _InnerOutlineAlpha: 0.01
+    - _InnerOutlineGlow: 50
+    - _InnerOutlineThickness: 1
+    - _MotionBlurAngle: 0.45
+    - _MotionBlurDist: 0.1
+    - _PinchUvAmount: 0.039
+    - _WaveAmount: 10
+    - _WaveSpeed: 25
+    - _WaveStrength: 5
+    - _WaveX: 0.5
+    - _ZoomUvAmount: 1.1
+    m_Colors:
+    - _InnerOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

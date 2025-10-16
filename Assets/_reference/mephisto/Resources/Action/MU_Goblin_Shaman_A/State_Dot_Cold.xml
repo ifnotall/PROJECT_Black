@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Idle" loop="False" speed="1" length="0.5166667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <material fps="0" name="MU_Goblin_Shaman_A" originName="MU_Sprite_Standard" changeName="MU_State_Dot_Cold" duration="31" />
+    <vfx fps="0" name="FX_MU_State_Dot_Cold" node="" attach="True" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="30" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <sfx fps="0" name="State_Dot_Cold" cnt="1" delay="0" life="0" />
+    <end fps="31" />
+  </active>
+</action>

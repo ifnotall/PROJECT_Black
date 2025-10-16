@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Unique" loop="False" speed="1" length="2.1" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="63" name="FX_HU_Wa_Lancer_C_Unique" node="" attach="False" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="-55" AngleY="0" AngleZ="0" offsetFront="650" offsetSide="0" count="1" delay="0" scale="100" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <color fps="52" name="HU_Wa_Lancer_C" sr="0.5" sg="0.5" sb="0.5" sa="1" er="1" eg="1" eb="1" ea="1" duration="17" />
+    <color fps="28" name="HU_Wa_Lancer_C" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="9" />
+    <color fps="69" name="HU_Wa_Lancer_C" sr="1" sg="1" sb="1" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="10" />
+    <color fps="79" name="HU_Wa_Lancer_C" sr="0.35" sg="0.35" sb="0.35" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="14" />
+    <vfx fps="56" name="FX_HU_Wa_Lancer_C_Attack" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="350" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="31.96659" way8Ry0="342.8648" way8Rz0="91.13725" way8Front0="107.9" way8Side0="-63.8" way8Rx1="53.80477" way8Ry1="1.810955" way8Rz1="92.85094" way8Front1="256.5" way8Side1="-74.4" way8Rx2="83.28502" way8Ry2="89.3885" way8Rz2="179.9999" way8Front2="216.1" way8Side2="-216.2" way8Rx3="41.19777" way8Ry3="20.61502" way8Rz3="88.79875" way8Front3="261.48" way8Side3="-89.9" way8Rx4="40.30391" way8Ry4="29.33789" way8Rz4="104.3557" way8Front4="150" way8Side4="0" way8Rx5="84.89447" way8Ry5="351.4059" way8Rz5="444.7102" way8Front5="301.08" way8Side5="95.43" way8Rx6="102.6" way8Ry6="88.95877" way8Rz6="180" way8Front6="270" way8Side6="139.4" way8Rx7="36.08247" way8Ry7="1.467882" way8Rz7="75.60039" way8Front7="364.52" way8Side7="107.45" />
+    <vfx fps="4" name="FX_HU_Wa_Lancer_C_Unique_Casting" node="" attach="True" isDirectional="False" duration="0" earlyEmissionOffFrame="0" x="0" y="-56.15" z="0" AngleX="-55" AngleY="0" AngleZ="0" offsetFront="96.2" offsetSide="0" count="1" delay="0" scale="100" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <camShake fps="62" amount="20" duration="0.08333334" />
+    <camShake fps="67" amount="5" duration="0.1333333" />
+    <sfx fps="4" name="Lancer_C_Unique" cnt="1" delay="0" life="0" />
+    <judgeCircle fps="64" element="PHYSICAL" range="500" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="600" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Unique_Apply" />
+    <material fps="56" name="HU_Wa_Lancer_C" originName="HU_Sprite_Standard" changeName="HU_Sprite_Effect_Quake" duration="18" />
+    <material fps="74" name="HU_Wa_Lancer_C" originName="HU_Sprite_Effect_Quake" changeName="HU_Sprite_Effect_Shake" duration="41" />
+    <end fps="126" />
+  </active>
+</action>

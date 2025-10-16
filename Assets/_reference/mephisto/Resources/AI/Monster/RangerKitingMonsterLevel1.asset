@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+  m_Name: RangerKitingMonsterLevel1
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(733.820435,-6.95968628)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.1068573,169.850525)"},"ID":1,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1285.86816,216.042419)"},"ID":2,"Name":"\uc0ac\ub9dd","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"K3Engine.BehaviorDesigner.CheckUnitState","NodeData":{"Offset":"(-0.6702318,187.945953)"},"ID":3,"Name":"\uc720\ub2db
+        \ud604\uc7ac\uc0c1\ud0dc \ube44\uad50","Instant":true,"UnitStatestate":"DIE"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-906.243469,222.607483)"},"ID":4,"Name":"\ud68c\ud53c
+        \uae30\ub3d9","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"K3Engine.BehaviorDesigner.TargetIsClose","NodeData":{"Offset":"(-182.1347,190.350342)"},"ID":5,"Name":"\ud0c0\uac9f
+        \uc720\ub2db \uadfc\uc811 \ud655\uc778","Instant":true,"SinglecloseDistance":300},{"Type":"K3Engine.BehaviorDesigner.RandomChance","NodeData":{"Offset":"(-31.6795654,194.040283)"},"ID":6,"Name":"\ubb34\uc791\uc704
+        \ud655\ub960 \uccb4\ud06c","Instant":true,"Singlechance":20},{"Type":"K3Engine.BehaviorDesigner.ChangeState","NodeData":{"Offset":"(110.94,194.307)"},"ID":7,"Name":"\uc0c1\ud0dc
+        \ubcc0\uacbd","Instant":true,"UnitStatechangeState":"EVASION"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-514.285034,224.100632)"},"ID":8,"Name":"\uc2a4\ud0ac","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"K3Engine.BehaviorDesigner.TargetInSkillRange","NodeData":{"Offset":"(-100.646545,192.461548)"},"ID":9,"Name":"\ud0c0\uac9f
+        \uc720\ub2db \uc2a4\ud0ac\uc0ac\uac70\ub9ac \ud655\uc778","Instant":true},{"Type":"K3Engine.BehaviorDesigner.ChangeState","NodeData":{"Offset":"(70.18674,188.294922)"},"ID":10,"Name":"\uc0c1\ud0dc
+        \ubcc0\uacbd","Instant":true,"UnitStatechangeState":"SKILL"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-104.4955,222.1717)"},"ID":11,"Name":"\uacf5\uaca9","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"K3Engine.BehaviorDesigner.TargetInAttackRange","NodeData":{"Offset":"(-100.9245,193.850525)"},"ID":12,"Name":"\ud0c0\uac9f
+        \uc720\ub2db \uacf5\uaca9\uc0ac\uac70\ub9ac \ud655\uc778","Instant":true},{"Type":"K3Engine.BehaviorDesigner.ChangeState","NodeData":{"Offset":"(68.33334,190)"},"ID":13,"Name":"\uc0c1\ud0dc
+        \ubcc0\uacbd","Instant":true,"UnitStatechangeState":"ATTACK"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(235.021652,219.162918)"},"ID":14,"Name":"\ucd94\uc801","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"K3Engine.BehaviorDesigner.EnemyInSight","NodeData":{"Offset":"(-112.4711,185.046936)"},"ID":15,"Name":"\uc801
+        \uc2dc\uc57c \ud655\uc778","Instant":true},{"Type":"K3Engine.BehaviorDesigner.FormationChange","NodeData":{"Offset":"(45.5562134,194.857483)"},"ID":16,"Name":"\ud3ec\uba54\uc774\uc158
+        \ud0c0\uc785 \ubcc0\uacbd","Instant":true,"FormationTypeformationType":"ARC"},{"Type":"K3Engine.BehaviorDesigner.ChangeState","NodeData":{"Offset":"(222.3301,192.3999)"},"ID":17,"Name":"\uc0c1\ud0dc
+        \ubcc0\uacbd","Instant":true,"UnitStatechangeState":"TRACE_FORMATION"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(817.4733,223.944855)"},"ID":18,"Name":"\uc21c\ucc30","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"K3Engine.BehaviorDesigner.CheckNoTargetActor","NodeData":{"Offset":"(-104.248566,193.599854)"},"ID":19,"Name":"\ud0c0\uac9f
+        \uc720\ub2db \uc874\uc7ac \ud655\uc778 (\uc5c6\uc74c)","Instant":true},{"Type":"K3Engine.BehaviorDesigner.ChangeState","NodeData":{"Offset":"(78.32843,186.4129)"},"ID":20,"Name":"\uc0c1\ud0dc
+        \ubcc0\uacbd","Instant":true,"UnitStatechangeState":"PATROL"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(1139.86377,221.803345)"},"ID":21,"Name":"\uc544\uc774\ub4e4","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"K3Engine.BehaviorDesigner.ChangeState","NodeData":{"Offset":"(3.23235035,186.572937)"},"ID":22,"Name":"\uc0c1\ud0dc
+        \ubcc0\uacbd","Instant":true,"UnitStatechangeState":"STAND"}]}]}}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.9

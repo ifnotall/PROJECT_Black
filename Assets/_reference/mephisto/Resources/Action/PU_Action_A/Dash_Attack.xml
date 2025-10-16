@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Attack" loop="False" speed="1" length="2.016667" startFps="80" endFps="110" isUseAnimMovement="False" />
+    <vfx fps="7" name="PU_Costume_001_Attack_Finish" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="350" scaleX="0.9" scaleY="0.9" scaleZ="0.9" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="31.51173" way8Ry0="144.4932" way8Rz0="160.2036" way8Front0="7.61" way8Side0="12" way8Rx1="21.82289" way8Ry1="97.20897" way8Rz1="84.71686" way8Front1="-88.5" way8Side1="-45.39" way8Rx2="341.8658" way8Ry2="68.23134" way8Rz2="54.41012" way8Front2="-46.6" way8Side2="0" way8Rx3="310.1415" way8Ry3="22.26493" way8Rz3="25.91634" way8Front3="-74.8" way8Side3="-22.5" way8Rx4="325.0445" way8Ry4="322.2685" way8Rz4="23.90874" way8Front4="-157.6" way8Side4="0" way8Rx5="350.9156" way8Ry5="271.3445" way8Rz5="367.8734" way8Front5="-130.29" way8Side5="52.51" way8Rx6="19.32609" way8Ry6="246.1053" way8Rz6="303.8109" way8Front6="-98.1" way8Side6="82.65" way8Rx7="44.28424" way8Ry7="189.8284" way8Rz7="229.5135" way8Front7="-103.9" way8Side7="51.1" />
+    <color fps="4" name="PU_Costume_001" sr="0.5" sg="0.5" sb="0.5" sa="1" er="1" eg="1" eb="1" ea="1" duration="3" />
+    <color fps="13" name="PU_Costume_001" sr="1" sg="1" sb="1" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="5" />
+    <color fps="7" name="PU_Costume_001" sr="1" sg="1" sb="1" sa="1" er="1" eg="1" eb="1" ea="1" duration="6" />
+    <sfx fps="9" name="Action_Attack3" cnt="1" delay="0" life="0" />
+    <judgeCircle fps="9" element="PHYSICAL" range="300" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="200" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="True" applyName="Dash_Attack_Apply" />
+    <material fps="5" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PT_Sprite_Effect_Quake" duration="10" />
+    <end fps="20" />
+  </active>
+</action>

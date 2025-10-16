@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Dash" loop="False" speed="1" length="0.2166667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <move fps="0" speed="4500" duration="13" reachedDist="150" />
+    <color fps="0" name="PU_Costume_001" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.3" eg="0.3" eb="0.3" ea="0" duration="6" />
+    <color fps="6" name="PU_Costume_001" sr="0.3" sg="0.3" sb="0.3" sa="0" er="0.5" eg="0.5" eb="0.5" ea="1" duration="7" />
+    <vfx fps="1" name="PU_Costume_001_Dash" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="50" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="100" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <sfx fps="0" name="Action_Dash" cnt="1" delay="0" life="0" />
+    <material fps="2" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="HU_Sprite_Effect_Dash" duration="8" />
+    <end fps="13" />
+  </active>
+</action>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Attack" loop="False" speed="1" length="1.016667" startFps="0" endFps="0" isUseAnimMovement="False" />
+    <vfx fps="35" name="MU_Goblin_Shamen_A_Muzzle" node="" attach="False" isDirectional="True" duration="0" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="0" AngleY="0" AngleZ="0" offsetFront="300" offsetSide="28.55" count="1" delay="0" scale="100" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="True" isUse8WayRotaion="True" way8Rx0="0" way8Ry0="0" way8Rz0="-2.273737E-13" way8Front0="409.76" way8Side0="0" way8Rx1="0" way8Ry1="0" way8Rz1="10.9773" way8Front1="427.74" way8Side1="-61.3" way8Rx2="0" way8Ry2="0" way8Rz2="0" way8Front2="319.22" way8Side2="-120.88" way8Rx3="0" way8Ry3="0" way8Rz3="0" way8Front3="221.49" way8Side3="-101.31" way8Rx4="0" way8Ry4="0" way8Rz4="0" way8Front4="281.26" way8Side4="0" way8Rx5="0" way8Ry5="0" way8Rz5="391.4907" way8Front5="235.8" way8Side5="167.4" way8Rx6="0" way8Ry6="0" way8Rz6="370.6154" way8Front6="301.1" way8Side6="141.04" way8Rx7="0" way8Ry7="0" way8Rz7="360" way8Front7="353.68" way8Side7="78.77" />
+    <color fps="0" name="MU_Goblin_Shaman_A" sr="0.5" sg="0.5" sb="0.5" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="17" />
+    <color fps="17" name="MU_Goblin_Shaman_A" sr="0.35" sg="0.35" sb="0.35" sa="1" er="0.8666667" eg="0.6117647" eb="0.372549" ea="1" duration="8" />
+    <color fps="25" name="MU_Goblin_Shaman_A" sr="0.8666667" sg="0.6117647" sb="0.372549" sa="1" er="0.35" eg="0.35" eb="0.35" ea="1" duration="15" />
+    <color fps="40" name="MU_Goblin_Shaman_A" sr="0.35" sg="0.35" sb="0.35" sa="1" er="0.5" eg="0.5" eb="0.5" ea="1" duration="20" />
+    <projectile fps="35" type="NORMAL" range="100" splashRange="0" name="MU_Goblin_Shamen_A_Projectile" shadowName="PoisonBall_1_Shadow" destroyVFx="FX_Hit_Fire_01" x="0" y="74.36" z="0" rx="0" ry="0" rz="0" isAimingAtTarget="False" moveDist="0" randMoveDistMin="0" randMoveDistMax="0" isDirectional="True" dirAngle="0" randDirMin="0" randDirMax="0" targetPos="False" randomDist="0" offsetFront="110" offsetSide="0" speed="1300" returnWaitingFps="0" duration="60" destroyFps="0" scale="70" retrunPrefabScale="1" shadowScale="1.1" destroyVFXscale="100" waitFps="0" hitCount="1" />
+    <sfx fps="15" name="Goblin_Shaman_A_Attack" cnt="1" delay="0" life="0" />
+    <material fps="29" name="MU_Goblin_Shaman_A" originName="MU_Sprite_Standard" changeName="MU_Sprite_Effect_Shake" duration="28" />
+    <end fps="60" />
+  </active>
+</action>

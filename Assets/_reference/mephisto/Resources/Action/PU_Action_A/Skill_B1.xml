@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<action loop="False">
+  <active>
+    <ani fps="0" name="Skill_B1" loop="False" speed="1" length="2.816667" startFps="0" endFps="24" isUseAnimMovement="False" />
+    <ani fps="24" name="Skill_B1" loop="False" speed="1" length="2.816667" startFps="24" endFps="133" isUseAnimMovement="False" />
+    <vfx fps="24" name="PU_Costume_001_Skill_B1" node="" attach="True" isDirectional="False" duration="109" earlyEmissionOffFrame="0" x="0" y="0" z="0" AngleX="55" AngleY="0" AngleZ="0" offsetFront="0" offsetSide="0" count="1" delay="0" scale="120" scaleX="1" scaleY="1" scaleZ="1" isUseImgDir="False" isUse8WayRotaion="False" />
+    <ani fps="133" name="Skill_B1" loop="False" speed="1" length="2.816667" startFps="133" endFps="169" isUseAnimMovement="False" />
+    <camShake fps="24" amount="10" duration="1.816667" />
+    <sfx fps="0" name="Action_Skill_B1" cnt="1" delay="0" life="0" />
+    <judgeCircle fps="25" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="35" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="45" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="55" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="65" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="75" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="85" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="95" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="105" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="115" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="125" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <judgeCircle fps="135" element="PHYSICAL" range="400" applyID="0" attach="False" dirAngle="0" duration="1" offsetFront="0" offsetSide="0" targetCount="0" isFreindly="False" isPlayerDirectionAttack="False" applyName="Skill_B1_Apply" />
+    <material fps="30" name="PU_Costume_001" originName="HU_Sprite_Standard" changeName="PU_Sprite_Effect_Whirl" duration="90" />
+    <move fps="30" speed="1000" duration="51" reachedDist="0" />
+    <move fps="81" speed="-1000" duration="52" reachedDist="0" />
+    <control_time fps="25" duration="108" />
+    <end fps="169" />
+  </active>
+</action>
