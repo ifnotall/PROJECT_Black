@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Glow1cg 4
+  m_Shader: {fileID: 4800000, guid: a5dae301783d1974899d73bca1e2260b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORTEXTURESETTINGS_ON
+  - _DISTORTTEXTURESETTING_ON
+  - _MASKACTIVATE_ON
+  m_InvalidKeywords:
+  - _MAINTEX_G_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Base_Tex:
+        m_Texture: {fileID: 2800000, guid: 67bcb822eebd4274a9324aebea024510, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color_Tex:
+        m_Texture: {fileID: 2800000, guid: 29386a2957577d748b090134624c451b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_DissolveTexAdvanceSetting:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Flow:
+        m_Texture: {fileID: 2800000, guid: b963d98b834582a4b876695d49a46d49, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7605196420d204945843c4c794c58361, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 803192b3518592f4faaa4d8e1ff37dc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: daeefe0726dcf0048a0c4906e104cbd2, type: 3}
+        m_Scale: {x: 2.61, y: 0.61}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AllPower: 1
+    - _AlphaCutoff: 0.5
+    - _BaseColor_Smoothness: 0.88
+    - _BaseColor_Transition: 0.11
+    - _Blend1: 1
+    - _Blend2: 1
+    - _BumpScale: 1
+    - _ColorTextureSettings: 1
+    - _Color_Hue: 0
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _Depthpower: 0
+    - _DetailNormalMapScale: 1
+    - _DissolveTex_Smoothness: 0.76
+    - _DissolveTex_Transition: 2.92
+    - _DissolveTextureSettings: 0
+    - _DistortDissolvePower: 12.29
+    - _DistortPower: 0.87
+    - _DistortTextureSetting: 1
+    - _Dst: 10
+    - _DstBlend: 1
+    - _EdgeHighlight: 0
+    - _Emission: 2.62
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MainTex_A: 0
+    - _MainTex_B: 0
+    - _MainTex_G: 1
+    - _MainTex_R: 0
+    - _MaskActivate: 1
+    - _MaskTex_Smoothness: 1
+    - _MaskTex_Transition: -0.18
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _Parallax: 0.02
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticleActivate: 0
+    - _SoftParticlesDistance: 0
+    - _SpecularHighlights: 1
+    - _Src: 5
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _Use_Custom1_zw_Mask_zwOffset: 0
+    - _Use_Custom2_x_DissolveTransition: 0
+    - _Usealphacenterglow: 0
+    - _Usecenterglow: 0
+    - _Usecustomrandom: 0
+    - _Usedepth: 0
+    - _ZTestMode: 4
+    - _use_custom1_xy_base_zwOffset: 0
+    - _use_custom2_y_distortPower: 0
+    m_Colors:
+    - _AllColor: {r: 179.5641, g: 79.16797, b: 61.83103, a: 0}
+    - _BaseTexxyTilingzwOffset: {r: 1, g: 0.2, b: 0, a: 0}
+    - _BaseTexxydirzSpeedwPolarC1: {r: 0, g: 1, b: -0.2, a: 0}
+    - _Color: {r: 0.59607846, g: 0.98039216, b: 0.8307561, a: 1}
+    - _ColorTex_xyTilingzwOffset: {r: 1, g: 0.5, b: 0, a: 0}
+    - _ColorTex_xydirzSpeedwPolarC1: {r: 0, g: 1, b: -0.5, a: 0}
+    - _DissolveTex_xyTilingzwOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _DissolveTex_xydirzSpeedwPolarC1: {r: 1, g: 1, b: 0, a: 0}
+    - _DistortTex_xydirzSpeedwPolarC1: {r: 0, g: 1, b: -2, a: 0}
+    - _Distort_Directionxy: {r: 0.3, g: 0.3, b: 0, a: 0}
+    - _Distort_xyTilingzwOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _DistortionSpeedXYPowerZ: {r: 0, g: -1, b: 0, a: 0}
+    - _EdgeHighlightColor1: {r: 59.714115, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MaskTex_xyTilingzwOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskTex_xydirzSpeedwPolarC1: {r: 1, g: 1, b: 0, a: 0}
+    - _R_Light_Color: {r: 0.8494176, g: 2.1185477, b: 0.89448965, a: 0}
+    - _R_dark_Color: {r: 0.59613365, g: 0.7924528, b: 0, a: 0}
+    - _SpeedMainTexUVNoiseZW: {r: 0, g: 0, b: 0, a: -1}
+  m_BuildTextureStacks: []

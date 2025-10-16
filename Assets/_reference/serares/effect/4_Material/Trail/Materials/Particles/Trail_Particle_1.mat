@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Trail_Particle_1
+  m_Shader: {fileID: 4800000, guid: b9c76e0256582304585df11b6fadb0f4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _TOGGLETEXTURECOLOR_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 60180f6664ea61141a5186e1067176fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: ae8847d1357106c4bab774f2e43688e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Amplify: 0.009
+    - _ColorChange: 0.37
+    - _ColorChangeSoftness: 1.48
+    - _Cutoff: 0.5
+    - _Distance: 1
+    - _Emission: 20
+    - _FlowScale: 1
+    - _FlowSpeed: -2.81
+    - _MaskIntensity: -1.57
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RotationCorrection: 0
+    - _ToggleTextureColor: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0, g: 0.51680994, b: 1, a: 0}
+    - _Color1: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EndColor: {r: 0.3119401, g: 0.10065851, b: 0.5471698, a: 0}
+    - _Offset: {r: 0, g: 0.16, b: 0, a: 0}
+    - _StartColor: {r: 0.039649326, g: 0.39569068, b: 0.9339623, a: 0}
+    - _Tiling: {r: 1.23, g: 0.61, b: 0, a: 0}
+  m_BuildTextureStacks: []
