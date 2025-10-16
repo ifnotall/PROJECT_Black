@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2742479932074234916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: a9971c97451788d469910bdf45045ef6, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-134414668310242501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 3589660000195633915, guid: ac9e5c49854b6124e820b27bcccc3d90, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 1
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 1
+  m_scale: 180
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 1
+  m_way8OffsetRotation:
+  - {x: -0.000003495846, y: 100.46946, z: -0.00000420102}
+  - {x: 341.6021, y: 19.427546, z: 11.401432}
+  - {x: 0, y: 0, z: 0}
+  - {x: 323.04688, y: 340.34503, z: -17.111832}
+  - {x: 0.0000050083554, y: 270.88742, z: 0}
+  - {x: 15.881849, y: 196.52986, z: 257.48743}
+  - {x: 37.10787, y: 180.4735, z: 179.69025}
+  - {x: 32.923355, y: 151.50624, z: 93.312195}
+  m_way8OffsetFront:
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 13.6
+  - 0
+  m_way8OffsetSide:
+  - -30.19
+  - 78.6
+  - 47.45
+  - 95
+  - 0
+  - -98.72
+  - 7.48
+  - -65.64
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd61582142d3a4a860a20dbabcfecd, type: 3}
+  m_Name: Support
+  m_EditorClassIdentifier: 
+  m_actionName: Support
+  m_actionMaxFrame: 120
+  m_actionDataFrame: 90
+  m_isLoop: 0
+  m_previewPercentageRange: {x: 0, y: 0.75}
+  m_startFrame: 0
+  m_endFrame: 90
+  m_events:
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 0.75}
+    m_startFrame: 0
+    m_endFrame: 90
+    m_previewable: 0
+    m_actionEventObj: {fileID: 1334545688391207161}
+  - m_eventTime: 0.325
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.325, y: 0}
+    m_startFrame: 39
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -134414668310242501}
+  - m_eventTime: 0.25
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 30
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -2742479932074234916}
+--- !u!114 &1334545688391207161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 90
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 3
+  m_lastSelectedBlendTreeIndex: 3
+  m_blendTreeNames: []
+  m_animationName: Support
+  m_animationLength: 1.5166665
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 0
+  m_endFrame: 0
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []

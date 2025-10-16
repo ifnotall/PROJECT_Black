@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8824220337259055223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 90
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 1
+  m_lastSelectedBlendTreeIndex: 1
+  m_blendTreeNames: []
+  m_animationName: Attack
+  m_animationLength: 1.5166665
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 0
+  m_endFrame: 0
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []
+--- !u!114 &-5177952725282178564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: HU_Wa_Lancer_A
+  m_startColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_endColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  m_originColor: {r: 0.42272726, g: 0.42272726, b: 0.42272726, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd61582142d3a4a860a20dbabcfecd, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  m_actionName: Attack
+  m_actionMaxFrame: 90
+  m_actionDataFrame: 90
+  m_isLoop: 0
+  m_previewPercentageRange: {x: 0, y: 1}
+  m_startFrame: 0
+  m_endFrame: 90
+  m_events:
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 0
+    m_endFrame: 90
+    m_previewable: 0
+    m_actionEventObj: {fileID: -8824220337259055223}
+  - m_eventTime: 0.64444447
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 58
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 38797062849399546}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.46666667, y: 0.65555555}
+    m_startFrame: 42
+    m_endFrame: 59
+    m_previewable: 0
+    m_actionEventObj: {fileID: -5177952725282178564}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.65555555, y: 0.7}
+    m_startFrame: 59
+    m_endFrame: 63
+    m_previewable: 0
+    m_actionEventObj: {fileID: 2271919766701606634}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.7, y: 0.76666665}
+    m_startFrame: 63
+    m_endFrame: 69
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4632938481602654445}
+  - m_eventTime: 0.7
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 63
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 6164896336964108584}
+--- !u!114 &38797062849399546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 120695788342474595, guid: c990de0f967327c45923edefbfa4f626, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 1
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 1
+  m_scale: 130
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 1
+  m_way8OffsetRotation:
+  - {x: 28.775047, y: 350.9497, z: 248.52705}
+  - {x: 0, y: 0, z: 275.55673}
+  - {x: -0, y: 0, z: 266.73892}
+  - {x: -0, y: -0, z: -109.721794}
+  - {x: -0, y: -0, z: -104.05876}
+  - {x: -0, y: 0, z: 268.4}
+  - {x: -0, y: -0, z: 259.7}
+  - {x: -0, y: 0, z: 242.64543}
+  m_way8OffsetFront:
+  - 262.97
+  - 222.7
+  - 150
+  - 110
+  - 71.36
+  - 12.6
+  - 150
+  - 220
+  m_way8OffsetSide:
+  - 22.1
+  - -58.64
+  - -113.9
+  - -102.11
+  - 0
+  - 142.8
+  - 153.1
+  - 108.5
+--- !u!114 &2271919766701606634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: HU_Wa_Lancer_A
+  m_startColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  m_endColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  m_originColor: {r: 0.5706897, g: 0.5706897, b: 0.5706897, a: 0.86152804}
+--- !u!114 &4632938481602654445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: HU_Wa_Lancer_A
+  m_startColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  m_endColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_originColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+--- !u!114 &6164896336964108584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 68800fdad4e279d4b9c9baf255b0162f, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4620914613324392910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_isSelected: 0
+  m_prefab: {fileID: 9056297517105847389, guid: dbd3c227c94d086468f53a6d516d61f5, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 0.6
+--- !u!114 &-1545179443211371385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 31
+  m_fixedFrameCount: 0
+  m_isSelected: 1
+  m_selectedBlendTreeIndex: 2
+  m_lastSelectedBlendTreeIndex: 2
+  m_blendTreeNames: []
+  m_animationName: Run
+  m_animationLength: 0.51666665
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 0
+  m_endFrame: 0
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd61582142d3a4a860a20dbabcfecd, type: 3}
+  m_Name: Run
+  m_EditorClassIdentifier: 
+  m_actionName: Run
+  m_actionMaxFrame: 31
+  m_actionDataFrame: 31
+  m_isLoop: 1
+  m_previewPercentageRange: {x: 0, y: 1}
+  m_startFrame: 0
+  m_endFrame: 31
+  m_events:
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 0
+    m_endFrame: 31
+    m_previewable: 0
+    m_actionEventObj: {fileID: -1545179443211371385}
+  - m_eventTime: 0.3548387
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.3548387, y: 0}
+    m_startFrame: 11
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 134524256716669590}
+  - m_eventTime: 0.9354839
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.9354839, y: 0}
+    m_startFrame: 29
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -4620914613324392910}
+--- !u!114 &134524256716669590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_isSelected: 0
+  m_prefab: {fileID: 9056297517105847389, guid: dbd3c227c94d086468f53a6d516d61f5, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 0.6

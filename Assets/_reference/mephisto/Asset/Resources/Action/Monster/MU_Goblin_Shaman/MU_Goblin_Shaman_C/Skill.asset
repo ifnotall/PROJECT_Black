@@ -1,0 +1,1239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8819127971705854732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Shaman_C
+  m_startColor: {r: 0.972549, g: 0.45882353, b: 0.2901961, a: 1}
+  m_endColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  m_originColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!114 &-8165466874180477809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 396780895e1ab174bb0185f1a290c929, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-7766579435474106277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: b0e5d588ddc664140b3d27fc238ee3dd, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-6560543516306928280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 200
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 200
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 400
+  m_projectileSplashRange: 0
+  m_hitDelayFrame: 163
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}
+--- !u!114 &-6449772698569027231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Shaman_C
+  m_startColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_endColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  m_originColor: {r: 0.41923076, g: 0.41923076, b: 0.41923076, a: 1}
+--- !u!114 &-5049988061020258482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 400
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 300
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 400
+  m_projectileSplashRange: 0
+  m_hitDelayFrame: 163
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}
+--- !u!114 &-4297839646473576185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 0
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 300
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 400
+  m_projectileSplashRange: 0
+  m_hitDelayFrame: 163
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}
+--- !u!114 &-3719116497342670651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 96
+  m_fixedFrameCount: 240
+  m_selectedBlendTreeIndex: 3
+  m_lastSelectedBlendTreeIndex: 3
+  m_blendTreeNames: []
+  m_animationName: Skill
+  m_animationLength: 1.6000001
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 20
+  m_endFrame: 40
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []
+--- !u!114 &-2762227775649449762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 6cf9abb8ec3f43c4ea7434ca19f0eb5b, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-2050732169622170129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Shaman_C
+  m_startColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  m_endColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_originColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!114 &-1239620570504736455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 3265191078871747761, guid: 133dd6e7d9f5f8243a17ac89a76b3e67, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 550, z: 0}
+  m_offsetRotation: {x: 45, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: -150
+  m_offsetSideDistance: 0
+  m_durationFrame: 240
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 80
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 0
+  m_way8OffsetRotation:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_way8OffsetFront:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_way8OffsetSide:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &-1167880943956861523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: a4f33e7fd16dada43a7fabe144248f22, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-1135932207860968357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 1bcc3aa08cd9edd44a3da47ab9c85d94, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-946446465216243526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Shaman_C
+  m_startColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  m_endColor: {r: 0.9716981, g: 0.46039468, b: 0.28875935, a: 1}
+  m_originColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!114 &-566137653991751489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec68049c6b622d4595595b66882142c, type: 3}
+  m_Name: Material
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Shaman_C
+  m_originMaterial: {fileID: 2100000, guid: 1734989740431114faa40ec077f0f5c5, type: 2}
+  m_changeMaterial: {fileID: 2100000, guid: 26060c5b65f9e5c4d83f9f438b27538a, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd61582142d3a4a860a20dbabcfecd, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  m_actionName: Skill
+  m_actionMaxFrame: 400
+  m_actionDataFrame: 314
+  m_isLoop: 0
+  m_previewPercentageRange: {x: 0, y: 0.785}
+  m_startFrame: 0
+  m_endFrame: 314
+  m_events:
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 0.0475}
+    m_startFrame: 0
+    m_endFrame: 19
+    m_previewable: 0
+    m_actionEventObj: {fileID: 355650653550795338}
+  - m_eventTime: 0.0475
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.0475, y: 0.6475}
+    m_startFrame: 19
+    m_endFrame: 259
+    m_previewable: 0
+    m_actionEventObj: {fileID: -3719116497342670651}
+  - m_eventTime: 0.6475
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6475, y: 0.785}
+    m_startFrame: 259
+    m_endFrame: 314
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4483546063959770466}
+  - m_eventTime: 0.0125
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.0125, y: 0.045}
+    m_startFrame: 5
+    m_endFrame: 18
+    m_previewable: 0
+    m_actionEventObj: {fileID: -6449772698569027231}
+  - m_eventTime: 0.045
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.045, y: 0.085}
+    m_startFrame: 18
+    m_endFrame: 34
+    m_previewable: 0
+    m_actionEventObj: {fileID: -946446465216243526}
+  - m_eventTime: 0.085
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.085, y: 0.6775}
+    m_startFrame: 34
+    m_endFrame: 271
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4318838408938590161}
+  - m_eventTime: 0.6775
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6775, y: 0.7275}
+    m_startFrame: 271
+    m_endFrame: 291
+    m_previewable: 0
+    m_actionEventObj: {fileID: -8819127971705854732}
+  - m_eventTime: 0.7275
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.7275, y: 0.785}
+    m_startFrame: 291
+    m_endFrame: 314
+    m_previewable: 0
+    m_actionEventObj: {fileID: -2050732169622170129}
+  - m_eventTime: 0.0475
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.0475, y: 0.6775}
+    m_startFrame: 19
+    m_endFrame: 271
+    m_previewable: 0
+    m_actionEventObj: {fileID: -566137653991751489}
+  - m_eventTime: 0.6925
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6925, y: 0}
+    m_startFrame: 277
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 8643557230430286934}
+  - m_eventTime: 0.3
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 120
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 9130010561958704599}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 0}
+    m_startFrame: 0
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 6844786994607835273}
+  - m_eventTime: 0.0375
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.0375, y: 0}
+    m_startFrame: 15
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -1239620570504736455}
+  - m_eventTime: 0.07
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.1, y: 0}
+    m_startFrame: 28
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -4297839646473576185}
+  - m_eventTime: 0.1025
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.1825, y: 0}
+    m_startFrame: 41
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 9083337298234371879}
+  - m_eventTime: 0.1375
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.2425, y: 0}
+    m_startFrame: 55
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -6560543516306928280}
+  - m_eventTime: 0.1675
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.315, y: 0}
+    m_startFrame: 67
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 2946181276533256494}
+  - m_eventTime: 0.1975
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 79
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 8678545478150609207}
+  - m_eventTime: 0.23
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 92
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -5049988061020258482}
+  - m_eventTime: 0.265
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 106
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 2039851646267430094}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 0}
+    m_startFrame: 0
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -7766579435474106277}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 0
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 8346183624844505339}
+  - m_eventTime: 0.4825
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 193
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -1135932207860968357}
+  - m_eventTime: 0.515
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 206
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -1167880943956861523}
+  - m_eventTime: 0.55
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 220
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -2762227775649449762}
+  - m_eventTime: 0.5775
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 231
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 703943883248682622}
+  - m_eventTime: 0.62
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 248
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4662550303956826892}
+  - m_eventTime: 0.645
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 258
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 6919655351332066036}
+  - m_eventTime: 0.68
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 272
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 7572882131628251047}
+  - m_eventTime: 0.71
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 284
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -8165466874180477809}
+--- !u!114 &355650653550795338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 96
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 3
+  m_lastSelectedBlendTreeIndex: 3
+  m_blendTreeNames: []
+  m_animationName: Skill
+  m_animationLength: 1.6000001
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 0
+  m_endFrame: 0
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []
+--- !u!114 &703943883248682622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 396780895e1ab174bb0185f1a290c929, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &2039851646267430094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 300
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 300
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 400
+  m_projectileSplashRange: 0
+  m_hitDelayFrame: 163
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}
+--- !u!114 &2946181276533256494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 300
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 300
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 400
+  m_projectileSplashRange: 0
+  m_hitDelayFrame: 163
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}
+--- !u!114 &4318838408938590161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Shaman_C
+  m_startColor: {r: 0.972549, g: 0.45882353, b: 0.2901961, a: 1}
+  m_endColor: {r: 0.972549, g: 0.45882353, b: 0.2901961, a: 1}
+  m_originColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!114 &4483546063959770466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 96
+  m_fixedFrameCount: 55
+  m_selectedBlendTreeIndex: 3
+  m_lastSelectedBlendTreeIndex: 3
+  m_blendTreeNames: []
+  m_animationName: Skill
+  m_animationLength: 1.6000001
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 41
+  m_endFrame: 96
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []
+--- !u!114 &4662550303956826892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 1bcc3aa08cd9edd44a3da47ab9c85d94, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &6844786994607835273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 6496939484407728946, guid: 5dc0054e84b821843b84beff31058ba1, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 45, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 50.86
+  m_offsetSideDistance: 0
+  m_durationFrame: 60
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 80
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 0
+  m_way8OffsetRotation:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_way8OffsetFront:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_way8OffsetSide:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &6919655351332066036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: a4f33e7fd16dada43a7fabe144248f22, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &7572882131628251047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 6cf9abb8ec3f43c4ea7434ca19f0eb5b, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &8346183624844505339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: b25512a8edae2964f9fcb15c4ba21fdb, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &8643557230430286934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 7100338656562025041, guid: 9393aa9846d55cc47ab34582199a2a0c, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: -45, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 258.9
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 50
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 0
+  m_way8OffsetRotation:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_way8OffsetFront:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_way8OffsetSide:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &8678545478150609207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 500
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 300
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 400
+  m_projectileSplashRange: 0
+  m_hitDelayFrame: 163
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}
+--- !u!114 &9083337298234371879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 100
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 200
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 400
+  m_projectileSplashRange: 0
+  m_hitDelayFrame: 163
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}
+--- !u!114 &9130010561958704599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e453bd03e780e04caeb375cdab914d9, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_type: 0
+  m_missilePrefab: {fileID: 6443698020571547499, guid: b210ee5dcb5ef284fadd365bec6eece1, type: 3}
+  m_missileScale: 1
+  m_returnMissilePrefab: {fileID: 0}
+  m_returnMissileScale: 1
+  m_shadowPrefab: {fileID: 0}
+  m_shadowScale: 1
+  m_destroyVFXPrefab: {fileID: 0}
+  m_destroyVFXScale: 1
+  m_destroySound: {fileID: 0}
+  m_targetVFXPrefab: {fileID: 0}
+  m_missilePrefabOffsetPosition: {x: 0, y: 0, z: 0}
+  m_missilePrefabOffsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 0
+  m_directionAngle: 0
+  m_randomDirectionMin: 0
+  m_randomDirectionMax: 0
+  m_isStartTargetPosition: 1
+  m_randomDistance: 300
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_startSpeed: 0
+  m_durationFrame: 300
+  m_destroyFrame: 300
+  m_moveDistacne: 0
+  m_randomMoveDistanceMin: 0
+  m_randomMoveDistanceMax: 0
+  m_isEndTargetPosition: 0
+  m_guidedDelayFrame: 0
+  m_projectileHitRange: 200
+  m_projectileSplashRange: 200
+  m_hitDelayFrame: 195
+  m_hitCount: 1
+  m_accelerationDatas: []
+  m_returnWaitFrame: 0
+  m_returnAccelerationDatas: []
+  m_applyActionObj: {fileID: 11400000, guid: bdfc24e2b817b2b4fa22b4bec5c1bc43, type: 2}

@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-738626208364756237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 09e2bbd8765cb3f4a96f3dcdb9f2f315, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd61582142d3a4a860a20dbabcfecd, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  m_actionName: Attack
+  m_actionMaxFrame: 49
+  m_actionDataFrame: 49
+  m_isLoop: 0
+  m_previewPercentageRange: {x: 0, y: 1}
+  m_startFrame: 0
+  m_endFrame: 49
+  m_events:
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 0
+    m_endFrame: 49
+    m_previewable: 0
+    m_actionEventObj: {fileID: 9057128565805175325}
+  - m_eventTime: 0.42857143
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 21
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 688388647894267845}
+  - m_eventTime: 0.020408163
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 1
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -738626208364756237}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.48979592, y: 0.59183675}
+    m_startFrame: 24
+    m_endFrame: 29
+    m_previewable: 0
+    m_actionEventObj: {fileID: 5375133795185174009}
+--- !u!114 &688388647894267845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 4566507661728918532, guid: b8be7969a1d691b4e863e726718f0f63, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 0, y: 0, z: 0}
+  m_isDirectional: 1
+  m_offsetFrontDistance: 0
+  m_offsetSideDistance: 0
+  m_durationFrame: 0
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 1
+  m_scale: 150
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 1
+  m_way8OffsetRotation:
+  - {x: 88.37743, y: 179.99988, z: 179.99988}
+  - {x: 28.737478, y: 89.47025, z: 44.60979}
+  - {x: -0.000008537737, y: 90.1941, z: -0.0000076293945}
+  - {x: 324.4186, y: 86.85189, z: -41.855507}
+  - {x: 303.71228, y: -0.0000075071284, z: 0}
+  - {x: 327.6058, y: 269.60696, z: 405.2848}
+  - {x: -0.0000068301892, y: 271.87354, z: 360}
+  - {x: 30.29, y: 269.16763, z: 314.39014}
+  m_way8OffsetFront:
+  - 427
+  - 374.1
+  - 325.8
+  - 312.67
+  - 260
+  - 270.1
+  - 300
+  - 368.7
+  m_way8OffsetSide:
+  - -33.81
+  - -92
+  - -147.5
+  - -151.3
+  - -34.56
+  - 74.8
+  - 83.3
+  - 21.2
+--- !u!114 &5375133795185174009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec68049c6b622d4595595b66882142c, type: 3}
+  m_Name: Material
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: HU_Wa_Lancer_B
+  m_originMaterial: {fileID: 2100000, guid: 10acbd3110f369f44bee61e9f77463e0, type: 2}
+  m_changeMaterial: {fileID: 2100000, guid: 7abf4a8ee6b924f4688c8d3c1f24ad5c, type: 2}
+--- !u!114 &9057128565805175325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 49
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 1
+  m_lastSelectedBlendTreeIndex: 1
+  m_blendTreeNames: []
+  m_animationName: Attack
+  m_animationLength: 0.81666666
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 0
+  m_endFrame: 0
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []

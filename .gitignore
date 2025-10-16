@@ -1,0 +1,44 @@
+# --- Unity 기본 ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/           # 개인별 레이아웃/최근 항목(공유 X)
+
+# --- IDE/빌드 산출물 ---
+.vs/
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.pidb
+*.user
+*.userprefs
+*.unityproj
+*.booproj
+
+# --- OS 잡파일 ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- 플랫폼별 빌드 캐시/임시 ---
+# Android/Gradle
+.gradle/
+**/gradle/**/build/
+**/launcher/build/
+**/unityLibrary/build/
+# Xcode/iOS
+*.xccheckout
+*.xcworkspace
+DerivedData/
+*.pbxproj.old
+
+# --- 기타 툴 산출물 ---
+*.apk
+*.aab
+*.ipa
+*.app

@@ -1,0 +1,764 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8901089909131660897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec68049c6b622d4595595b66882142c, type: 3}
+  m_Name: Material
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_originMaterial: {fileID: 2100000, guid: 1734989740431114faa40ec077f0f5c5, type: 2}
+  m_changeMaterial: {fileID: 2100000, guid: 710496a7499f2c247af3e36dd9ac5746, type: 2}
+--- !u!114 &-8823021945999068281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 8134439944163517173, guid: 95a17a03a2cb232498537708d2558c70, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 180, y: -1.39, z: 0}
+  m_isDirectional: 1
+  m_offsetFrontDistance: 1
+  m_offsetSideDistance: 0
+  m_durationFrame: 60
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 1
+  m_scale: 1.1
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 1
+  m_way8OffsetRotation:
+  - {x: -21.1, y: -103.5, z: 91.8}
+  - {x: -8.4, y: 114.44, z: 0}
+  - {x: 2.19, y: 169.71, z: -9.98}
+  - {x: 184.9, y: 316.8, z: 80.2}
+  - {x: 192.64, y: -100.4, z: 0}
+  - {x: 11.16, y: 56.2, z: 197.78}
+  - {x: 38.93384, y: 54.606342, z: 177.91016}
+  - {x: 36.09, y: 50.9, z: 120.9}
+  m_way8OffsetFront:
+  - 323.87
+  - 388.1
+  - -60.1
+  - -211.1
+  - -250.6
+  - -130.9
+  - 67.7
+  - 114.9
+  m_way8OffsetSide:
+  - -82.8
+  - -309.9
+  - -302.47
+  - -351.5
+  - -174.04
+  - 153.07
+  - 213.06
+  - 189.6
+--- !u!114 &-7824885169642561016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b0e30c0f9d8a540884899f73ca856a, type: 3}
+  m_Name: HitCircle
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_element: 0
+  m_applyID: 0
+  m_range: 450
+  m_isAttach: 0
+  m_directionAngle: 0
+  m_offsetFrontDistance: 200
+  m_offsetSideDistance: 0
+  m_targetCount: 0
+  m_isApplyFreindly: 0
+  m_isPlayerDirectionAttack: 0
+  m_applyActionObj: {fileID: 11400000, guid: c5f7307cbf33ad7419072d5c61511a20, type: 2}
+--- !u!114 &-6972897819992888049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  m_endColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &-6135463506209255042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: 46971da0308cdf44cad2e209f1f44f48, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-5463540987554915368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf727a999ae69e9419bf6993a25d96a4, type: 3}
+  m_Name: SFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_audioClip: {fileID: 8300000, guid: dc835dde4d9f09a4083c1e076b60b5ae, type: 3}
+  m_volume: 1
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_durationFrame: 0
+--- !u!114 &-4876375112659441651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  m_endColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &-4865807001470031845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.55, g: 0.55, b: 0.55, a: 1}
+  m_endColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &-1164575975187236698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_endColor: {r: 0.55, g: 0.55, b: 0.55, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &-683086945182573187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+  m_endColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd61582142d3a4a860a20dbabcfecd, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  m_actionName: Skill
+  m_actionMaxFrame: 167
+  m_actionDataFrame: 167
+  m_isLoop: 0
+  m_previewPercentageRange: {x: 0, y: 1}
+  m_startFrame: 0
+  m_endFrame: 167
+  m_events:
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 0.21556886}
+    m_startFrame: 0
+    m_endFrame: 36
+    m_previewable: 0
+    m_actionEventObj: {fileID: 438894819754770126}
+  - m_eventTime: 0.21556886
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.21556886, y: 0.5748503}
+    m_startFrame: 36
+    m_endFrame: 96
+    m_previewable: 0
+    m_actionEventObj: {fileID: 7099681607904154179}
+  - m_eventTime: 0.5748503
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.5748503, y: 1}
+    m_startFrame: 96
+    m_endFrame: 167
+    m_previewable: 0
+    m_actionEventObj: {fileID: 8545018675256840907}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 0.17964073}
+    m_startFrame: 0
+    m_endFrame: 30
+    m_previewable: 0
+    m_actionEventObj: {fileID: -1164575975187236698}
+  - m_eventTime: 0.17964073
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.17964073, y: 0.22155689}
+    m_startFrame: 30
+    m_endFrame: 37
+    m_previewable: 0
+    m_actionEventObj: {fileID: -4865807001470031845}
+  - m_eventTime: 0.50898206
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.08982036, y: 0.56287426}
+    m_startFrame: 15
+    m_endFrame: 94
+    m_previewable: 0
+    m_actionEventObj: {fileID: 7735167643067063058}
+  - m_eventTime: 0.56287426
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.56287426, y: 0.6047904}
+    m_startFrame: 94
+    m_endFrame: 101
+    m_previewable: 0
+    m_actionEventObj: {fileID: -683086945182573187}
+  - m_eventTime: 0.6047904
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6047904, y: 0.6287425}
+    m_startFrame: 101
+    m_endFrame: 105
+    m_previewable: 0
+    m_actionEventObj: {fileID: 2423444913836694218}
+  - m_eventTime: 0.6287425
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6287425, y: 0.6526946}
+    m_startFrame: 105
+    m_endFrame: 109
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4563362442098604771}
+  - m_eventTime: 0.6526946
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6526946, y: 0.6886228}
+    m_startFrame: 109
+    m_endFrame: 115
+    m_previewable: 0
+    m_actionEventObj: {fileID: -6972897819992888049}
+  - m_eventTime: 0.6886228
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6886228, y: 0.71257484}
+    m_startFrame: 115
+    m_endFrame: 119
+    m_previewable: 0
+    m_actionEventObj: {fileID: 6913456830089318230}
+  - m_eventTime: 0.71257484
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.71257484, y: 0.74251497}
+    m_startFrame: 119
+    m_endFrame: 124
+    m_previewable: 0
+    m_actionEventObj: {fileID: -4876375112659441651}
+  - m_eventTime: 0.74251497
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.74251497, y: 0.8682635}
+    m_startFrame: 124
+    m_endFrame: 145
+    m_previewable: 0
+    m_actionEventObj: {fileID: 8447978522644485104}
+  - m_eventTime: 0.8682635
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.8682635, y: 1}
+    m_startFrame: 145
+    m_endFrame: 167
+    m_previewable: 0
+    m_actionEventObj: {fileID: 8489482077089885329}
+  - m_eventTime: 0.46107784
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.46107784, y: 0.502994}
+    m_startFrame: 77
+    m_endFrame: 84
+    m_previewable: 0
+    m_actionEventObj: {fileID: -8901089909131660897}
+  - m_eventTime: 0.6526946
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.6526946, y: 0.8622754}
+    m_startFrame: 109
+    m_endFrame: 144
+    m_previewable: 0
+    m_actionEventObj: {fileID: 4139200002540840921}
+  - m_eventTime: 0.19161677
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.19161677, y: 0}
+    m_startFrame: 32
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 5960292672394644659}
+  - m_eventTime: 0.88023955
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.88023955, y: 0}
+    m_startFrame: 147
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: 3777208761082075527}
+  - m_eventTime: 0.83832335
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 140
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -8823021945999068281}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 0
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -6135463506209255042}
+  - m_eventTime: 0.8562874
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0, y: 1}
+    m_startFrame: 143
+    m_endFrame: 0
+    m_previewable: 0
+    m_actionEventObj: {fileID: -5463540987554915368}
+  - m_eventTime: 0
+    m_eventMaxTime: 0
+    m_eventRange: {x: 0.88622755, y: 0.89221555}
+    m_startFrame: 148
+    m_endFrame: 149
+    m_previewable: 0
+    m_actionEventObj: {fileID: -7824885169642561016}
+--- !u!114 &438894819754770126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 167
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 3
+  m_lastSelectedBlendTreeIndex: 3
+  m_blendTreeNames: []
+  m_animationName: Skill
+  m_animationLength: 2.7999997
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 0
+  m_endFrame: 0
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []
+--- !u!114 &2423444913836694218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+  m_endColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &3777208761082075527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 1463193317838452573, guid: 0ddd3d2018770c044876c598adf54222, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 55, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 251.29
+  m_offsetSideDistance: 0
+  m_durationFrame: 60
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 1
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 0
+  m_way8OffsetRotation:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_way8OffsetFront:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_way8OffsetSide:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &4139200002540840921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec68049c6b622d4595595b66882142c, type: 3}
+  m_Name: Material
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_originMaterial: {fileID: 2100000, guid: 1734989740431114faa40ec077f0f5c5, type: 2}
+  m_changeMaterial: {fileID: 2100000, guid: 710496a7499f2c247af3e36dd9ac5746, type: 2}
+--- !u!114 &4563362442098604771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+  m_endColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &5960292672394644659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ef0a7ca6b02841981cbe12792ad5e, type: 3}
+  m_Name: VisualFX
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_prefab: {fileID: 1338511861732793245, guid: fd78283057069a34aa0b04dc1df634f3, type: 3}
+  m_targetObj: {fileID: 0}
+  m_targetObjName: 
+  m_isAttach: 0
+  m_loopCount: 1
+  m_loopDelayFrame: 0
+  m_offsetPosition: {x: 0, y: 0, z: 0}
+  m_offsetRotation: {x: 55, y: 0, z: 0}
+  m_isDirectional: 0
+  m_offsetFrontDistance: 62.35
+  m_offsetSideDistance: 0
+  m_durationFrame: 90
+  m_earlyEmissionOffFrame: 0
+  m_isUseImageDirection: 0
+  m_scale: 1
+  m_nonUniformScale: {x: 1, y: 1, z: 1}
+  m_isUse8WayRotation: 0
+  m_way8OffsetRotation:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_way8OffsetFront:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_way8OffsetSide:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &6913456830089318230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  m_endColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &7099681607904154179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 167
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 3
+  m_lastSelectedBlendTreeIndex: 3
+  m_blendTreeNames: []
+  m_animationName: Skill
+  m_animationLength: 2.7999997
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 37
+  m_endFrame: 60
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []
+--- !u!114 &7735167643067063058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_endColor: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &8447978522644485104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
+  m_endColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  m_originColor: {r: 0.17429891, g: 0.17429891, b: 0.17429891, a: 1}
+--- !u!114 &8489482077089885329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2aa11bdcdd9a4299bde1bdcfb2ee3, type: 3}
+  m_Name: SpriteColor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 0
+  m_fixedFrameCount: 0
+  m_targetSpriteRenderer: {fileID: 0}
+  m_targetSpriteRendererName: MU_Goblin_Raider_C
+  m_startColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  m_endColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_originColor: {r: 0.41818184, g: 0.41818184, b: 0.41818184, a: 1}
+--- !u!114 &8545018675256840907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4e9575966ac2498d5698f9dc42350, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_maxFrame: 167
+  m_fixedFrameCount: 0
+  m_selectedBlendTreeIndex: 3
+  m_lastSelectedBlendTreeIndex: 3
+  m_blendTreeNames: []
+  m_animationName: Skill
+  m_animationLength: 2.7999997
+  m_loopCount: 0
+  m_layer: 0
+  m_startFrame: 61
+  m_endFrame: 167
+  m_pauseBeginTime: 0
+  m_pauseDurationTime: 0
+  m_animationSpeed: 1
+  m_isUseAnimMovement: 0
+  m_movementDatas: []
