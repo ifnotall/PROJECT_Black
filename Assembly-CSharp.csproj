@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4DBD2CD8-02A4-BA2E-5208-2DB033BEFC32}</ProjectGuid>
+    <ProjectGuid>{0F4BFDD4-C5C9-ED09-3ED1-F24632E63BBB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,7 +66,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\AssetStore\Models\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\_project\addressable\Scripts\Test.cs" />
     <Compile Include="Assets\AssetStore\Interface\Layer_Lab\Scripts\PanelView.cs" />
     <Compile Include="Assets\AssetStore\Interface\Layer_Lab\Scripts\PanelControl.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -3283,55 +3282,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Lofelt.NiceVibrations.Demo.csproj">
-      <Project>{F10E3CDC-5674-2E27-3DE6-A7B3900D49FB}</Project>
+      <Project>{06D611A6-F716-0940-DB4D-0548AFE315F3}</Project>
       <Name>Lofelt.NiceVibrations.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{3DB44295-F93C-2A99-7759-74A69296D99E}</Project>
+      <Project>{DBA3A137-84DA-6A89-87CB-0CA90E16EBF5}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Editor.csproj">
-      <Project>{EE2A19A9-6FDA-5F78-B4DA-9932721B088F}</Project>
+      <Project>{3AE25336-F971-F944-5750-9174D13293E6}</Project>
       <Name>MoreMountains.Tools.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.InputSystem.csproj">
-      <Project>{AF85ED4A-94C8-438B-D2A7-07DA4CAD9600}</Project>
+      <Project>{917EF47D-6C43-3FBD-0F86-B60593BAB96F}</Project>
       <Name>MoreMountains.TopDownEngine.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.Editor.csproj">
-      <Project>{6F624029-C860-E884-F3CB-18D05D7D116A}</Project>
+      <Project>{428B1FE8-06D0-AE1F-5167-3FA30CC18597}</Project>
       <Name>MoreMountains.TopDownEngine.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Interface.csproj">
-      <Project>{A437BC67-2CC9-2AF1-5C9F-57F3F50FE892}</Project>
+      <Project>{6378CF54-11C4-E2AA-A7DC-C5CB3BB74BAD}</Project>
       <Name>MoreMountains.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="Lofelt.NiceVibrations.Editor.csproj">
-      <Project>{887F739D-A539-963C-264A-41D1F8580803}</Project>
+      <Project>{73EA1EC7-AD70-A06F-9D66-F81C33CD85EA}</Project>
       <Name>Lofelt.NiceVibrations.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
-      <Project>{7958162D-1678-A58A-91CF-AC6D6E7DC89A}</Project>
+      <Project>{E5588673-C95D-761E-25E0-66C7D21B57A2}</Project>
       <Name>AllIn1SpriteShaderAssembly</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.csproj">
-      <Project>{7D89E9C8-4AF5-B676-45A1-BB0594561A1E}</Project>
+      <Project>{C6583B42-C8FD-26A4-14C2-97E0AABE1C8D}</Project>
       <Name>MoreMountains.TopDownEngine</Name>
     </ProjectReference>
     <ProjectReference Include="Lofelt.NiceVibrations.csproj">
-      <Project>{50AF6D24-43C1-8003-40A0-28E5AD22CC56}</Project>
+      <Project>{4AFF43CE-38C9-5158-0196-D13B037610D8}</Project>
       <Name>Lofelt.NiceVibrations</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.InventoryEngine.csproj">
-      <Project>{7D5F47F2-285E-3142-9EA4-CC83C62322DF}</Project>
+      <Project>{CE7309D0-A897-5803-08FB-02D76B4708A1}</Project>
       <Name>MoreMountains.InventoryEngine</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.InventoryEngine.Editor.csproj">
-      <Project>{9B23880B-8310-3425-78BB-EE23CDCA6D8E}</Project>
+      <Project>{F18EAEDC-9F77-C6EE-B36C-66558FDCDF76}</Project>
       <Name>MoreMountains.InventoryEngine.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Interface.Editor.csproj">
-      <Project>{BED592FB-ED35-CA6D-F6BD-C83E6F043AE3}</Project>
+      <Project>{627A475F-9CA2-4178-1F45-DEC31229951A}</Project>
       <Name>MoreMountains.Interface.Editor</Name>
     </ProjectReference>
   </ItemGroup>
