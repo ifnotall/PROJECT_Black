@@ -6,3 +6,6 @@
 
 ### Auto entries (2025-10-25)
 #update: Docs/07_DesignNotes.md - changelog auto test (2025-10-26)
+
+### Auto entries (2025-10-25)
+#update: Docs/00_DevPipeline.md - Evidence-only rule 추가 (2025-10-26)
