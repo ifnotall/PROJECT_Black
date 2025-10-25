@@ -1,0 +1,55 @@
+name: Auto Update ChangeLog
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'Docs/**'
+
+permissions:
+  contents: write
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare range
+        id: range
+        run: |
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          echo "before=$BEFORE" >> $GITHUB_OUTPUT
+          echo "after=$AFTER"   >> $GITHUB_OUTPUT
+
+      - name: Collect #Update commits in range
+        id: collect
+        run: |
+          git log "${{ steps.range.outputs.before }}..${{ steps.range.outputs.after }}" \
+            --grep="#Update:" --date=short \
+            --pretty=format:"- %ad | %s" > updates.txt || true
+          cat updates.txt
+          COUNT=$(wc -l < updates.txt | xargs)
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+
+      - name: Append to Docs/08_ChangeLog.md
+        if: steps.collect.outputs.count != '0'
+        run: |
+          FILE="Docs/08_ChangeLog.md"
+          DATE=$(date +'%Y-%m-%d')
+          echo "" >> "$FILE"
+          echo "### Auto entries ($DATE)" >> "$FILE"
+          cat updates.txt >> "$FILE"
+
+      - name: Commit & Push (skip loop)
+        if: steps.collect.outputs.count != '0'
+        run: |
+          git config user.name "ChangeLogBot"
+          git config user.email "changelog-bot@users.noreply.github.com"
+          git add Docs/08_ChangeLog.md
+          git commit -m "[skip ci] chore(changelog): auto-append entries"
+          git push
