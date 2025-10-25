@@ -1,0 +1,36 @@
+name: Sync Docs to Mirror
+
+on:
+  push:
+    branches: [ master, dev, docs ]
+    paths:
+      - 'Docs/**'
+      - 'Docs/DataTables/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare mirror dir
+        run: |
+          rm -rf mirror && mkdir -p mirror
+          cp -R Docs mirror/Docs
+
+      - name: Push to mirror repo
+        env:
+          MIRROR_URL: https://x-access-token:${{ secrets.DOCS_PUSH_TOKEN }}@github.com/ifnotall/PROJECT_Black_Docs.git
+        run: |
+          cd mirror
+          git init
+          git config user.name "DocsSyncBot"
+          git config user.email "docs-sync@users.noreply.github.com"
+          git add .
+          MSG="$(git --git-dir=../.git log -1 --pretty=%s || echo 'docs sync')"
+          git commit -m "$MSG"
+          git branch -M main
+          git remote add origin "$MIRROR_URL"
+          git push -f origin main
