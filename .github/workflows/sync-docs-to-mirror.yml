@@ -11,26 +11,39 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # 1) 원본 레포 체크아웃 (형의 본 레포)
+      - name: Checkout source repo
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Prepare mirror dir
-        run: |
-          rm -rf mirror && mkdir -p mirror
-          cp -R Docs mirror/Docs
+      # 2) 미러 레포 체크아웃 (Docs만 덮어쓰고 .github은 유지)
+      - name: Checkout mirror repo (keep .github)
+        uses: actions/checkout@v4
+        with:
+          repository: ifnotall/PROJECT_Black_Docs
+          token: ${{ secrets.DOCS_PUSH_TOKEN }}
+          path: mirror
 
-      - name: Push to mirror repo
-        env:
-          MIRROR_URL: https://x-access-token:${{ secrets.DOCS_PUSH_TOKEN }}@github.com/ifnotall/PROJECT_Black_Docs.git
+      # 3) Docs만 동기화 (삭제/갱신 동기화, .github 보존)
+      - name: Sync Docs into mirror
+        run: |
+          mkdir -p mirror/Docs
+          rsync -a --delete Docs/ mirror/Docs/
+
+      # 4) 커밋 & 푸시 (변경 없으면 스킵)
+      - name: Commit & push to mirror
         run: |
           cd mirror
-          git init
           git config user.name "DocsSyncBot"
           git config user.email "docs-sync@users.noreply.github.com"
-          git add .
-          MSG="$(git --git-dir=../.git log -1 --pretty=%s || echo 'docs sync')"
-          git commit -m "$MSG"
-          git branch -M main
-          git remote add origin "$MIRROR_URL"
-          git push -f origin main
+          git add Docs
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            # 원본 커밋 메시지를 재사용, 없으면 기본 메시지
+            MSG="${{ github.event.head_commit.message }}"
+            if [ -z "$MSG" ]; then MSG="docs sync"; fi
+            git commit -m "$MSG"
+            git push origin HEAD:main
+          fi
