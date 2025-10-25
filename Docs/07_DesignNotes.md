@@ -4,3 +4,4 @@
 |----|------|------|------|------|
 mirror test
 diff test
+diff summary trigger
